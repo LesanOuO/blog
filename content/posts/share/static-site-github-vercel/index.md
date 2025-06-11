@@ -3,7 +3,7 @@ title: "搭建个人网站:GitHub+Vercel"
 date: "2020-10-14"
 tags: ["Vercel", "个人网站"]
 categories: ["实用分享"]
-weight: 1
+weight:
 ---
 
 本文主要介绍如何通过GitHub+Vercel免费搭建一个自己的静态网页。
