@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://lesan.fun/sitemap.xml

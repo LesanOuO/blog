@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SQL on Lesan&#39;s Blog</title>
+    <link>https://lesan.fun/tags/sql/</link>
+    <description>Recent content in SQL on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesan.fun/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过SQL导出数据库表结构</title>
+      <link>https://lesan.fun/posts/share/sql-export-excel/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesan.fun/posts/share/sql-export-excel/</guid>
+      <description>&lt;p&gt;在编写数据库文档时，我们常常需要写表结构文档，这时候就需要一些方法来节约我们写文档的时间。&lt;/p&gt;
+&lt;p&gt;我通过网络上的资料，总结了 &lt;code&gt;MySQL&lt;/code&gt; 及 &lt;code&gt;SQL Server&lt;/code&gt; 的通过SQL语句导出数据库表结构的方法。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>数据库优化</title>
+      <link>https://lesan.fun/posts/knowledge/database/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesan.fun/posts/knowledge/database/</guid>
+      <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
+&lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
+&lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;
+&lt;h3 id=&#34;逻辑分类&#34;&gt;逻辑分类&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;主键索引：一张表只能有一个主键索引，不允许重复、不允许为 NULL&lt;/li&gt;
+&lt;li&gt;唯一索引：数据列不允许重复，允许为 NULL 值，一张表可有多个唯一索引，索引列的值必须唯一，但允许有空值。如果是组合索引，则列值的组合必须唯一&lt;/li&gt;
+&lt;li&gt;普通索引：一张表可以创建多个普通索引，一个普通索引可以包含多个字段，允许数据重复，允许 NULL 值插入&lt;/li&gt;
+&lt;li&gt;全文索引：它查找的是文本中的关键词，主要用于全文检索&lt;/li&gt;
+&lt;li&gt;单例索引：一个索引只包含一个列，一个表可以有多个单例索引&lt;/li&gt;
+&lt;li&gt;组合索引：一个组合索引包含两个或两个以上的列。查询的时候遵循 mysql 组合索引的 “最左前缀”原则，即使用 where 时条件要按照建立索引的时候字段的排列方式放置索引才会生效&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;物理分类&#34;&gt;物理分类&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;聚簇索引：不是单独的一种索引类型，而是一种数据存储方式。这种存储方式是依靠B+树来实现的，根据表的主键构造一棵B+树且B+树叶子节点存放的都是表的行记录数据时，方可称该主键索引为聚簇索引。聚簇索引也可理解为将数据存储与索引放到了一块，找到索引也就找到了数据。&lt;/li&gt;
+&lt;li&gt;非聚簇索引：数据和索引是分开的，B+树叶子节点存放的不是数据表的行记录&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;explain&#34;&gt;EXPLAIN&lt;/h3&gt;
+&lt;p&gt;使用格式：&lt;code&gt;EXPLAIN SQL...&lt;/code&gt;;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

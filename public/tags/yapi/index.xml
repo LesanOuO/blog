@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Yapi on Lesan&#39;s Blog</title>
+    <link>https://lesan.fun/tags/yapi/</link>
+    <description>Recent content in Yapi on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 03 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesan.fun/tags/yapi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分享可私有部署的接口管理系统Yapi</title>
+      <link>https://lesan.fun/posts/share/yapi/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesan.fun/posts/share/yapi/</guid>
+      <description>&lt;p&gt;在 web 软件开发中，API接口管理非常重要，也是前后端对接的关键，这里分享一个非常好用且可以私有化部署的接口管理系统Yapi，对那些内网开发的小伙伴们是一个不错的选择。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
