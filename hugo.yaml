@@ -1,7 +1,7 @@
 baseURL: https://lesan.fun/
 languageCode: zh-cn
 title: Lesan's Blog
-theme: [hugo-PaperMod]
+theme: [PaperMod]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
