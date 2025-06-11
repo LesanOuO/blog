@@ -58,7 +58,7 @@ params:
   description: "Lesan's Blog"
   author: Lesan
   # author: ["Me", "You"] # multiple authors
-
+  DateFormat: "2006-01-02"
   defaultTheme: dark
   # disableThemeToggle: true
   ShowShareButtons: false
