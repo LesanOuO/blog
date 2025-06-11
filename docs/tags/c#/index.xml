@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>C# on Lesan&#39;s Blog</title>
-    <link>https://lesan.fun/tags/c%23/</link>
+    <link>https://lesanouo.github.io/lesan-blog/tags/c%23/</link>
     <description>Recent content in C# on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 26 Jun 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lesan.fun/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lesanouo.github.io/lesan-blog/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C#中async和await异步编程</title>
-      <link>https://lesan.fun/posts/knowledge/csharp-async-await/</link>
+      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/csharp-async-await/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesan.fun/posts/knowledge/csharp-async-await/</guid>
+      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/csharp-async-await/</guid>
       <description>&lt;p&gt;在代码中遇到了网络请求编程时，往往需要异步编程才能给用户带来良好的体验，不会导致程序完全阻塞。
 其中的关键在于：&lt;/p&gt;
 &lt;ul&gt;

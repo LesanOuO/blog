@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>算法 on Lesan&#39;s Blog</title>
-    <link>https://lesan.fun/tags/%E7%AE%97%E6%B3%95/</link>
+    <link>https://lesanouo.github.io/lesan-blog/tags/%E7%AE%97%E6%B3%95/</link>
     <description>Recent content in 算法 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lesan.fun/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lesanouo.github.io/lesan-blog/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>华为机试题：报数游戏</title>
-      <link>https://lesan.fun/posts/algorithm/huawei-counting-game/</link>
+      <link>https://lesanouo.github.io/lesan-blog/posts/algorithm/huawei-counting-game/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesan.fun/posts/algorithm/huawei-counting-game/</guid>
+      <guid>https://lesanouo.github.io/lesan-blog/posts/algorithm/huawei-counting-game/</guid>
       <description>&lt;p&gt;在进行华为机试时遇到了报数游戏的编程题（约瑟夫环），但是看了很多网上的解题都非常长，于是经过不断的学习参考，有了下面这个解题方法，也不知道是不是最好的😭&lt;/p&gt;</description>
     </item>
     <item>
       <title>算法学习-链表</title>
-      <link>https://lesan.fun/posts/algorithm/link-list/</link>
+      <link>https://lesanouo.github.io/lesan-blog/posts/algorithm/link-list/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesan.fun/posts/algorithm/link-list/</guid>
+      <guid>https://lesanouo.github.io/lesan-blog/posts/algorithm/link-list/</guid>
       <description>&lt;p&gt;本篇文章是学习leetcode中链表相关算法总结的链表技巧。&lt;/p&gt;
 &lt;h2 id=&#34;虚拟头节点&#34;&gt;虚拟头节点&lt;/h2&gt;
 &lt;h3 id=&#34;力扣第-21-题合并两个有序链表&#34;&gt;力扣第 21 题「合并两个有序链表」&lt;/h3&gt;

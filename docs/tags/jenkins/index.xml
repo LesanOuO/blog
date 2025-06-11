@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jenkins on Lesan&#39;s Blog</title>
-    <link>https://lesan.fun/tags/jenkins/</link>
+    <link>https://lesanouo.github.io/lesan-blog/tags/jenkins/</link>
     <description>Recent content in Jenkins on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lesan.fun/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lesanouo.github.io/lesan-blog/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>记一次搭建GitLab&#43;Jenkins实现CI&amp;CD</title>
-      <link>https://lesan.fun/posts/operation/ci-cd-gitlab-jenkins/</link>
+      <link>https://lesanouo.github.io/lesan-blog/posts/operation/ci-cd-gitlab-jenkins/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesan.fun/posts/operation/ci-cd-gitlab-jenkins/</guid>
+      <guid>https://lesanouo.github.io/lesan-blog/posts/operation/ci-cd-gitlab-jenkins/</guid>
       <description>&lt;p&gt;本篇文章记录本人搭建CI&amp;amp;CD实现持续集成和持续部署&lt;/p&gt;
 &lt;h2 id=&#34;1使用docker安装gitlab&#34;&gt;1.使用docker安装gitlab&lt;/h2&gt;
 &lt;h3 id=&#34;下载镜像-使用中文社区版&#34;&gt;下载镜像 （使用中文社区版）&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lesan.fun/posts/operation/ci-cd-gitlab-jenkins/images/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lesanouo.github.io/lesan-blog/posts/operation/ci-cd-gitlab-jenkins/images/1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;docker pull twang2218/gitlab-ce-zh&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;创建所需目录为后续挂载文件&#34;&gt;创建所需目录为后续挂载文件&lt;/h3&gt;
 &lt;p&gt;进入所需目录后，打开PowerShell，通过以下命令进行目录创建&lt;/p&gt;</description>

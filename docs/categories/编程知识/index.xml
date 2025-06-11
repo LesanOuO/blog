@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>编程知识 on Lesan&#39;s Blog</title>
-    <link>https://lesan.fun/categories/%E7%BC%96%E7%A8%8B%E7%9F%A5%E8%AF%86/</link>
+    <link>https://lesanouo.github.io/lesan-blog/categories/%E7%BC%96%E7%A8%8B%E7%9F%A5%E8%AF%86/</link>
     <description>Recent content in 编程知识 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lesan.fun/categories/%E7%BC%96%E7%A8%8B%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lesanouo.github.io/lesan-blog/categories/%E7%BC%96%E7%A8%8B%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>多线程下的琐事</title>
-      <link>https://lesan.fun/posts/knowledge/multi-thread/</link>
+      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/multi-thread/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesan.fun/posts/knowledge/multi-thread/</guid>
+      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/multi-thread/</guid>
       <description>&lt;p&gt;单线程与多线程可以看作是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;单线程为在一个单向行驶的道路上，每辆汽车都遵守交通规则&lt;/li&gt;
@@ -22,9 +22,9 @@
     </item>
     <item>
       <title>C#中async和await异步编程</title>
-      <link>https://lesan.fun/posts/knowledge/csharp-async-await/</link>
+      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/csharp-async-await/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesan.fun/posts/knowledge/csharp-async-await/</guid>
+      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/csharp-async-await/</guid>
       <description>&lt;p&gt;在代码中遇到了网络请求编程时，往往需要异步编程才能给用户带来良好的体验，不会导致程序完全阻塞。
 其中的关键在于：&lt;/p&gt;
 &lt;ul&gt;
@@ -42,9 +42,9 @@
     </item>
     <item>
       <title>数据库优化</title>
-      <link>https://lesan.fun/posts/knowledge/database/</link>
+      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/database/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesan.fun/posts/knowledge/database/</guid>
+      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/database/</guid>
       <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
 &lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
 &lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;
@@ -67,16 +67,16 @@
     </item>
     <item>
       <title>生产者与消费者问题</title>
-      <link>https://lesan.fun/posts/knowledge/producer-consumer-problem/</link>
+      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/producer-consumer-problem/</link>
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesan.fun/posts/knowledge/producer-consumer-problem/</guid>
+      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/producer-consumer-problem/</guid>
       <description>&lt;p&gt;生产者消费者问题（Producer-consumer problem），也称有限缓冲问题（Bounded-buffer problem），是一个多线程同步问题的经典案例。生产者生成一定量的数据放到缓冲区中，然后重复此过程；与此同时，消费者也在缓冲区消耗这些数据。生产者和消费者之间必须保持同步，要保证生产者不会在缓冲区满时放入数据，消费者也不会在缓冲区空时消耗数据。不够完善的解决方法容易出现死锁的情况，此时进程都在等待唤醒。&lt;/p&gt;</description>
     </item>
     <item>
       <title>实现简单消息推送功能</title>
-      <link>https://lesan.fun/posts/knowledge/message-push/</link>
+      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/message-push/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesan.fun/posts/knowledge/message-push/</guid>
+      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/message-push/</guid>
       <description>&lt;p&gt;消息推送是大部分系统都需要做到的功能，在.NET中我分别通过RabbitMQ、MQTT、SignalR实现消息推送功能，本篇文章将通过它们实现简单的推送功能，手把手带大家完成编程。本文环境为 &lt;code&gt;.NET Core 3.1&lt;/code&gt;下&lt;/p&gt;</description>
     </item>
   </channel>
