@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>动手实践 on Lesan&#39;s Blog</title>
+    <link>https://lesan.fun/categories/%E5%8A%A8%E6%89%8B%E5%AE%9E%E8%B7%B5/</link>
+    <description>Recent content in 动手实践 on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesan.fun/categories/%E5%8A%A8%E6%89%8B%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记一次搭建GitLab&#43;Jenkins实现CI&amp;CD</title>
+      <link>https://lesan.fun/posts/operation/ci-cd-gitlab-jenkins/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesan.fun/posts/operation/ci-cd-gitlab-jenkins/</guid>
+      <description>&lt;p&gt;本篇文章记录本人搭建CI&amp;amp;CD实现持续集成和持续部署&lt;/p&gt;
+&lt;h2 id=&#34;1使用docker安装gitlab&#34;&gt;1.使用docker安装gitlab&lt;/h2&gt;
+&lt;h3 id=&#34;下载镜像-使用中文社区版&#34;&gt;下载镜像 （使用中文社区版）&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lesan.fun/posts/operation/ci-cd-gitlab-jenkins/images/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker pull twang2218/gitlab-ce-zh&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;创建所需目录为后续挂载文件&#34;&gt;创建所需目录为后续挂载文件&lt;/h3&gt;
+&lt;p&gt;进入所需目录后，打开PowerShell，通过以下命令进行目录创建&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>构建一个带libgdiplus的.NET基础Docker镜像</title>
+      <link>https://lesan.fun/posts/operation/docker-images-libgdiplus-dotnet/</link>
+      <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesan.fun/posts/operation/docker-images-libgdiplus-dotnet/</guid>
+      <description>&lt;p&gt;默认.NET的Docker镜像是不包含libgdiplus的，所以本文介绍如何通过在原有镜像基础上构建一个满足个人需求的Docker镜像。&lt;/p&gt;
+&lt;h2 id=&#34;docker-简介&#34;&gt;Docker 简介&lt;/h2&gt;
+&lt;p&gt;Docker 是一个开源的应用容器引擎，基于 &lt;strong&gt;Go 语言&lt;/strong&gt; 并遵从 Apache2.0 协议开源。Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
