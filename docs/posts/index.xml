@@ -2,26 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>📚 博客 on Lesan&#39;s Blog</title>
-    <link>https://lesanouo.github.io/lesan-blog/posts/</link>
+    <link>https://lesanouo.github.io/blog/posts/</link>
     <description>Recent content in 📚 博客 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lesanouo.github.io/lesan-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lesanouo.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>搭建个人网站:GitHub&#43;Vercel</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/share/static-site-github-vercel/</link>
-      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/share/static-site-github-vercel/</guid>
-      <description>&lt;p&gt;本文主要介绍如何通过GitHub+Vercel免费搭建一个自己的静态网页。&lt;/p&gt;
-&lt;h3 id=&#34;github-pages&#34;&gt;GitHub Pages&lt;/h3&gt;
-&lt;p&gt;GitHub Pages是GitHub提供给大家的快速部署静态网页的功能，但是由于国内访问比较慢，这里提供一个相对较快的解决办法，就是用GitHub+Vercel。&lt;/p&gt;</description>
+      <title>Git 代码片段</title>
+      <link>https://lesanouo.github.io/blog/posts/snippet/git/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/snippet/git/</guid>
+      <description>&lt;h2 id=&#34;修改gitignore立即生效&#34;&gt;修改.gitignore立即生效&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rm -r –cached .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;update .gitignore&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>多线程下的琐事</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/multi-thread/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/multi-thread/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/multi-thread/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/multi-thread/</guid>
       <description>&lt;p&gt;单线程与多线程可以看作是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;单线程为在一个单向行驶的道路上，每辆汽车都遵守交通规则&lt;/li&gt;
@@ -31,9 +33,9 @@
     </item>
     <item>
       <title>设置网络代理后需要注意</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/share/proxy-things/</link>
+      <link>https://lesanouo.github.io/blog/posts/share/proxy-things/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/share/proxy-things/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/share/proxy-things/</guid>
       <description>&lt;p&gt;如电脑设置了网络代理，会导致一些软件工具不能正常工作。查找了网上许多解决方案，总结如下。&lt;/p&gt;
 &lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
 &lt;ul&gt;
@@ -57,17 +59,17 @@
     </item>
     <item>
       <title>通过SQL导出数据库表结构</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/share/sql-export-excel/</link>
+      <link>https://lesanouo.github.io/blog/posts/share/sql-export-excel/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/share/sql-export-excel/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/share/sql-export-excel/</guid>
       <description>&lt;p&gt;在编写数据库文档时，我们常常需要写表结构文档，这时候就需要一些方法来节约我们写文档的时间。&lt;/p&gt;
 &lt;p&gt;我通过网络上的资料，总结了 &lt;code&gt;MySQL&lt;/code&gt; 及 &lt;code&gt;SQL Server&lt;/code&gt; 的通过SQL语句导出数据库表结构的方法。&lt;/p&gt;</description>
     </item>
     <item>
       <title>C#中async和await异步编程</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/csharp-async-await/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/csharp-async-await/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/csharp-async-await/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/csharp-async-await/</guid>
       <description>&lt;p&gt;在代码中遇到了网络请求编程时，往往需要异步编程才能给用户带来良好的体验，不会导致程序完全阻塞。
 其中的关键在于：&lt;/p&gt;
 &lt;ul&gt;
@@ -85,9 +87,9 @@
     </item>
     <item>
       <title>数据库优化</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/database/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/database/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/database/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/database/</guid>
       <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
 &lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
 &lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;
@@ -110,59 +112,59 @@
     </item>
     <item>
       <title>生产者与消费者问题</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/producer-consumer-problem/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/producer-consumer-problem/</link>
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/producer-consumer-problem/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/producer-consumer-problem/</guid>
       <description>&lt;p&gt;生产者消费者问题（Producer-consumer problem），也称有限缓冲问题（Bounded-buffer problem），是一个多线程同步问题的经典案例。生产者生成一定量的数据放到缓冲区中，然后重复此过程；与此同时，消费者也在缓冲区消耗这些数据。生产者和消费者之间必须保持同步，要保证生产者不会在缓冲区满时放入数据，消费者也不会在缓冲区空时消耗数据。不够完善的解决方法容易出现死锁的情况，此时进程都在等待唤醒。&lt;/p&gt;</description>
     </item>
     <item>
       <title>华为机试题：报数游戏</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/algorithm/huawei-counting-game/</link>
+      <link>https://lesanouo.github.io/blog/posts/algorithm/huawei-counting-game/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/algorithm/huawei-counting-game/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/algorithm/huawei-counting-game/</guid>
       <description>&lt;p&gt;在进行华为机试时遇到了报数游戏的编程题（约瑟夫环），但是看了很多网上的解题都非常长，于是经过不断的学习参考，有了下面这个解题方法，也不知道是不是最好的😭&lt;/p&gt;</description>
     </item>
     <item>
       <title>分享可私有部署的接口管理系统Yapi</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/share/yapi/</link>
+      <link>https://lesanouo.github.io/blog/posts/share/yapi/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/share/yapi/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/share/yapi/</guid>
       <description>&lt;p&gt;在 web 软件开发中，API接口管理非常重要，也是前后端对接的关键，这里分享一个非常好用且可以私有化部署的接口管理系统Yapi，对那些内网开发的小伙伴们是一个不错的选择。&lt;/p&gt;</description>
     </item>
     <item>
       <title>记一次搭建GitLab&#43;Jenkins实现CI&amp;CD</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/operation/ci-cd-gitlab-jenkins/</link>
+      <link>https://lesanouo.github.io/blog/posts/operation/ci-cd-gitlab-jenkins/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/operation/ci-cd-gitlab-jenkins/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/operation/ci-cd-gitlab-jenkins/</guid>
       <description>&lt;p&gt;本篇文章记录本人搭建CI&amp;amp;CD实现持续集成和持续部署&lt;/p&gt;
 &lt;h2 id=&#34;1使用docker安装gitlab&#34;&gt;1.使用docker安装gitlab&lt;/h2&gt;
 &lt;h3 id=&#34;下载镜像-使用中文社区版&#34;&gt;下载镜像 （使用中文社区版）&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lesanouo.github.io/lesan-blog/posts/operation/ci-cd-gitlab-jenkins/images/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lesanouo.github.io/blog/posts/operation/ci-cd-gitlab-jenkins/images/1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;docker pull twang2218/gitlab-ce-zh&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;创建所需目录为后续挂载文件&#34;&gt;创建所需目录为后续挂载文件&lt;/h3&gt;
 &lt;p&gt;进入所需目录后，打开PowerShell，通过以下命令进行目录创建&lt;/p&gt;</description>
     </item>
     <item>
       <title>构建一个带libgdiplus的.NET基础Docker镜像</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/operation/docker-images-libgdiplus-dotnet/</link>
+      <link>https://lesanouo.github.io/blog/posts/operation/docker-images-libgdiplus-dotnet/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/operation/docker-images-libgdiplus-dotnet/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/operation/docker-images-libgdiplus-dotnet/</guid>
       <description>&lt;p&gt;默认.NET的Docker镜像是不包含libgdiplus的，所以本文介绍如何通过在原有镜像基础上构建一个满足个人需求的Docker镜像。&lt;/p&gt;
 &lt;h2 id=&#34;docker-简介&#34;&gt;Docker 简介&lt;/h2&gt;
 &lt;p&gt;Docker 是一个开源的应用容器引擎，基于 &lt;strong&gt;Go 语言&lt;/strong&gt; 并遵从 Apache2.0 协议开源。Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。&lt;/p&gt;</description>
     </item>
     <item>
       <title>实现简单消息推送功能</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/message-push/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/message-push/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/message-push/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/message-push/</guid>
       <description>&lt;p&gt;消息推送是大部分系统都需要做到的功能，在.NET中我分别通过RabbitMQ、MQTT、SignalR实现消息推送功能，本篇文章将通过它们实现简单的推送功能，手把手带大家完成编程。本文环境为 &lt;code&gt;.NET Core 3.1&lt;/code&gt;下&lt;/p&gt;</description>
     </item>
     <item>
       <title>算法学习-链表</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/algorithm/link-list/</link>
+      <link>https://lesanouo.github.io/blog/posts/algorithm/link-list/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/algorithm/link-list/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/algorithm/link-list/</guid>
       <description>&lt;p&gt;本篇文章是学习leetcode中链表相关算法总结的链表技巧。&lt;/p&gt;
 &lt;h2 id=&#34;虚拟头节点&#34;&gt;虚拟头节点&lt;/h2&gt;
 &lt;h3 id=&#34;力扣第-21-题合并两个有序链表&#34;&gt;力扣第 21 题「合并两个有序链表」&lt;/h3&gt;
@@ -187,6 +189,15 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这个算法的逻辑类似于「拉拉链」，&lt;code&gt;l1, l2&lt;/code&gt; 类似于拉链两侧的锯齿，指针 &lt;code&gt;p&lt;/code&gt; 就好像拉链的拉索，将两个有序链表合并&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>搭建个人网站:GitHub&#43;Vercel</title>
+      <link>https://lesanouo.github.io/blog/posts/share/static-site-github-vercel/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/share/static-site-github-vercel/</guid>
+      <description>&lt;p&gt;本文主要介绍如何通过GitHub+Vercel免费搭建一个自己的静态网页。&lt;/p&gt;
+&lt;h3 id=&#34;github-pages&#34;&gt;GitHub Pages&lt;/h3&gt;
+&lt;p&gt;GitHub Pages是GitHub提供给大家的快速部署静态网页的功能，但是由于国内访问比较慢，这里提供一个相对较快的解决办法，就是用GitHub+Vercel。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

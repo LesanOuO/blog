@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>数据库 on Lesan&#39;s Blog</title>
-    <link>https://lesanouo.github.io/lesan-blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+    <link>https://lesanouo.github.io/blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
     <description>Recent content in 数据库 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 13 Jun 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lesanouo.github.io/lesan-blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lesanouo.github.io/blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据库优化</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/database/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/database/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/database/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/database/</guid>
       <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
 &lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
 &lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;

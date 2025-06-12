@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SQL on Lesan&#39;s Blog</title>
-    <link>https://lesanouo.github.io/lesan-blog/tags/sql/</link>
+    <link>https://lesanouo.github.io/blog/tags/sql/</link>
     <description>Recent content in SQL on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lesanouo.github.io/lesan-blog/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lesanouo.github.io/blog/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>通过SQL导出数据库表结构</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/share/sql-export-excel/</link>
+      <link>https://lesanouo.github.io/blog/posts/share/sql-export-excel/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/share/sql-export-excel/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/share/sql-export-excel/</guid>
       <description>&lt;p&gt;在编写数据库文档时，我们常常需要写表结构文档，这时候就需要一些方法来节约我们写文档的时间。&lt;/p&gt;
 &lt;p&gt;我通过网络上的资料，总结了 &lt;code&gt;MySQL&lt;/code&gt; 及 &lt;code&gt;SQL Server&lt;/code&gt; 的通过SQL语句导出数据库表结构的方法。&lt;/p&gt;</description>
     </item>
     <item>
       <title>数据库优化</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/database/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/database/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/database/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/database/</guid>
       <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
 &lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
 &lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;

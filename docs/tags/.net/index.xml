@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>.NET on Lesan&#39;s Blog</title>
-    <link>https://lesanouo.github.io/lesan-blog/tags/.net/</link>
+    <link>https://lesanouo.github.io/blog/tags/.net/</link>
     <description>Recent content in .NET on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lesanouo.github.io/lesan-blog/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lesanouo.github.io/blog/tags/.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>构建一个带libgdiplus的.NET基础Docker镜像</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/operation/docker-images-libgdiplus-dotnet/</link>
+      <link>https://lesanouo.github.io/blog/posts/operation/docker-images-libgdiplus-dotnet/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/operation/docker-images-libgdiplus-dotnet/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/operation/docker-images-libgdiplus-dotnet/</guid>
       <description>&lt;p&gt;默认.NET的Docker镜像是不包含libgdiplus的，所以本文介绍如何通过在原有镜像基础上构建一个满足个人需求的Docker镜像。&lt;/p&gt;
 &lt;h2 id=&#34;docker-简介&#34;&gt;Docker 简介&lt;/h2&gt;
 &lt;p&gt;Docker 是一个开源的应用容器引擎，基于 &lt;strong&gt;Go 语言&lt;/strong&gt; 并遵从 Apache2.0 协议开源。Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。&lt;/p&gt;</description>
     </item>
     <item>
       <title>实现简单消息推送功能</title>
-      <link>https://lesanouo.github.io/lesan-blog/posts/knowledge/message-push/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/message-push/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/lesan-blog/posts/knowledge/message-push/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/message-push/</guid>
       <description>&lt;p&gt;消息推送是大部分系统都需要做到的功能，在.NET中我分别通过RabbitMQ、MQTT、SignalR实现消息推送功能，本篇文章将通过它们实现简单的推送功能，手把手带大家完成编程。本文环境为 &lt;code&gt;.NET Core 3.1&lt;/code&gt;下&lt;/p&gt;</description>
     </item>
   </channel>

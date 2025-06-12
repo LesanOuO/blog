@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on Lesan&#39;s Blog</title>
+    <link>https://lesanouo.github.io/blog/tags/git/</link>
+    <description>Recent content in Git on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesanouo.github.io/blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 代码片段</title>
+      <link>https://lesanouo.github.io/blog/posts/snippet/git/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/snippet/git/</guid>
+      <description>&lt;h2 id=&#34;修改gitignore立即生效&#34;&gt;修改.gitignore立即生效&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rm -r –cached .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;update .gitignore&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
