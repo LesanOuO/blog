@@ -11,3 +11,9 @@ weight:
 ```bash
 npm cache clear --force
 ```
+
+## 单次 npm 使用代理和镜像
+
+```bash
+npm --registry https://registry.npmmirror.com --proxy http://xxx:9999 i
+```
