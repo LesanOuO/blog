@@ -6,8 +6,46 @@
     <description>Recent content in 📚 博客 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dynamic-datasource文档</title>
+      <link>https://lesanouo.github.io/blog/posts/share/dynamic-datasource%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/share/dynamic-datasource%E6%96%87%E6%A1%A3/</guid>
+      <description>&lt;p&gt;本文为 &lt;code&gt;dynamic-datasource-spring-boot-starter&lt;/code&gt; （基于SpringBoot的快速集成多数据源框架）的使用文档。&lt;/p&gt;
+&lt;h1 id=&#34;特性&#34;&gt;特性&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;支持 &lt;code&gt;数据源分组&lt;/code&gt; ，适用于多种场景，纯粹多库、读写分离、一主多从、混合模式。&lt;/li&gt;
+&lt;li&gt;支持数据库敏感配置信息 &lt;code&gt;加密(可自定义)&lt;/code&gt; ENC()。&lt;/li&gt;
+&lt;li&gt;支持每个数据库独立初始化表结构schema和数据库database。&lt;/li&gt;
+&lt;li&gt;支持无数据源启动，支持 &lt;code&gt;懒加载数据源&lt;/code&gt; （需要的时候再创建连接）。&lt;/li&gt;
+&lt;li&gt;支持 &lt;code&gt;自定义注解&lt;/code&gt; ，需继承DS(3.2.0+)。&lt;/li&gt;
+&lt;li&gt;提供并简化对Druid，HikariCp，BeeCp，Dbcp2的快速集成。&lt;/li&gt;
+&lt;li&gt;提供对 &lt;code&gt;Mybatis-Plus&lt;/code&gt; ，Quartz，ShardingJdbc，P6sy，Jndi等组件的集成方案。&lt;/li&gt;
+&lt;li&gt;提供 &lt;code&gt;自定义数据源来源&lt;/code&gt; 方案（如全从数据库加载）。&lt;/li&gt;
+&lt;li&gt;提供项目启动后 &lt;code&gt;动态增加移除数据源&lt;/code&gt; 方案。&lt;/li&gt;
+&lt;li&gt;提供Mybatis环境下的 &lt;code&gt;纯读写分离&lt;/code&gt; 方案。&lt;/li&gt;
+&lt;li&gt;提供使用 &lt;code&gt;spel动态参数&lt;/code&gt; 解析数据源方案。内置spel，session，header，支持自定义。&lt;/li&gt;
+&lt;li&gt;支持 &lt;code&gt;多层数据源嵌套切换&lt;/code&gt; 。（ServiceA &amp;raquo;&amp;gt; ServiceB &amp;raquo;&amp;gt; ServiceC）。&lt;/li&gt;
+&lt;li&gt;提供 &lt;code&gt;基于seata的分布式事务方案&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;提供 &lt;code&gt;本地多数据源事务方案&lt;/code&gt; 。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;约定&#34;&gt;约定&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;dynamic-datasource只做 &lt;code&gt;切换数据源&lt;/code&gt; 这件核心的事情，并 &lt;code&gt;不限制你的具体操作&lt;/code&gt; ，切换了数据源可以做任何CRUD。&lt;/li&gt;
+&lt;li&gt;配置文件所有以下划线 &lt;code&gt;_&lt;/code&gt; 分割的数据源 &lt;code&gt;首部&lt;/code&gt; 即为组的名称，相同组名称的数据源会放在一个组下。&lt;/li&gt;
+&lt;li&gt;切换数据源可以是组名，也可以是具体数据源名称。 &lt;code&gt;组名则切换时采用负载均衡算法切换&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;默认的数据源名称为 &lt;code&gt;master&lt;/code&gt; ，你可以通过 &lt;code&gt;spring.datasource.dynamic.primary&lt;/code&gt; 修改。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;方法上的注解优先于类上注解&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;DS支持继承抽象类上的DS，暂不支持继承接口上的DS。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;使用方法&#34;&gt;使用方法&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;引入dynamic-datasource-spring-boot-starter&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;spring-boot 1.5.x、2.x.x&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vue3 代码片段</title>
       <link>https://lesanouo.github.io/blog/posts/snippet/vue3/</link>
