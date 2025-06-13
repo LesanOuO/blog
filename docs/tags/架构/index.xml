@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>架构 on Lesan&#39;s Blog</title>
+    <link>https://lesanouo.github.io/blog/tags/%E6%9E%B6%E6%9E%84/</link>
+    <description>Recent content in 架构 on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesanouo.github.io/blog/tags/%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一个技术架构的反例</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%B8%AA%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E7%9A%84%E5%8F%8D%E4%BE%8B/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%B8%AA%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E7%9A%84%E5%8F%8D%E4%BE%8B/</guid>
+      <description>&lt;h2 id=&#34;1-系统主链路尽可能单点&#34;&gt;1. 系统主链路尽可能单点&lt;/h2&gt;
+&lt;p&gt;单点系统，就像苏伊士运河一样，一旦航道出故障，整个运输系统都瘫痪，非常酸爽。&lt;/p&gt;
+&lt;h2 id=&#34;2-程序中多用循环&#34;&gt;2. 程序中多用循环&lt;/h2&gt;
+&lt;p&gt;无限死循环，当你看到CPU利用率百分百的时候，你就知道应该甩锅给运维了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
