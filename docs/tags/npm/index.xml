@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NPM on Lesan&#39;s Blog</title>
+    <link>https://lesanouo.github.io/blog/tags/npm/</link>
+    <description>Recent content in NPM on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesanouo.github.io/blog/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NPM 代码片段</title>
+      <link>https://lesanouo.github.io/blog/posts/snippet/npm/</link>
+      <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/snippet/npm/</guid>
+      <description>&lt;h2 id=&#34;cannot-read-properties-of-null-reading-pickalgorithm&#34;&gt;Cannot read properties of null (reading ‘pickAlgorithm‘)&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm cache clear --force
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

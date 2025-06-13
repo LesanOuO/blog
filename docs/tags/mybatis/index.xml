@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mybatis on Lesan&#39;s Blog</title>
+    <link>https://lesanouo.github.io/blog/tags/mybatis/</link>
+    <description>Recent content in Mybatis on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 16 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesanouo.github.io/blog/tags/mybatis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mybatis 代码片段</title>
+      <link>https://lesanouo.github.io/blog/posts/snippet/mybatis/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/snippet/mybatis/</guid>
+      <description>&lt;h2 id=&#34;foreach&#34;&gt;foreach&lt;/h2&gt;
+&lt;p&gt;foreach元素的属性主要有item，index，collection，open，separator，close。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;item：集合中元素迭代时的别名&lt;/li&gt;
+&lt;li&gt;index：集合中元素迭代时的索引&lt;/li&gt;
+&lt;li&gt;open：常用语where语句中，表示以什么开始，比如以&amp;rsquo;(&amp;lsquo;开始&lt;/li&gt;
+&lt;li&gt;separator：表示在每次进行迭代时的分隔符&lt;/li&gt;
+&lt;li&gt;close 常用语where语句中，表示以什么结束&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在使用foreach的时候最关键的也是最容易出错的就是collection属性，该属性是必须指定的，但是在不同情况下，该属性的值是不一样的，主要有一下3种情况：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

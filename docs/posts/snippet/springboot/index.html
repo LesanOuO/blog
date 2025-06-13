@@ -1,0 +1,151 @@
+<!doctype html><html lang=zh-cn dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>SpringBoot 代码片段 | Lesan's Blog</title><meta name=keywords content="SpringBoot"><meta name=description content="Maven添加profiles
+
+profiles 标签
+
+    <!-- 环境控制 -->
+    <profiles>
+        <!-- 开发 -->
+        <profile>
+            <id>dev</id>
+            <activation>
+                <!--默认激活配置-->
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!--当前环境-->
+                <profile.name>dev</profile.name>
+            </properties>
+        </profile>
+        <!-- 生产 -->
+        <profile>
+            <id>prod</id>
+            <properties>
+                <!--当前环境-->
+                <profile.name>prod</profile.name>
+            </properties>
+        </profile>
+    </profiles>
+
+打包添加resources
+
+    <!-- 打包 -->
+    <build>
+        ......
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.json</include>
+                    <include>**/*.ftl</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+创建对应文件
+
+分别创建 application.yml 、 application-dev.yml 、 application-prod.yml 文件，dev、prod中写入需要需要区分环境的配置"><meta name=author content="Lesan"><link rel=canonical href=https://lesanouo.github.io/blog/posts/snippet/springboot/><link crossorigin=anonymous href=/blog/assets/css/stylesheet.css rel="preload stylesheet" as=style><link rel=icon href=https://lesanouo.github.io/blog/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://lesanouo.github.io/blog/favicon.ico><link rel=icon type=image/png sizes=32x32 href=https://lesanouo.github.io/blog/favicon.ico><link rel=apple-touch-icon href=https://lesanouo.github.io/blog/favicon.ico><link rel=mask-icon href=https://lesanouo.github.io/blog/favicon.ico><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=zh-cn href=https://lesanouo.github.io/blog/posts/snippet/springboot/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><meta property="og:url" content="https://lesanouo.github.io/blog/posts/snippet/springboot/"><meta property="og:site_name" content="Lesan's Blog"><meta property="og:title" content="SpringBoot 代码片段"><meta property="og:description" content="Maven添加profiles profiles 标签 <!-- 环境控制 --> <profiles> <!-- 开发 --> <profile> <id>dev</id> <activation> <!--默认激活配置--> <activeByDefault>true</activeByDefault> </activation> <properties> <!--当前环境--> <profile.name>dev</profile.name> </properties> </profile> <!-- 生产 --> <profile> <id>prod</id> <properties> <!--当前环境--> <profile.name>prod</profile.name> </properties> </profile> </profiles> 打包添加resources <!-- 打包 --> <build> ...... <resources> <resource> <directory>src/main/resources</directory> <filtering>true</filtering> </resource> <resource> <directory>src/main/java</directory> <includes> <include>**/*.xml</include> <include>**/*.json</include> <include>**/*.ftl</include> </includes> </resource> </resources> </build> 创建对应文件 分别创建 application.yml 、 application-dev.yml 、 application-prod.yml 文件，dev、prod中写入需要需要区分环境的配置"><meta property="og:locale" content="zh-cn"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2023-06-16T00:00:00+00:00"><meta property="article:modified_time" content="2023-06-16T00:00:00+00:00"><meta property="article:tag" content="SpringBoot"><meta name=twitter:card content="summary"><meta name=twitter:title content="SpringBoot 代码片段"><meta name=twitter:description content="Maven添加profiles
+
+profiles 标签
+
+    <!-- 环境控制 -->
+    <profiles>
+        <!-- 开发 -->
+        <profile>
+            <id>dev</id>
+            <activation>
+                <!--默认激活配置-->
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!--当前环境-->
+                <profile.name>dev</profile.name>
+            </properties>
+        </profile>
+        <!-- 生产 -->
+        <profile>
+            <id>prod</id>
+            <properties>
+                <!--当前环境-->
+                <profile.name>prod</profile.name>
+            </properties>
+        </profile>
+    </profiles>
+
+打包添加resources
+
+    <!-- 打包 -->
+    <build>
+        ......
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.json</include>
+                    <include>**/*.ftl</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+创建对应文件
+
+分别创建 application.yml 、 application-dev.yml 、 application-prod.yml 文件，dev、prod中写入需要需要区分环境的配置"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"📚 博客","item":"https://lesanouo.github.io/blog/posts/"},{"@type":"ListItem","position":2,"name":"SpringBoot 代码片段","item":"https://lesanouo.github.io/blog/posts/snippet/springboot/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"SpringBoot 代码片段","name":"SpringBoot 代码片段","description":"Maven添加profiles profiles 标签 \u0026lt;!-- 环境控制 --\u0026gt; \u0026lt;profiles\u0026gt; \u0026lt;!-- 开发 --\u0026gt; \u0026lt;profile\u0026gt; \u0026lt;id\u0026gt;dev\u0026lt;/id\u0026gt; \u0026lt;activation\u0026gt; \u0026lt;!--默认激活配置--\u0026gt; \u0026lt;activeByDefault\u0026gt;true\u0026lt;/activeByDefault\u0026gt; \u0026lt;/activation\u0026gt; \u0026lt;properties\u0026gt; \u0026lt;!--当前环境--\u0026gt; \u0026lt;profile.name\u0026gt;dev\u0026lt;/profile.name\u0026gt; \u0026lt;/properties\u0026gt; \u0026lt;/profile\u0026gt; \u0026lt;!-- 生产 --\u0026gt; \u0026lt;profile\u0026gt; \u0026lt;id\u0026gt;prod\u0026lt;/id\u0026gt; \u0026lt;properties\u0026gt; \u0026lt;!--当前环境--\u0026gt; \u0026lt;profile.name\u0026gt;prod\u0026lt;/profile.name\u0026gt; \u0026lt;/properties\u0026gt; \u0026lt;/profile\u0026gt; \u0026lt;/profiles\u0026gt; 打包添加resources \u0026lt;!-- 打包 --\u0026gt; \u0026lt;build\u0026gt; ...... \u0026lt;resources\u0026gt; \u0026lt;resource\u0026gt; \u0026lt;directory\u0026gt;src/main/resources\u0026lt;/directory\u0026gt; \u0026lt;filtering\u0026gt;true\u0026lt;/filtering\u0026gt; \u0026lt;/resource\u0026gt; \u0026lt;resource\u0026gt; \u0026lt;directory\u0026gt;src/main/java\u0026lt;/directory\u0026gt; \u0026lt;includes\u0026gt; \u0026lt;include\u0026gt;**/*.xml\u0026lt;/include\u0026gt; \u0026lt;include\u0026gt;**/*.json\u0026lt;/include\u0026gt; \u0026lt;include\u0026gt;**/*.ftl\u0026lt;/include\u0026gt; \u0026lt;/includes\u0026gt; \u0026lt;/resource\u0026gt; \u0026lt;/resources\u0026gt; \u0026lt;/build\u0026gt; 创建对应文件 分别创建 application.yml 、 application-dev.yml 、 application-prod.yml 文件，dev、prod中写入需要需要区分环境的配置\n","keywords":["SpringBoot"],"articleBody":"Maven添加profiles profiles 标签 dev true dev prod prod 打包添加resources ...... src/main/resources true src/main/java **/*.xml **/*.json **/*.ftl 创建对应文件 分别创建 application.yml 、 application-dev.yml 、 application-prod.yml 文件，dev、prod中写入需要需要区分环境的配置\napplication.yml选中对应环境配置文件 spring: profiles: active: '@profile.name@' ","wordCount":"205","inLanguage":"zh-cn","datePublished":"2023-06-16T00:00:00Z","dateModified":"2023-06-16T00:00:00Z","author":{"@type":"Person","name":"Lesan"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://lesanouo.github.io/blog/posts/snippet/springboot/"},"publisher":{"@type":"Organization","name":"Lesan's Blog","logo":{"@type":"ImageObject","url":"https://lesanouo.github.io/blog/favicon.ico"}}}</script></head><body class=dark id=top><script>localStorage.getItem("pref-theme")==="light"&&document.body.classList.remove("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://lesanouo.github.io/blog/ accesskey=h title="Lesan's Blog (Alt + H)">Lesan's Blog</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://lesanouo.github.io/blog/archives title="📚 归档"><span>📚 归档</span></a></li><li><a href=https://lesanouo.github.io/blog/categories/ title="🗃️ 分类"><span>🗃️ 分类</span></a></li><li><a href=https://lesanouo.github.io/blog/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://lesanouo.github.io/blog/search/ title="🔎 搜索"><span>🔎 搜索</span></a></li><li><a href=https://lesanouo.github.io/blog/about/ title="👨‍💻 关于我"><span>👨‍💻 关于我</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://lesanouo.github.io/blog/>Home</a>&nbsp;»&nbsp;<a href=https://lesanouo.github.io/blog/posts/>📚 博客</a></div><h1 class="post-title entry-hint-parent">SpringBoot 代码片段</h1><div class=post-meta><span title='2023-06-16 00:00:00 +0000 UTC'>2023-06-16</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Lesan</div></header><div class=toc><details><summary accesskey=c title="(Alt + C)"><span class=details>Table of Contents</span></summary><div class=inner><ul><li><a href=#maven%e6%b7%bb%e5%8a%a0profiles aria-label=Maven添加profiles>Maven添加profiles</a></li></ul></div></details></div><div class=post-content><h2 id=maven添加profiles>Maven添加profiles<a hidden class=anchor aria-hidden=true href=#maven添加profiles>#</a></h2><ul><li>profiles 标签</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-xml data-lang=xml><span class=line><span class=cl>    <span class=c>&lt;!-- 环境控制 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;profiles&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!-- 开发 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;profile&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;id&gt;</span>dev<span class=nt>&lt;/id&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;activation&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--默认激活配置--&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;activeByDefault&gt;</span>true<span class=nt>&lt;/activeByDefault&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/activation&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;properties&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--当前环境--&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;profile.name&gt;</span>dev<span class=nt>&lt;/profile.name&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/properties&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/profile&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!-- 生产 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;profile&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;id&gt;</span>prod<span class=nt>&lt;/id&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;properties&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--当前环境--&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;profile.name&gt;</span>prod<span class=nt>&lt;/profile.name&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/properties&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/profile&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/profiles&gt;</span>
+</span></span></code></pre></div><ul><li>打包添加resources</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-xml data-lang=xml><span class=line><span class=cl>    <span class=c>&lt;!-- 打包 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;build&gt;</span>
+</span></span><span class=line><span class=cl>        ......
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;resources&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;resource&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;directory&gt;</span>src/main/resources<span class=nt>&lt;/directory&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;filtering&gt;</span>true<span class=nt>&lt;/filtering&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/resource&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;resource&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;directory&gt;</span>src/main/java<span class=nt>&lt;/directory&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;includes&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;include&gt;</span>**/*.xml<span class=nt>&lt;/include&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;include&gt;</span>**/*.json<span class=nt>&lt;/include&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;include&gt;</span>**/*.ftl<span class=nt>&lt;/include&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/includes&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/resource&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/resources&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/build&gt;</span>
+</span></span></code></pre></div><ul><li>创建对应文件</li></ul><p>分别创建 <code>application.yml</code> 、 <code>application-dev.yml</code> 、 <code>application-prod.yml</code> 文件，dev、prod中写入需要需要区分环境的配置</p><ul><li>application.yml选中对应环境配置文件</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-yml data-lang=yml><span class=line><span class=cl><span class=nt>spring</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>profiles</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>active</span><span class=p>:</span><span class=w> </span><span class=s1>&#39;@profile.name@&#39;</span><span class=w>
+</span></span></span></code></pre></div></div><footer class=post-footer><ul class=post-tags><li><a href=https://lesanouo.github.io/blog/tags/springboot/>SpringBoot</a></li></ul><nav class=paginav><a class=prev href=https://lesanouo.github.io/blog/posts/snippet/js/><span class=title>«</span><br><span>JavaScript 代码片段</span>
+</a><a class=next href=https://lesanouo.github.io/blog/posts/knowledge/multi-thread/><span class=title>»</span><br><span>多线程下的琐事</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2025 <a href=https://lesanouo.github.io/blog/>Lesan's Blog</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
