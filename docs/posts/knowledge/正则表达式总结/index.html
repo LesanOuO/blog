@@ -1,0 +1,675 @@
+<!doctype html><html lang=zh-cn dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>正则表达式总结 | Lesan's Blog</title><meta name=keywords content="正则表达式"><meta name=description content="简介
+使用正则表达式来处理搜索文本，能够提高灵活性。
+通过使用正则表达式，可以做到：
+
+测试字符串内的模式，例如，可以匹配字符串是否满足电话号码或信用卡号码的模式，进行数据验证
+替换文本，使用正则表达式来识别文档中的特定文本，完全删除该文本或用其他文本替换它
+基于模式匹配从字符串中提取子字符串，可以查找文档内或输入域内特定的文本
+
+基本语法
+修饰符
+
+  
+      
+          修饰符
+          含义
+          描述
+      
+  
+  
+      
+          i
+          ignore - 不区分大小写
+          将匹配设置为不区分大小写，搜索时不区分大小写:A和a没有区别
+      
+      
+          g
+          global - 全局匹配
+          查找所有的匹配项
+      
+      
+          m
+          multi line - 多行匹配
+          使边界字符 ^ 和 $ 匹配每一行的开头和结尾，记住是多行，而不是整个字符串的开头和结尾
+      
+      
+          s
+          特殊字符圆点 . 中包含换行符 \n
+          默认情况下的圆点 . 是匹配除换行符 \n 之外的任何字符，加上 s 修饰符之后, . 中包含换行符 \n
+      
+  
+
+元字符
+
+普通字符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          [ABC]
+          匹配 [&mldr;] 中的所有字符
+      
+      
+          [^ABC]
+          匹配除了 [&mldr;] 中字符的所有字符
+      
+      
+          [A-Z]
+          [A-Z] 表示一个区间，匹配所有大写字母，[a-z] 表示所有小写字母
+      
+      
+          .
+          匹配除换行符（\n、\r）之外的任何单个字符，相等于 [^\n\r]
+      
+      
+          [\s\S]
+          匹配所有。\s 是匹配所有空白符，包括换行，\S 非空白符，不包括换行
+      
+      
+          \w
+          匹配字母、数字、下划线。等价于 [A-Za-z0-9_]
+      
+      
+          \W
+          匹配非字母、数字、下划线。等价于 &lsquo;[^A-Za-z0-9_]&rsquo;
+      
+      
+          \d
+          匹配一个数字字符。等价于 [0-9]
+      
+      
+          \D
+          匹配一个非数字字符。等价于 [^0-9]
+      
+      
+          \xn
+          匹配 n，其中 n 为十六进制转义值。十六进制转义值必须为确定的两个数字长。例如，&rsquo;\x41&rsquo; 匹配 &ldquo;A&rdquo;
+      
+      
+          \num
+          匹配 num，其中 num 是一个正整数
+      
+  
+
+
+非打印字符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          \cx
+          匹配由x指明的控制字符。例如， \cM 匹配一个 Control-M 或回车符
+      
+      
+          \f
+          匹配一个换页符
+      
+      
+          \n
+          匹配一个换行符
+      
+      
+          \r
+          匹配一个回车符
+      
+      
+          \s
+          匹配任何空白字符，包括空格、制表符、换页符等等
+      
+      
+          \S
+          匹配任何非空白字符
+      
+      
+          \t
+          匹配一个制表符
+      
+      
+          \v
+          匹配一个垂直制表符
+      
+  
+
+
+特殊字符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          $
+          匹配输入字符串的结尾位置
+      
+      
+          ()
+          标记一个子表达式的开始和结束位置。子表达式可以获取供以后使用
+      
+      
+          *
+          匹配前面的子表达式零次或多次
+      
+      
+          +
+          匹配前面的子表达式一次或多次
+      
+      
+          .
+          匹配除换行符 \n 之外的任何单字符
+      
+      
+          [
+          标记一个中括号表达式的开始
+      
+      
+          ?
+          匹配前面的子表达式零次或一次，或指明一个非贪婪限定符(尽可能少的匹配所搜索的字符串)
+      
+      
+          \
+          将下一个字符标记为或特殊字符、或原义字符、或向后引用、或八进制转义符
+      
+      
+          ^
+          匹配输入字符串的开始位置；不接受该方括号表达式中的字符集合
+      
+      
+          {
+          标记限定符表达式的开始
+      
+      
+          |
+          指明两项之间的一个选择
+      
+  
+
+
+限定符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          *
+          匹配前面的子表达式零次或多次
+      
+      
+          +
+          匹配前面的子表达式一次或多次
+      
+      
+          ?
+          匹配前面的子表达式零次或一次
+      
+      
+          {n}
+          n 是一个非负整数。匹配确定的 n 次
+      
+      
+          {n,}
+          n 是一个非负整数。至少匹配n 次
+      
+      
+          {n,m}
+          m 和 n 均为非负整数，其中n <= m。最少匹配 n 次且最多匹配 m 次
+      
+  
+
+
+定位符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          ^
+          匹配输入字符串开始的位置
+      
+      
+          $
+          匹配输入字符串结尾的位置
+      
+      
+          \b
+          匹配一个单词边界，即字与空格间的位置
+      
+      
+          \B
+          非单词边界匹配
+      
+  
+
+
+?: ?= ?! ?<= ?>!
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          (?:pattern)
+          匹配 pattern 但不获取匹配结果
+      
+      
+          (?=pattern)
+          正向肯定预查
+      
+      
+          (?!pattern)
+          正向否定预查
+      
+      
+          (?<=pattern)
+          反向肯定预查
+      
+      
+          (?<!pattern)
+          反向否定预查
+      
+  
+
+
+其他
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          \d
+          匹配 pattern 但不获取匹配结果
+      
+      
+          \D
+          正向肯定预查
+      
+      
+          (?!pattern)
+          正向否定预查
+      
+      
+          (?<=pattern)
+          反向肯定预查
+      
+      
+          (?<!pattern)
+          反向否定预查
+      
+  
+
+运算符优先级
+相同优先级的从左到右进行运算，不同优先级的运算先高后低。下表从最高到最低说明了各种正则表达式运算符的优先级顺序："><meta name=author content="Lesan"><link rel=canonical href=https://lesanouo.github.io/blog/posts/knowledge/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%80%BB%E7%BB%93/><link crossorigin=anonymous href=/blog/assets/css/stylesheet.css rel="preload stylesheet" as=style><link rel=icon href=https://lesanouo.github.io/blog/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://lesanouo.github.io/blog/favicon.ico><link rel=icon type=image/png sizes=32x32 href=https://lesanouo.github.io/blog/favicon.ico><link rel=apple-touch-icon href=https://lesanouo.github.io/blog/favicon.ico><link rel=mask-icon href=https://lesanouo.github.io/blog/favicon.ico><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=zh-cn href=https://lesanouo.github.io/blog/posts/knowledge/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%80%BB%E7%BB%93/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><meta property="og:url" content="https://lesanouo.github.io/blog/posts/knowledge/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%80%BB%E7%BB%93/"><meta property="og:site_name" content="Lesan's Blog"><meta property="og:title" content="正则表达式总结"><meta property="og:description" content="简介 使用正则表达式来处理搜索文本，能够提高灵活性。 通过使用正则表达式，可以做到：
+测试字符串内的模式，例如，可以匹配字符串是否满足电话号码或信用卡号码的模式，进行数据验证 替换文本，使用正则表达式来识别文档中的特定文本，完全删除该文本或用其他文本替换它 基于模式匹配从字符串中提取子字符串，可以查找文档内或输入域内特定的文本 基本语法 修饰符 修饰符 含义 描述 i ignore - 不区分大小写 将匹配设置为不区分大小写，搜索时不区分大小写:A和a没有区别 g global - 全局匹配 查找所有的匹配项 m multi line - 多行匹配 使边界字符 ^ 和 $ 匹配每一行的开头和结尾，记住是多行，而不是整个字符串的开头和结尾 s 特殊字符圆点 . 中包含换行符 \n 默认情况下的圆点 . 是匹配除换行符 \n 之外的任何字符，加上 s 修饰符之后, . 中包含换行符 \n 元字符 普通字符 字符 描述 [ABC] 匹配 […] 中的所有字符 [^ABC] 匹配除了 […] 中字符的所有字符 [A-Z] [A-Z] 表示一个区间，匹配所有大写字母，[a-z] 表示所有小写字母 . 匹配除换行符（\n、\r）之外的任何单个字符，相等于 [^\n\r] [\s\S] 匹配所有。\s 是匹配所有空白符，包括换行，\S 非空白符，不包括换行 \w 匹配字母、数字、下划线。等价于 [A-Za-z0-9_] \W 匹配非字母、数字、下划线。等价于 ‘[^A-Za-z0-9_]’ \d 匹配一个数字字符。等价于 [0-9] \D 匹配一个非数字字符。等价于 [^0-9] \xn 匹配 n，其中 n 为十六进制转义值。十六进制转义值必须为确定的两个数字长。例如，’\x41’ 匹配 “A” \num 匹配 num，其中 num 是一个正整数 非打印字符 字符 描述 \cx 匹配由x指明的控制字符。例如， \cM 匹配一个 Control-M 或回车符 \f 匹配一个换页符 \n 匹配一个换行符 \r 匹配一个回车符 \s 匹配任何空白字符，包括空格、制表符、换页符等等 \S 匹配任何非空白字符 \t 匹配一个制表符 \v 匹配一个垂直制表符 特殊字符 字符 描述 $ 匹配输入字符串的结尾位置 () 标记一个子表达式的开始和结束位置。子表达式可以获取供以后使用 * 匹配前面的子表达式零次或多次 + 匹配前面的子表达式一次或多次 . 匹配除换行符 \n 之外的任何单字符 [ 标记一个中括号表达式的开始 ? 匹配前面的子表达式零次或一次，或指明一个非贪婪限定符(尽可能少的匹配所搜索的字符串) \ 将下一个字符标记为或特殊字符、或原义字符、或向后引用、或八进制转义符 ^ 匹配输入字符串的开始位置；不接受该方括号表达式中的字符集合 { 标记限定符表达式的开始 | 指明两项之间的一个选择 限定符 字符 描述 * 匹配前面的子表达式零次或多次 + 匹配前面的子表达式一次或多次 ? 匹配前面的子表达式零次或一次 {n} n 是一个非负整数。匹配确定的 n 次 {n,} n 是一个非负整数。至少匹配n 次 {n,m} m 和 n 均为非负整数，其中n <= m。最少匹配 n 次且最多匹配 m 次 定位符 字符 描述 ^ 匹配输入字符串开始的位置 $ 匹配输入字符串结尾的位置 \b 匹配一个单词边界，即字与空格间的位置 \B 非单词边界匹配 ?: ?= ?! ?<= ?>! 字符 描述 (?:pattern) 匹配 pattern 但不获取匹配结果 (?=pattern) 正向肯定预查 (?!pattern) 正向否定预查 (?<=pattern) 反向肯定预查 (?<!pattern) 反向否定预查 其他 字符 描述 \d 匹配 pattern 但不获取匹配结果 \D 正向肯定预查 (?!pattern) 正向否定预查 (?<=pattern) 反向肯定预查 (?<!pattern) 反向否定预查 运算符优先级 相同优先级的从左到右进行运算，不同优先级的运算先高后低。下表从最高到最低说明了各种正则表达式运算符的优先级顺序："><meta property="og:locale" content="zh-cn"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-06-16T00:00:00+00:00"><meta property="article:modified_time" content="2022-06-16T00:00:00+00:00"><meta property="article:tag" content="正则表达式"><meta name=twitter:card content="summary"><meta name=twitter:title content="正则表达式总结"><meta name=twitter:description content="简介
+使用正则表达式来处理搜索文本，能够提高灵活性。
+通过使用正则表达式，可以做到：
+
+测试字符串内的模式，例如，可以匹配字符串是否满足电话号码或信用卡号码的模式，进行数据验证
+替换文本，使用正则表达式来识别文档中的特定文本，完全删除该文本或用其他文本替换它
+基于模式匹配从字符串中提取子字符串，可以查找文档内或输入域内特定的文本
+
+基本语法
+修饰符
+
+  
+      
+          修饰符
+          含义
+          描述
+      
+  
+  
+      
+          i
+          ignore - 不区分大小写
+          将匹配设置为不区分大小写，搜索时不区分大小写:A和a没有区别
+      
+      
+          g
+          global - 全局匹配
+          查找所有的匹配项
+      
+      
+          m
+          multi line - 多行匹配
+          使边界字符 ^ 和 $ 匹配每一行的开头和结尾，记住是多行，而不是整个字符串的开头和结尾
+      
+      
+          s
+          特殊字符圆点 . 中包含换行符 \n
+          默认情况下的圆点 . 是匹配除换行符 \n 之外的任何字符，加上 s 修饰符之后, . 中包含换行符 \n
+      
+  
+
+元字符
+
+普通字符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          [ABC]
+          匹配 [&mldr;] 中的所有字符
+      
+      
+          [^ABC]
+          匹配除了 [&mldr;] 中字符的所有字符
+      
+      
+          [A-Z]
+          [A-Z] 表示一个区间，匹配所有大写字母，[a-z] 表示所有小写字母
+      
+      
+          .
+          匹配除换行符（\n、\r）之外的任何单个字符，相等于 [^\n\r]
+      
+      
+          [\s\S]
+          匹配所有。\s 是匹配所有空白符，包括换行，\S 非空白符，不包括换行
+      
+      
+          \w
+          匹配字母、数字、下划线。等价于 [A-Za-z0-9_]
+      
+      
+          \W
+          匹配非字母、数字、下划线。等价于 &lsquo;[^A-Za-z0-9_]&rsquo;
+      
+      
+          \d
+          匹配一个数字字符。等价于 [0-9]
+      
+      
+          \D
+          匹配一个非数字字符。等价于 [^0-9]
+      
+      
+          \xn
+          匹配 n，其中 n 为十六进制转义值。十六进制转义值必须为确定的两个数字长。例如，&rsquo;\x41&rsquo; 匹配 &ldquo;A&rdquo;
+      
+      
+          \num
+          匹配 num，其中 num 是一个正整数
+      
+  
+
+
+非打印字符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          \cx
+          匹配由x指明的控制字符。例如， \cM 匹配一个 Control-M 或回车符
+      
+      
+          \f
+          匹配一个换页符
+      
+      
+          \n
+          匹配一个换行符
+      
+      
+          \r
+          匹配一个回车符
+      
+      
+          \s
+          匹配任何空白字符，包括空格、制表符、换页符等等
+      
+      
+          \S
+          匹配任何非空白字符
+      
+      
+          \t
+          匹配一个制表符
+      
+      
+          \v
+          匹配一个垂直制表符
+      
+  
+
+
+特殊字符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          $
+          匹配输入字符串的结尾位置
+      
+      
+          ()
+          标记一个子表达式的开始和结束位置。子表达式可以获取供以后使用
+      
+      
+          *
+          匹配前面的子表达式零次或多次
+      
+      
+          +
+          匹配前面的子表达式一次或多次
+      
+      
+          .
+          匹配除换行符 \n 之外的任何单字符
+      
+      
+          [
+          标记一个中括号表达式的开始
+      
+      
+          ?
+          匹配前面的子表达式零次或一次，或指明一个非贪婪限定符(尽可能少的匹配所搜索的字符串)
+      
+      
+          \
+          将下一个字符标记为或特殊字符、或原义字符、或向后引用、或八进制转义符
+      
+      
+          ^
+          匹配输入字符串的开始位置；不接受该方括号表达式中的字符集合
+      
+      
+          {
+          标记限定符表达式的开始
+      
+      
+          |
+          指明两项之间的一个选择
+      
+  
+
+
+限定符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          *
+          匹配前面的子表达式零次或多次
+      
+      
+          +
+          匹配前面的子表达式一次或多次
+      
+      
+          ?
+          匹配前面的子表达式零次或一次
+      
+      
+          {n}
+          n 是一个非负整数。匹配确定的 n 次
+      
+      
+          {n,}
+          n 是一个非负整数。至少匹配n 次
+      
+      
+          {n,m}
+          m 和 n 均为非负整数，其中n <= m。最少匹配 n 次且最多匹配 m 次
+      
+  
+
+
+定位符
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          ^
+          匹配输入字符串开始的位置
+      
+      
+          $
+          匹配输入字符串结尾的位置
+      
+      
+          \b
+          匹配一个单词边界，即字与空格间的位置
+      
+      
+          \B
+          非单词边界匹配
+      
+  
+
+
+?: ?= ?! ?<= ?>!
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          (?:pattern)
+          匹配 pattern 但不获取匹配结果
+      
+      
+          (?=pattern)
+          正向肯定预查
+      
+      
+          (?!pattern)
+          正向否定预查
+      
+      
+          (?<=pattern)
+          反向肯定预查
+      
+      
+          (?<!pattern)
+          反向否定预查
+      
+  
+
+
+其他
+
+
+  
+      
+          字符
+          描述
+      
+  
+  
+      
+          \d
+          匹配 pattern 但不获取匹配结果
+      
+      
+          \D
+          正向肯定预查
+      
+      
+          (?!pattern)
+          正向否定预查
+      
+      
+          (?<=pattern)
+          反向肯定预查
+      
+      
+          (?<!pattern)
+          反向否定预查
+      
+  
+
+运算符优先级
+相同优先级的从左到右进行运算，不同优先级的运算先高后低。下表从最高到最低说明了各种正则表达式运算符的优先级顺序："><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"📚 博客","item":"https://lesanouo.github.io/blog/posts/"},{"@type":"ListItem","position":2,"name":"正则表达式总结","item":"https://lesanouo.github.io/blog/posts/knowledge/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%80%BB%E7%BB%93/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"正则表达式总结","name":"正则表达式总结","description":"简介 使用正则表达式来处理搜索文本，能够提高灵活性。 通过使用正则表达式，可以做到：\n测试字符串内的模式，例如，可以匹配字符串是否满足电话号码或信用卡号码的模式，进行数据验证 替换文本，使用正则表达式来识别文档中的特定文本，完全删除该文本或用其他文本替换它 基于模式匹配从字符串中提取子字符串，可以查找文档内或输入域内特定的文本 基本语法 修饰符 修饰符 含义 描述 i ignore - 不区分大小写 将匹配设置为不区分大小写，搜索时不区分大小写:A和a没有区别 g global - 全局匹配 查找所有的匹配项 m multi line - 多行匹配 使边界字符 ^ 和 $ 匹配每一行的开头和结尾，记住是多行，而不是整个字符串的开头和结尾 s 特殊字符圆点 . 中包含换行符 \\n 默认情况下的圆点 . 是匹配除换行符 \\n 之外的任何字符，加上 s 修饰符之后, . 中包含换行符 \\n 元字符 普通字符 字符 描述 [ABC] 匹配 [\u0026hellip;] 中的所有字符 [^ABC] 匹配除了 [\u0026hellip;] 中字符的所有字符 [A-Z] [A-Z] 表示一个区间，匹配所有大写字母，[a-z] 表示所有小写字母 . 匹配除换行符（\\n、\\r）之外的任何单个字符，相等于 [^\\n\\r] [\\s\\S] 匹配所有。\\s 是匹配所有空白符，包括换行，\\S 非空白符，不包括换行 \\w 匹配字母、数字、下划线。等价于 [A-Za-z0-9_] \\W 匹配非字母、数字、下划线。等价于 \u0026lsquo;[^A-Za-z0-9_]\u0026rsquo; \\d 匹配一个数字字符。等价于 [0-9] \\D 匹配一个非数字字符。等价于 [^0-9] \\xn 匹配 n，其中 n 为十六进制转义值。十六进制转义值必须为确定的两个数字长。例如，\u0026rsquo;\\x41\u0026rsquo; 匹配 \u0026ldquo;A\u0026rdquo; \\num 匹配 num，其中 num 是一个正整数 非打印字符 字符 描述 \\cx 匹配由x指明的控制字符。例如， \\cM 匹配一个 Control-M 或回车符 \\f 匹配一个换页符 \\n 匹配一个换行符 \\r 匹配一个回车符 \\s 匹配任何空白字符，包括空格、制表符、换页符等等 \\S 匹配任何非空白字符 \\t 匹配一个制表符 \\v 匹配一个垂直制表符 特殊字符 字符 描述 $ 匹配输入字符串的结尾位置 () 标记一个子表达式的开始和结束位置。子表达式可以获取供以后使用 * 匹配前面的子表达式零次或多次 + 匹配前面的子表达式一次或多次 . 匹配除换行符 \\n 之外的任何单字符 [ 标记一个中括号表达式的开始 ? 匹配前面的子表达式零次或一次，或指明一个非贪婪限定符(尽可能少的匹配所搜索的字符串) \\ 将下一个字符标记为或特殊字符、或原义字符、或向后引用、或八进制转义符 ^ 匹配输入字符串的开始位置；不接受该方括号表达式中的字符集合 { 标记限定符表达式的开始 | 指明两项之间的一个选择 限定符 字符 描述 * 匹配前面的子表达式零次或多次 + 匹配前面的子表达式一次或多次 ? 匹配前面的子表达式零次或一次 {n} n 是一个非负整数。匹配确定的 n 次 {n,} n 是一个非负整数。至少匹配n 次 {n,m} m 和 n 均为非负整数，其中n \u0026lt;= m。最少匹配 n 次且最多匹配 m 次 定位符 字符 描述 ^ 匹配输入字符串开始的位置 $ 匹配输入字符串结尾的位置 \\b 匹配一个单词边界，即字与空格间的位置 \\B 非单词边界匹配 ?: ?= ?! ?\u0026lt;= ?\u0026gt;! 字符 描述 (?:pattern) 匹配 pattern 但不获取匹配结果 (?=pattern) 正向肯定预查 (?!pattern) 正向否定预查 (?\u0026lt;=pattern) 反向肯定预查 (?\u0026lt;!pattern) 反向否定预查 其他 字符 描述 \\d 匹配 pattern 但不获取匹配结果 \\D 正向肯定预查 (?!pattern) 正向否定预查 (?\u0026lt;=pattern) 反向肯定预查 (?\u0026lt;!pattern) 反向否定预查 运算符优先级 相同优先级的从左到右进行运算，不同优先级的运算先高后低。下表从最高到最低说明了各种正则表达式运算符的优先级顺序：\n","keywords":["正则表达式"],"articleBody":"简介 使用正则表达式来处理搜索文本，能够提高灵活性。 通过使用正则表达式，可以做到：\n测试字符串内的模式，例如，可以匹配字符串是否满足电话号码或信用卡号码的模式，进行数据验证 替换文本，使用正则表达式来识别文档中的特定文本，完全删除该文本或用其他文本替换它 基于模式匹配从字符串中提取子字符串，可以查找文档内或输入域内特定的文本 基本语法 修饰符 修饰符 含义 描述 i ignore - 不区分大小写 将匹配设置为不区分大小写，搜索时不区分大小写:A和a没有区别 g global - 全局匹配 查找所有的匹配项 m multi line - 多行匹配 使边界字符 ^ 和 $ 匹配每一行的开头和结尾，记住是多行，而不是整个字符串的开头和结尾 s 特殊字符圆点 . 中包含换行符 \\n 默认情况下的圆点 . 是匹配除换行符 \\n 之外的任何字符，加上 s 修饰符之后, . 中包含换行符 \\n 元字符 普通字符 字符 描述 [ABC] 匹配 […] 中的所有字符 [^ABC] 匹配除了 […] 中字符的所有字符 [A-Z] [A-Z] 表示一个区间，匹配所有大写字母，[a-z] 表示所有小写字母 . 匹配除换行符（\\n、\\r）之外的任何单个字符，相等于 [^\\n\\r] [\\s\\S] 匹配所有。\\s 是匹配所有空白符，包括换行，\\S 非空白符，不包括换行 \\w 匹配字母、数字、下划线。等价于 [A-Za-z0-9_] \\W 匹配非字母、数字、下划线。等价于 ‘[^A-Za-z0-9_]’ \\d 匹配一个数字字符。等价于 [0-9] \\D 匹配一个非数字字符。等价于 [^0-9] \\xn 匹配 n，其中 n 为十六进制转义值。十六进制转义值必须为确定的两个数字长。例如，’\\x41’ 匹配 “A” \\num 匹配 num，其中 num 是一个正整数 非打印字符 字符 描述 \\cx 匹配由x指明的控制字符。例如， \\cM 匹配一个 Control-M 或回车符 \\f 匹配一个换页符 \\n 匹配一个换行符 \\r 匹配一个回车符 \\s 匹配任何空白字符，包括空格、制表符、换页符等等 \\S 匹配任何非空白字符 \\t 匹配一个制表符 \\v 匹配一个垂直制表符 特殊字符 字符 描述 $ 匹配输入字符串的结尾位置 () 标记一个子表达式的开始和结束位置。子表达式可以获取供以后使用 * 匹配前面的子表达式零次或多次 + 匹配前面的子表达式一次或多次 . 匹配除换行符 \\n 之外的任何单字符 [ 标记一个中括号表达式的开始 ? 匹配前面的子表达式零次或一次，或指明一个非贪婪限定符(尽可能少的匹配所搜索的字符串) \\ 将下一个字符标记为或特殊字符、或原义字符、或向后引用、或八进制转义符 ^ 匹配输入字符串的开始位置；不接受该方括号表达式中的字符集合 { 标记限定符表达式的开始 | 指明两项之间的一个选择 限定符 字符 描述 * 匹配前面的子表达式零次或多次 + 匹配前面的子表达式一次或多次 ? 匹配前面的子表达式零次或一次 {n} n 是一个非负整数。匹配确定的 n 次 {n,} n 是一个非负整数。至少匹配n 次 {n,m} m 和 n 均为非负整数，其中n \u003c= m。最少匹配 n 次且最多匹配 m 次 定位符 字符 描述 ^ 匹配输入字符串开始的位置 $ 匹配输入字符串结尾的位置 \\b 匹配一个单词边界，即字与空格间的位置 \\B 非单词边界匹配 ?: ?= ?! ?\u003c= ?\u003e! 字符 描述 (?:pattern) 匹配 pattern 但不获取匹配结果 (?=pattern) 正向肯定预查 (?!pattern) 正向否定预查 (?\u003c=pattern) 反向肯定预查 (?\u003c!pattern) 反向否定预查 其他 字符 描述 \\d 匹配 pattern 但不获取匹配结果 \\D 正向肯定预查 (?!pattern) 正向否定预查 (?\u003c=pattern) 反向肯定预查 (?\u003c!pattern) 反向否定预查 运算符优先级 相同优先级的从左到右进行运算，不同优先级的运算先高后低。下表从最高到最低说明了各种正则表达式运算符的优先级顺序：\n运算符 描述 \\ 转义符 (), (?: ), (?=), [] 圆括号和方括号 *, +, ?, {n}, {n,}, {n,m} 限定符 ^, $, \\任何元字符、任何字符 定位点和序列 | 替换，“或\"操作 示例 通过 /\\b[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,6}\\b/g 匹配邮箱地址\n","wordCount":"1367","inLanguage":"zh-cn","datePublished":"2022-06-16T00:00:00Z","dateModified":"2022-06-16T00:00:00Z","author":{"@type":"Person","name":"Lesan"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://lesanouo.github.io/blog/posts/knowledge/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%80%BB%E7%BB%93/"},"publisher":{"@type":"Organization","name":"Lesan's Blog","logo":{"@type":"ImageObject","url":"https://lesanouo.github.io/blog/favicon.ico"}}}</script></head><body class=dark id=top><script>localStorage.getItem("pref-theme")==="light"&&document.body.classList.remove("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://lesanouo.github.io/blog/ accesskey=h title="Lesan's Blog (Alt + H)">Lesan's Blog</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://lesanouo.github.io/blog/archives title="📚 归档"><span>📚 归档</span></a></li><li><a href=https://lesanouo.github.io/blog/categories/ title="🗃️ 分类"><span>🗃️ 分类</span></a></li><li><a href=https://lesanouo.github.io/blog/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://lesanouo.github.io/blog/search/ title="🔎 搜索"><span>🔎 搜索</span></a></li><li><a href=https://lesanouo.github.io/blog/about/ title="👨‍💻 关于我"><span>👨‍💻 关于我</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://lesanouo.github.io/blog/>Home</a>&nbsp;»&nbsp;<a href=https://lesanouo.github.io/blog/posts/>📚 博客</a></div><h1 class="post-title entry-hint-parent">正则表达式总结</h1><div class=post-meta><span title='2022-06-16 00:00:00 +0000 UTC'>2022-06-16</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Lesan</div></header><div class=toc><details><summary accesskey=c title="(Alt + C)"><span class=details>Table of Contents</span></summary><div class=inner><ul><li><a href=#%e7%ae%80%e4%bb%8b aria-label=简介>简介</a></li><li><a href=#%e5%9f%ba%e6%9c%ac%e8%af%ad%e6%b3%95 aria-label=基本语法>基本语法</a><ul><li><a href=#%e4%bf%ae%e9%a5%b0%e7%ac%a6 aria-label=修饰符>修饰符</a></li><li><a href=#%e5%85%83%e5%ad%97%e7%ac%a6 aria-label=元字符>元字符</a></li><li><a href=#%e8%bf%90%e7%ae%97%e7%ac%a6%e4%bc%98%e5%85%88%e7%ba%a7 aria-label=运算符优先级>运算符优先级</a></li></ul></li><li><a href=#%e7%a4%ba%e4%be%8b aria-label=示例>示例</a></li></ul></div></details></div><div class=post-content><h2 id=简介>简介<a hidden class=anchor aria-hidden=true href=#简介>#</a></h2><p>使用正则表达式来处理搜索文本，能够提高灵活性。
+通过使用正则表达式，可以做到：</p><ul><li>测试字符串内的模式，例如，可以匹配字符串是否满足电话号码或信用卡号码的模式，进行数据验证</li><li>替换文本，使用正则表达式来识别文档中的特定文本，完全删除该文本或用其他文本替换它</li><li>基于模式匹配从字符串中提取子字符串，可以查找文档内或输入域内特定的文本</li></ul><h2 id=基本语法>基本语法<a hidden class=anchor aria-hidden=true href=#基本语法>#</a></h2><h3 id=修饰符>修饰符<a hidden class=anchor aria-hidden=true href=#修饰符>#</a></h3><table><thead><tr><th style=text-align:center>修饰符</th><th style=text-align:center>含义</th><th style=text-align:left>描述</th></tr></thead><tbody><tr><td style=text-align:center>i</td><td style=text-align:center>ignore - 不区分大小写</td><td style=text-align:left>将匹配设置为不区分大小写，搜索时不区分大小写:A和a没有区别</td></tr><tr><td style=text-align:center>g</td><td style=text-align:center>global - 全局匹配</td><td style=text-align:left>查找所有的匹配项</td></tr><tr><td style=text-align:center>m</td><td style=text-align:center>multi line - 多行匹配</td><td style=text-align:left>使边界字符 ^ 和 $ 匹配每一行的开头和结尾，记住是多行，而不是整个字符串的开头和结尾</td></tr><tr><td style=text-align:center>s</td><td style=text-align:center>特殊字符圆点 . 中包含换行符 \n</td><td style=text-align:left>默认情况下的圆点 . 是匹配除换行符 \n 之外的任何字符，加上 s 修饰符之后, . 中包含换行符 \n</td></tr></tbody></table><h3 id=元字符>元字符<a hidden class=anchor aria-hidden=true href=#元字符>#</a></h3><ol><li>普通字符</li></ol><table><thead><tr><th style=text-align:center>字符</th><th style=text-align:left>描述</th></tr></thead><tbody><tr><td style=text-align:center>[ABC]</td><td style=text-align:left>匹配 [&mldr;] 中的所有字符</td></tr><tr><td style=text-align:center>[^ABC]</td><td style=text-align:left>匹配除了 [&mldr;] 中字符的所有字符</td></tr><tr><td style=text-align:center>[A-Z]</td><td style=text-align:left>[A-Z] 表示一个区间，匹配所有大写字母，[a-z] 表示所有小写字母</td></tr><tr><td style=text-align:center>.</td><td style=text-align:left>匹配除换行符（\n、\r）之外的任何单个字符，相等于 [^\n\r]</td></tr><tr><td style=text-align:center>[\s\S]</td><td style=text-align:left>匹配所有。\s 是匹配所有空白符，包括换行，\S 非空白符，不包括换行</td></tr><tr><td style=text-align:center>\w</td><td style=text-align:left>匹配字母、数字、下划线。等价于 [A-Za-z0-9_]</td></tr><tr><td style=text-align:center>\W</td><td style=text-align:left>匹配非字母、数字、下划线。等价于 &lsquo;[^A-Za-z0-9_]&rsquo;</td></tr><tr><td style=text-align:center>\d</td><td style=text-align:left>匹配一个数字字符。等价于 [0-9]</td></tr><tr><td style=text-align:center>\D</td><td style=text-align:left>匹配一个非数字字符。等价于 [^0-9]</td></tr><tr><td style=text-align:center>\xn</td><td style=text-align:left>匹配 n，其中 n 为十六进制转义值。十六进制转义值必须为确定的两个数字长。例如，&rsquo;\x41&rsquo; 匹配 &ldquo;A&rdquo;</td></tr><tr><td style=text-align:center>\num</td><td style=text-align:left>匹配 num，其中 num 是一个正整数</td></tr></tbody></table><ol><li>非打印字符</li></ol><table><thead><tr><th style=text-align:center>字符</th><th style=text-align:left>描述</th></tr></thead><tbody><tr><td style=text-align:center>\cx</td><td style=text-align:left>匹配由x指明的控制字符。例如， \cM 匹配一个 Control-M 或回车符</td></tr><tr><td style=text-align:center>\f</td><td style=text-align:left>匹配一个换页符</td></tr><tr><td style=text-align:center>\n</td><td style=text-align:left>匹配一个换行符</td></tr><tr><td style=text-align:center>\r</td><td style=text-align:left>匹配一个回车符</td></tr><tr><td style=text-align:center>\s</td><td style=text-align:left>匹配任何空白字符，包括空格、制表符、换页符等等</td></tr><tr><td style=text-align:center>\S</td><td style=text-align:left>匹配任何非空白字符</td></tr><tr><td style=text-align:center>\t</td><td style=text-align:left>匹配一个制表符</td></tr><tr><td style=text-align:center>\v</td><td style=text-align:left>匹配一个垂直制表符</td></tr></tbody></table><ol start=3><li>特殊字符</li></ol><table><thead><tr><th style=text-align:center>字符</th><th style=text-align:left>描述</th></tr></thead><tbody><tr><td style=text-align:center>$</td><td style=text-align:left>匹配输入字符串的结尾位置</td></tr><tr><td style=text-align:center>()</td><td style=text-align:left>标记一个子表达式的开始和结束位置。子表达式可以获取供以后使用</td></tr><tr><td style=text-align:center>*</td><td style=text-align:left>匹配前面的子表达式零次或多次</td></tr><tr><td style=text-align:center>+</td><td style=text-align:left>匹配前面的子表达式一次或多次</td></tr><tr><td style=text-align:center>.</td><td style=text-align:left>匹配除换行符 \n 之外的任何单字符</td></tr><tr><td style=text-align:center>[</td><td style=text-align:left>标记一个中括号表达式的开始</td></tr><tr><td style=text-align:center>?</td><td style=text-align:left>匹配前面的子表达式零次或一次，或指明一个非贪婪限定符(尽可能少的匹配所搜索的字符串)</td></tr><tr><td style=text-align:center>\</td><td style=text-align:left>将下一个字符标记为或特殊字符、或原义字符、或向后引用、或八进制转义符</td></tr><tr><td style=text-align:center>^</td><td style=text-align:left>匹配输入字符串的开始位置；不接受该方括号表达式中的字符集合</td></tr><tr><td style=text-align:center>{</td><td style=text-align:left>标记限定符表达式的开始</td></tr><tr><td style=text-align:center>|</td><td style=text-align:left>指明两项之间的一个选择</td></tr></tbody></table><ol start=4><li>限定符</li></ol><table><thead><tr><th style=text-align:center>字符</th><th style=text-align:left>描述</th></tr></thead><tbody><tr><td style=text-align:center>*</td><td style=text-align:left>匹配前面的子表达式零次或多次</td></tr><tr><td style=text-align:center>+</td><td style=text-align:left>匹配前面的子表达式一次或多次</td></tr><tr><td style=text-align:center>?</td><td style=text-align:left>匹配前面的子表达式零次或一次</td></tr><tr><td style=text-align:center>{n}</td><td style=text-align:left>n 是一个非负整数。匹配确定的 n 次</td></tr><tr><td style=text-align:center>{n,}</td><td style=text-align:left>n 是一个非负整数。至少匹配n 次</td></tr><tr><td style=text-align:center>{n,m}</td><td style=text-align:left>m 和 n 均为非负整数，其中n &lt;= m。最少匹配 n 次且最多匹配 m 次</td></tr></tbody></table><ol start=5><li>定位符</li></ol><table><thead><tr><th style=text-align:center>字符</th><th style=text-align:left>描述</th></tr></thead><tbody><tr><td style=text-align:center>^</td><td style=text-align:left>匹配输入字符串开始的位置</td></tr><tr><td style=text-align:center>$</td><td style=text-align:left>匹配输入字符串结尾的位置</td></tr><tr><td style=text-align:center>\b</td><td style=text-align:left>匹配一个单词边界，即字与空格间的位置</td></tr><tr><td style=text-align:center>\B</td><td style=text-align:left>非单词边界匹配</td></tr></tbody></table><ol start=6><li>?: ?= ?! ?&lt;= ?>!</li></ol><table><thead><tr><th style=text-align:center>字符</th><th style=text-align:left>描述</th></tr></thead><tbody><tr><td style=text-align:center>(?:pattern)</td><td style=text-align:left>匹配 pattern 但不获取匹配结果</td></tr><tr><td style=text-align:center>(?=pattern)</td><td style=text-align:left>正向肯定预查</td></tr><tr><td style=text-align:center>(?!pattern)</td><td style=text-align:left>正向否定预查</td></tr><tr><td style=text-align:center>(?&lt;=pattern)</td><td style=text-align:left>反向肯定预查</td></tr><tr><td style=text-align:center>(?&lt;!pattern)</td><td style=text-align:left>反向否定预查</td></tr></tbody></table><ol start=7><li>其他</li></ol><table><thead><tr><th style=text-align:center>字符</th><th style=text-align:left>描述</th></tr></thead><tbody><tr><td style=text-align:center>\d</td><td style=text-align:left>匹配 pattern 但不获取匹配结果</td></tr><tr><td style=text-align:center>\D</td><td style=text-align:left>正向肯定预查</td></tr><tr><td style=text-align:center>(?!pattern)</td><td style=text-align:left>正向否定预查</td></tr><tr><td style=text-align:center>(?&lt;=pattern)</td><td style=text-align:left>反向肯定预查</td></tr><tr><td style=text-align:center>(?&lt;!pattern)</td><td style=text-align:left>反向否定预查</td></tr></tbody></table><h3 id=运算符优先级>运算符优先级<a hidden class=anchor aria-hidden=true href=#运算符优先级>#</a></h3><p>相同优先级的从左到右进行运算，不同优先级的运算先高后低。下表从最高到最低说明了各种正则表达式运算符的优先级顺序：</p><table><thead><tr><th style=text-align:center>运算符</th><th style=text-align:left>描述</th></tr></thead><tbody><tr><td style=text-align:center>\</td><td style=text-align:left>转义符</td></tr><tr><td style=text-align:center>(), (?: ), (?=), []</td><td style=text-align:left>圆括号和方括号</td></tr><tr><td style=text-align:center>*, +, ?, {n}, {n,}, {n,m}</td><td style=text-align:left>限定符</td></tr><tr><td style=text-align:center>^, $, \任何元字符、任何字符</td><td style=text-align:left>定位点和序列</td></tr><tr><td style=text-align:center>|</td><td style=text-align:left>替换，&ldquo;或"操作</td></tr></tbody></table><h2 id=示例>示例<a hidden class=anchor aria-hidden=true href=#示例>#</a></h2><p>通过 <code>/\b[\w.%+-]+@[\w.-]+\.[a-zA-Z]{2,6}\b/g</code> 匹配邮箱地址</p></div><footer class=post-footer><ul class=post-tags><li><a href=https://lesanouo.github.io/blog/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/>正则表达式</a></li></ul><nav class=paginav><a class=prev href=https://lesanouo.github.io/blog/posts/snippet/sql/><span class=title>«</span><br><span>SQL 代码片段</span>
+</a><a class=next href=https://lesanouo.github.io/blog/posts/operation/docker%E4%B8%BA%E5%B7%B2%E5%90%AF%E5%8A%A8%E5%AE%B9%E5%99%A8%E6%B7%BB%E5%8A%A0%E6%8C%82%E8%BD%BD%E7%9B%AE%E5%BD%95%E6%88%96%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/><span class=title>»</span><br><span>Docker为已启动容器添加挂载目录或端口映射</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2025 <a href=https://lesanouo.github.io/blog/>Lesan's Blog</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

@@ -10,16 +10,16 @@
     <atom:link href="https://lesanouo.github.io/blog/categories/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>华为机试题：报数游戏</title>
-      <link>https://lesanouo.github.io/blog/posts/algorithm/huawei-counting-game/</link>
+      <link>https://lesanouo.github.io/blog/posts/algorithm/%E5%8D%8E%E4%B8%BA%E6%9C%BA%E8%AF%95%E9%A2%98%E6%8A%A5%E6%95%B0%E6%B8%B8%E6%88%8F/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/algorithm/huawei-counting-game/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/algorithm/%E5%8D%8E%E4%B8%BA%E6%9C%BA%E8%AF%95%E9%A2%98%E6%8A%A5%E6%95%B0%E6%B8%B8%E6%88%8F/</guid>
       <description>&lt;p&gt;在进行华为机试时遇到了报数游戏的编程题（约瑟夫环），但是看了很多网上的解题都非常长，于是经过不断的学习参考，有了下面这个解题方法，也不知道是不是最好的😭&lt;/p&gt;</description>
     </item>
     <item>
       <title>算法学习-链表</title>
-      <link>https://lesanouo.github.io/blog/posts/algorithm/link-list/</link>
+      <link>https://lesanouo.github.io/blog/posts/algorithm/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0-%E9%93%BE%E8%A1%A8/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/algorithm/link-list/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/algorithm/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0-%E9%93%BE%E8%A1%A8/</guid>
       <description>&lt;p&gt;本篇文章是学习leetcode中链表相关算法总结的链表技巧。&lt;/p&gt;
 &lt;h2 id=&#34;虚拟头节点&#34;&gt;虚拟头节点&lt;/h2&gt;
 &lt;h3 id=&#34;力扣第-21-题合并两个有序链表&#34;&gt;力扣第 21 题「合并两个有序链表」&lt;/h3&gt;

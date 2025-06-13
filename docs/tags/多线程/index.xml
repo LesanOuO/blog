@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>多线程下的琐事</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/multi-thread/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E7%90%90%E4%BA%8B/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/multi-thread/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E7%90%90%E4%BA%8B/</guid>
       <description>&lt;p&gt;单线程与多线程可以看作是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;单线程为在一个单向行驶的道路上，每辆汽车都遵守交通规则&lt;/li&gt;
@@ -22,9 +22,9 @@
     </item>
     <item>
       <title>生产者与消费者问题</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/producer-consumer-problem/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98/</link>
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/producer-consumer-problem/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;p&gt;生产者消费者问题（Producer-consumer problem），也称有限缓冲问题（Bounded-buffer problem），是一个多线程同步问题的经典案例。生产者生成一定量的数据放到缓冲区中，然后重复此过程；与此同时，消费者也在缓冲区消耗这些数据。生产者和消费者之间必须保持同步，要保证生产者不会在缓冲区满时放入数据，消费者也不会在缓冲区空时消耗数据。不够完善的解决方法容易出现死锁的情况，此时进程都在等待唤醒。&lt;/p&gt;</description>
     </item>
   </channel>

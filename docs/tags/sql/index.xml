@@ -6,13 +6,30 @@
     <description>Recent content in SQL on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>通过SQL导出数据库表结构</title>
-      <link>https://lesanouo.github.io/blog/posts/share/sql-export-excel/</link>
+      <title>一些简单好用的SQL语法</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E5%A5%BD%E7%94%A8%E7%9A%84sql%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E5%A5%BD%E7%94%A8%E7%9A%84sql%E8%AF%AD%E6%B3%95/</guid>
+      <description>&lt;p&gt;本篇文章分享网上看到的一些非常有用的 SQL 语句，并不复杂，希望大家要用到的时候能想起来有这么一些东西。&lt;/p&gt;
+&lt;p&gt;下面以最经典的数据库之一 MySQL 的语法为例，其实很多语法和函数其他的数据库也是支持的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SQL优化小技巧</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/sql%E4%BC%98%E5%8C%96%E5%B0%8F%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/share/sql-export-excel/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/sql%E4%BC%98%E5%8C%96%E5%B0%8F%E6%8A%80%E5%B7%A7/</guid>
+      <description>&lt;p&gt;本篇文章主要是一些SQL优化的小技巧，为了提升SQL编写规范及性能&lt;/p&gt;
+&lt;h2 id=&#34;避免使用select-&#34;&gt;避免使用select *&lt;/h2&gt;
+&lt;p&gt;在实际业务场景中，我们不一定需要查出整张表中的所有数据。如果查出了许多不必要的数据，这样会白白浪费了数据库的资源，如：内存或CPU。此外，多查出来的数据，通过网络IO传输的过程中，也会增加数据传输的时间。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>通过SQL导出数据库表结构</title>
+      <link>https://lesanouo.github.io/blog/posts/share/%E9%80%9A%E8%BF%87sql%E5%AF%BC%E5%87%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/share/%E9%80%9A%E8%BF%87sql%E5%AF%BC%E5%87%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%BB%93%E6%9E%84/</guid>
       <description>&lt;p&gt;在编写数据库文档时，我们常常需要写表结构文档，这时候就需要一些方法来节约我们写文档的时间。&lt;/p&gt;
 &lt;p&gt;我通过网络上的资料，总结了 &lt;code&gt;MySQL&lt;/code&gt; 及 &lt;code&gt;SQL Server&lt;/code&gt; 的通过SQL语句导出数据库表结构的方法。&lt;/p&gt;</description>
     </item>
@@ -37,9 +54,9 @@
     </item>
     <item>
       <title>数据库优化</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/database/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/database/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
 &lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
 &lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;

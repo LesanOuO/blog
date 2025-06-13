@@ -6,8 +6,16 @@
     <description>Recent content in Git on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git中提高效率的5条命令</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/git%E4%B8%AD%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%845%E6%9D%A1%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/git%E4%B8%AD%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%845%E6%9D%A1%E5%91%BD%E4%BB%A4/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;使用 Git 作为代码版本管理，早已是现在开发工程师必备的技能。可大多数工程师还是只会最基本的保存、拉取、推送，遇到一些commit管理的问题就束手无策，或者用一些不优雅的方式解决。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Git 代码片段</title>
       <link>https://lesanouo.github.io/blog/posts/snippet/git/</link>

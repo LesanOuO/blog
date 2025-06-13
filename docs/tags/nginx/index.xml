@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on Lesan&#39;s Blog</title>
+    <link>https://lesanouo.github.io/blog/tags/nginx/</link>
+    <description>Recent content in Nginx on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesanouo.github.io/blog/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx配置Http和Https正向代理</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/nginx%E9%85%8D%E7%BD%AEhttp%E5%92%8Chttps%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/nginx%E9%85%8D%E7%BD%AEhttp%E5%92%8Chttps%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Nginx&lt;/code&gt;配置&lt;code&gt;http&lt;/code&gt;代理非常简单，网上教程也很多，但是无法很方便的配置&lt;code&gt;https&lt;/code&gt;代理，本片文章将记录搭建可以同时代理&lt;code&gt;http&lt;/code&gt;和&lt;code&gt;https&lt;/code&gt;的服务器。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx笔记</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/nginx%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/nginx%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;本文为个人学习和实践 Nginx 的笔记&lt;/p&gt;
+&lt;h2 id=&#34;nginx-常用功能&#34;&gt;Nginx 常用功能&lt;/h2&gt;
+&lt;p&gt;Nginx 有以下几个常用功能&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;反向代理&lt;/p&gt;
+&lt;p&gt;这是它的主要功能之一，客户端向服务器发送请求时，会先通过 Nginx 服务器，由服务器将请求分发到相应的Web服务器。正向代理是代理客户端，而反向代理则是代理服务器，Nginx 在提供反向代理服务方面，通过使用正则表达式进行相关配置，采取不同的转发策略，配置相当灵活，而且在配置后端转发请求时，完全不用关心网络环境如何，可以指定任意的IP地址和端口号，或其他类型的连接、请求等。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

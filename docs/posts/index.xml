@@ -28,6 +28,49 @@
 &lt;p&gt;Class绑定：&lt;code&gt;&amp;lt;MyComponent :class=&amp;quot;{ active: isActive }&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Linux系统使用systemd配置.NET项目开机自启动</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8systemd%E9%85%8D%E7%BD%AE.net%E9%A1%B9%E7%9B%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8systemd%E9%85%8D%E7%BD%AE.net%E9%A1%B9%E7%9B%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</guid>
+      <description>&lt;p&gt;本片文章记录在Linux（CentOS7）中如何使用&lt;code&gt;systemctl&lt;/code&gt;命令进行系统和服务管理&lt;/p&gt;
+&lt;h2 id=&#34;systemctl命令&#34;&gt;&lt;code&gt;systemctl&lt;/code&gt;命令&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 设置开机自启动，可在任意目录下执行&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt; xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 启动nginx服务&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl start xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 停止开机自启动&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl disable xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 查看服务当前状态&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl status xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 重新启动服务&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl restart xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 查看所有已启动的服务&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl list-units --type&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;创建xxxservice&#34;&gt;创建xxx.service&lt;/h2&gt;
+&lt;p&gt;在&lt;code&gt;/etc/systemd/system/&lt;/code&gt;路径下，新增一个&lt;code&gt;myTest.service&lt;/code&gt;文件，文件内容如下&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git中提高效率的5条命令</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/git%E4%B8%AD%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%845%E6%9D%A1%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/git%E4%B8%AD%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%845%E6%9D%A1%E5%91%BD%E4%BB%A4/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;使用 Git 作为代码版本管理，早已是现在开发工程师必备的技能。可大多数工程师还是只会最基本的保存、拉取、推送，遇到一些commit管理的问题就束手无策，或者用一些不优雅的方式解决。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何更优雅地实现策略模式</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E5%A6%82%E4%BD%95%E6%9B%B4%E4%BC%98%E9%9B%85%E5%9C%B0%E5%AE%9E%E7%8E%B0%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E5%A6%82%E4%BD%95%E6%9B%B4%E4%BC%98%E9%9B%85%E5%9C%B0%E5%AE%9E%E7%8E%B0%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/</guid>
+      <description>&lt;h2 id=&#34;什么是策略模式&#34;&gt;什么是策略模式&lt;/h2&gt;
+&lt;p&gt;策略模式，应该是工作中比较常用的设计模式，调用方自己选择用哪一种策略完成对数据的操作，也就是“一个类的行为或其算法可以在运行时更改”，将一些除了过程不同其他都一样的函数封装成策略，然后调用方自己去选择想让数据执行什么过程策略。常见的例子为根据用户分类推荐不同的排行榜（用户关注点不一样，推荐榜单就不一样）&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Git 代码片段</title>
       <link>https://lesanouo.github.io/blog/posts/snippet/git/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
@@ -39,6 +82,22 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
+      <title>MAVEN私有仓库搭建与配置</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/maven%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E6%90%AD%E5%BB%BA%E4%B8%8E%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/maven%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E6%90%AD%E5%BB%BA%E4%B8%8E%E9%85%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;在工作中，公司内部往往需要一个私有的MAVEN仓库进行统一管理，本篇文章就带大家如何通过nexus搭建一个自己的MAVEN私有仓库&lt;/p&gt;
+&lt;h2 id=&#34;下载-nexus-安装包&#34;&gt;下载 nexus 安装包&lt;/h2&gt;
+&lt;p&gt;nexus官网地址：https://www.sonatype.com/products/sonatype-nexus-oss-download&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>go程序注册为windows服务</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/go%E7%A8%8B%E5%BA%8F%E6%B3%A8%E5%86%8C%E4%B8%BAwindows%E6%9C%8D%E5%8A%A1/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/go%E7%A8%8B%E5%BA%8F%E6%B3%A8%E5%86%8C%E4%B8%BAwindows%E6%9C%8D%E5%8A%A1/</guid>
+      <description>&lt;p&gt;编写完go程序后编译成exe后，双击可正常执行，但是通过&lt;code&gt;sc&lt;/code&gt;注册为服务后启动报错&lt;code&gt;错误1053：服务没有及时响应启动或控制请求&lt;/code&gt;，百思不得其解，只能看看能不能有别的方式注册成服务。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>NPM 代码片段</title>
       <link>https://lesanouo.github.io/blog/posts/snippet/npm/</link>
       <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
@@ -48,6 +107,64 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;单次-npm-使用代理和镜像&#34;&gt;单次 npm 使用代理和镜像&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm --registry https://registry.npmmirror.com --proxy http://xxx:9999 i
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>SpringBoot实现大文件上传</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/springboot%E5%AE%9E%E7%8E%B0%E5%A4%A7%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/springboot%E5%AE%9E%E7%8E%B0%E5%A4%A7%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/</guid>
+      <description>&lt;p&gt;大文件上传是提高用户体验感的重要功能，像百度网盘、阿里网盘等等都支持断点续传和文件秒传功能，减少了网络波动和网络带宽对文件的限制。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「文件分块」：将大文件拆分成小文件，将小文件上传\下载，最后再将小文件组装成大文件；&lt;/li&gt;
+&lt;li&gt;「断点续传」：在文件分块的基础上，将每个小文件采用单独的线程进行上传\下载，如果碰到网络故障，可以从已经上传\下载的部分开始继续上传\下载未完成的部分，而没有必要从头开始上传\下载；&lt;/li&gt;
+&lt;li&gt;「文件秒传」：资源服务器中已经存在该文件，其他人上传时直接返回该文件的URI。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本文将介绍SpringBoot中实现大文件上传的主要代码：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SpringBoot&#43;Redisson实现延迟队列</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/springboot&#43;redisson%E5%AE%9E%E7%8E%B0%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/springboot&#43;redisson%E5%AE%9E%E7%8E%B0%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97/</guid>
+      <description>&lt;p&gt;在电商、支付等系统中，一般都是先创建订单（支付单），再给用户一定的时间进行支付，如果没有按时支付的话，就需要把之前的订单（支付单）取消掉。&lt;/p&gt;
+&lt;p&gt;这种类似的场景有很多，还有比如到期自动收货、超时自动退款、下单后自动发送短信等等都是类似的业务问题。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CSS实现防止按钮重复点击</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/css%E5%AE%9E%E7%8E%B0%E9%98%B2%E6%AD%A2%E6%8C%89%E9%92%AE%E9%87%8D%E5%A4%8D%E7%82%B9%E5%87%BB/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/css%E5%AE%9E%E7%8E%B0%E9%98%B2%E6%AD%A2%E6%8C%89%E9%92%AE%E9%87%8D%E5%A4%8D%E7%82%B9%E5%87%BB/</guid>
+      <description>&lt;p&gt;函数节流（throttle）是 JS 中一个非常常见的优化手段，可以有效的避免函数过于频繁的执行。&lt;/p&gt;
+&lt;p&gt;举个例子：一个保存按钮，为了避免重复提交或者服务器考虑，往往需要对点击行为做一定的限制，比如只允许每300ms提交一次，这时候我想大部分同学都会到网上直接拷贝一段throttle函数，或者直接引用lodash工具库&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Redis常见用途</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/redis%E5%B8%B8%E8%A7%81%E7%94%A8%E9%80%94/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/redis%E5%B8%B8%E8%A7%81%E7%94%A8%E9%80%94/</guid>
+      <description>&lt;p&gt;本篇文章主要简要总结Redis的常见用途&lt;/p&gt;
+&lt;h2 id=&#34;1缓存&#34;&gt;1、缓存&lt;/h2&gt;
+&lt;p&gt;String类型&lt;/p&gt;
+&lt;p&gt;例如：热点数据缓存（例如报表、明星出轨），对象缓存、全页缓存、可以提升热点数据的访问数据。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SpringBoot自建starter库</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/springboot%E8%87%AA%E5%BB%BAstarter%E5%BA%93/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/springboot%E8%87%AA%E5%BB%BAstarter%E5%BA%93/</guid>
+      <description>&lt;p&gt;本文用最短的时间给大家分享手写 starter 的完整流程。&lt;/p&gt;
+&lt;h2 id=&#34;创建项目&#34;&gt;创建项目&lt;/h2&gt;
+&lt;p&gt;首先我们用 IDEA 开发工具来初始化一个 Spring Boot 项目，注意 Java 版本不要选太高、Spring Boot 版本不要选 3.x&lt;/p&gt;
+&lt;h2 id=&#34;引入依赖&#34;&gt;引入依赖&lt;/h2&gt;
+&lt;p&gt;初始化项目后，我们要在项目依赖文件 pom.xml 中引入几个核心依赖：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一些简单好用的SQL语法</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E5%A5%BD%E7%94%A8%E7%9A%84sql%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E5%A5%BD%E7%94%A8%E7%9A%84sql%E8%AF%AD%E6%B3%95/</guid>
+      <description>&lt;p&gt;本篇文章分享网上看到的一些非常有用的 SQL 语句，并不复杂，希望大家要用到的时候能想起来有这么一些东西。&lt;/p&gt;
+&lt;p&gt;下面以最经典的数据库之一 MySQL 的语法为例，其实很多语法和函数其他的数据库也是支持的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript 代码片段</title>
@@ -134,10 +251,180 @@
 &lt;p&gt;分别创建 &lt;code&gt;application.yml&lt;/code&gt; 、 &lt;code&gt;application-dev.yml&lt;/code&gt; 、 &lt;code&gt;application-prod.yml&lt;/code&gt; 文件，dev、prod中写入需要需要区分环境的配置&lt;/p&gt;</description>
     </item>
     <item>
-      <title>多线程下的琐事</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/multi-thread/</link>
+      <title>Java中Lambda表达式学习</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADlambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADlambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%A6%E4%B9%A0/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;在日常开发中，经常需要用到 &lt;code&gt;Java 8&lt;/code&gt; 的&lt;code&gt;Lambda&lt;/code&gt;表达式，它允许把函数作为一个方法的参数，让我们的代码更优雅、更简洁。本文主要总结收集一些常用的&lt;code&gt;Lambda&lt;/code&gt;表达式的使用。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java中Function接口学习</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADfunction%E6%8E%A5%E5%8F%A3%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADfunction%E6%8E%A5%E5%8F%A3%E5%AD%A6%E4%B9%A0/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Function&lt;/code&gt; 函数式接口&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Supplier&lt;/code&gt;供给型函数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Consumer&lt;/code&gt;消费型函数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Runnable&lt;/code&gt;无参无返回型函数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Function&lt;/code&gt;函数的表现形式为接收一个参数，并返回一个值。&lt;code&gt;Supplier&lt;/code&gt;、&lt;code&gt;Consumer&lt;/code&gt;和&lt;code&gt;Runnable&lt;/code&gt;可以看作&lt;code&gt;Function&lt;/code&gt;的一种特殊表现形式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;优化代码&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CentOS7系统安装</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/centos7%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/centos7%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</guid>
+      <description>&lt;p&gt;本片文章记录个人安装CentOS7在台式主机上作为小型服务器&lt;/p&gt;
+&lt;h2 id=&#34;制作u盘启动盘&#34;&gt;制作U盘启动盘&lt;/h2&gt;
+&lt;h3 id=&#34;1-iso镜像下载&#34;&gt;1. iso镜像下载&lt;/h3&gt;
+&lt;p&gt;可以通过&lt;a href=&#34;https://mirrors.aliyun.com/centos/7/isos/x86_64/&#34;&gt;阿里云镜像站&lt;/a&gt;下载iso文件，本人下载的是&lt;code&gt;CentOS-7-x86_64-DVD-2009.iso&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-下载启动盘制作软件&#34;&gt;2. 下载启动盘制作软件&lt;/h3&gt;
+&lt;p&gt;可以通过软件&lt;a href=&#34;https://cn.ultraiso.net/xiazai.html&#34;&gt;UltraISO&lt;/a&gt;进行启动盘制作&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打开软件 -&amp;gt; 点击左上角&lt;code&gt;文件&lt;/code&gt; -&amp;gt; 选择&lt;code&gt;打开&lt;/code&gt; -&amp;gt; 打开对应iso&lt;/li&gt;
+&lt;li&gt;点击菜单栏&lt;code&gt;启动&lt;/code&gt; -&amp;gt; 选择&lt;code&gt;写入硬盘镜像&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;选择对应U盘 -&amp;gt; 其余参数可默认&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装centos7&#34;&gt;安装CentOS7&lt;/h2&gt;
+&lt;h3 id=&#34;1-插入u盘到主机&#34;&gt;1. 插入U盘到主机&lt;/h3&gt;
+&lt;h3 id=&#34;2-配置-bios-制作u盘启动&#34;&gt;2. 配置 Bios 制作U盘启动&lt;/h3&gt;
+&lt;h3 id=&#34;3-选择对应u盘后即可开始安装&#34;&gt;3. 选择对应U盘后即可开始安装&lt;/h3&gt;
+&lt;h3 id=&#34;注意事项&#34;&gt;注意事项&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;通过UltraISO刻入后安装会报错，无法正常安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;选择&lt;code&gt;Install CentOS 7&lt;/code&gt;时按下TAB键，屏幕下方会出现一串文字
+&lt;code&gt;vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x86_64 rd.live.check quiet&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java中链式编程学习</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%AD%E9%93%BE%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%AD%E9%93%BE%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</guid>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;链式编程可以使得代码可读性高，链式编程的原理就是通过&lt;code&gt;return this&lt;/code&gt;返回一个this对象，就是返回本身，达到链式效果。&lt;/p&gt;
+&lt;h2 id=&#34;实现链式编程&#34;&gt;实现链式编程&lt;/h2&gt;
+&lt;h3 id=&#34;通过return-this&#34;&gt;通过&lt;code&gt;return this&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Book&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bookId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cover&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;getBookId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bookId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Book&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;setBookId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bookId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;bookId&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bookId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// 返回当前对象&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;getTitle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Book&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;setTitle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// 返回当前对象&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;getCover&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cover&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Book&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;setCover&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cover&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;cover&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cover&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// 返回当前对象&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;代码比较简单，就是一个图书的模型，将三个字段的Set方法都返回了对象本身。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx配置Http和Https正向代理</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/nginx%E9%85%8D%E7%BD%AEhttp%E5%92%8Chttps%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/multi-thread/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/operation/nginx%E9%85%8D%E7%BD%AEhttp%E5%92%8Chttps%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Nginx&lt;/code&gt;配置&lt;code&gt;http&lt;/code&gt;代理非常简单，网上教程也很多，但是无法很方便的配置&lt;code&gt;https&lt;/code&gt;代理，本片文章将记录搭建可以同时代理&lt;code&gt;http&lt;/code&gt;和&lt;code&gt;https&lt;/code&gt;的服务器。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SpringBoot&#43;Redis实现接口限流</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/springboot&#43;redis%E5%AE%9E%E7%8E%B0%E6%8E%A5%E5%8F%A3%E9%99%90%E6%B5%81/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/springboot&#43;redis%E5%AE%9E%E7%8E%B0%E6%8E%A5%E5%8F%A3%E9%99%90%E6%B5%81/</guid>
+      <description>&lt;p&gt;Redis 作为21世纪最流行的缓存中间件，它也能够实现接口限流的作用，本片文章主要记录个人实现过程。&lt;/p&gt;
+&lt;p&gt;在分布式高并发系统中，常常需要用到 &lt;code&gt;缓存&lt;/code&gt; 、&lt;code&gt;降级&lt;/code&gt; 、 &lt;code&gt;限流&lt;/code&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SpringBoot常用注解总结</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/springboot%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/springboot%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;基于 SpringBoot 平台开发的项目数不胜数，与常规的基于Spring开发的项目最大的不同之处，SpringBoot 里面提供了大量的注解用于快速开发，而且非常简单，基本可以做到开箱即用！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SpringBoot优化Controller层代码</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/springboot%E4%BC%98%E5%8C%96controller%E5%B1%82%E4%BB%A3%E7%A0%81/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/springboot%E4%BC%98%E5%8C%96controller%E5%B1%82%E4%BB%A3%E7%A0%81/</guid>
+      <description>&lt;p&gt;本篇主要介绍的就是 &lt;code&gt;controller&lt;/code&gt; 层的一些优雅技巧，一个完整的后端请求由4部分组成：1. &lt;code&gt;接口地址&lt;/code&gt;(也就是URL地址)、2. &lt;code&gt;请求方式&lt;/code&gt;(一般就是get、set，当然还有put、delete)、3. &lt;code&gt;请求数据&lt;/code&gt;(request，有head跟body)、4. &lt;code&gt;响应数据&lt;/code&gt;(response)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SQLServer一些小技巧</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/sqlserver%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/sqlserver%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/</guid>
+      <description>&lt;h2 id=&#34;多行转成一列并用分割&#34;&gt;多行转成一列（并用&amp;quot;,&amp;ldquo;分割）&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;STUFF&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;VALUE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHERE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FOR&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;XML&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;VALUE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;	&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;AS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Test&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;GROUP&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;BY&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;	&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;STUFF语句就是为了去掉第一个【逗号】&lt;/p&gt;
+&lt;p&gt;STUFF用法：（从原字符的第二个开始共三个字符替换为后面的字符）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SQL优化小技巧</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/sql%E4%BC%98%E5%8C%96%E5%B0%8F%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/sql%E4%BC%98%E5%8C%96%E5%B0%8F%E6%8A%80%E5%B7%A7/</guid>
+      <description>&lt;p&gt;本篇文章主要是一些SQL优化的小技巧，为了提升SQL编写规范及性能&lt;/p&gt;
+&lt;h2 id=&#34;避免使用select-&#34;&gt;避免使用select *&lt;/h2&gt;
+&lt;p&gt;在实际业务场景中，我们不一定需要查出整张表中的所有数据。如果查出了许多不必要的数据，这样会白白浪费了数据库的资源，如：内存或CPU。此外，多查出来的数据，通过网络IO传输的过程中，也会增加数据传输的时间。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SSE实现服务器推送</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/sse%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8E%A8%E9%80%81/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/sse%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8E%A8%E9%80%81/</guid>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;服务端向客户端推送消息，其实除了可以用&lt;code&gt;WebSocket&lt;/code&gt;这种耳熟能详的机制外，还有一种服务器发送事件(&lt;code&gt;Server-sent events&lt;/code&gt;)，简称&lt;code&gt;SSE&lt;/code&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>STEP、IGES、STL等3D模型转换为GLB</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/stepigesstl%E7%AD%893d%E6%A8%A1%E5%9E%8B%E8%BD%AC%E6%8D%A2%E4%B8%BAglb/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/stepigesstl%E7%AD%893d%E6%A8%A1%E5%9E%8B%E8%BD%AC%E6%8D%A2%E4%B8%BAglb/</guid>
+      <description>&lt;p&gt;在用threejs渲染3D模型时，往往需要选择一个最适合的模型格式，通常都是使用GLB作为Web渲染模型。然而许多工业的模型往往都是以STEP或者IGES作为导出格式，这种格式对于目前主流的3D渲染库支持并不好，所以需要转换模型格式。本篇文章为个人通过查找总结的转换方法，虽然并不是最优解🙃。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>多线程下的琐事</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E7%90%90%E4%BA%8B/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E7%90%90%E4%BA%8B/</guid>
       <description>&lt;p&gt;单线程与多线程可以看作是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;单线程为在一个单向行驶的道路上，每辆汽车都遵守交通规则&lt;/li&gt;
@@ -146,10 +433,23 @@
 &lt;p&gt;然而扩充了车道后问题就没那么简单了，车道一旦多起来&lt;strong&gt;加塞&lt;/strong&gt;的场景就会越来越多，出现碰撞后也会影响整条马路的通行效率，这样多车道就不一定比单车道更快了&lt;/p&gt;</description>
     </item>
     <item>
-      <title>设置网络代理后需要注意</title>
-      <link>https://lesanouo.github.io/blog/posts/share/proxy-things/</link>
+      <title>关于.NET的面试笔记</title>
+      <link>https://lesanouo.github.io/blog/posts/share/%E5%85%B3%E4%BA%8E.net%E7%9A%84%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/share/proxy-things/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/share/%E5%85%B3%E4%BA%8E.net%E7%9A%84%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;h2 id=&#34;net-基础&#34;&gt;.net 基础&lt;/h2&gt;
+&lt;p&gt;1、Task和Thread有什么区别&lt;/p&gt;
+&lt;p&gt;2、当执行遇到await的时候会执行什么动作&lt;/p&gt;
+&lt;p&gt;3、事件和委托之间的区别，Action和func的区别&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/RaindayXia/p/5261797.html&#34;&gt;https://www.cnblogs.com/RaindayXia/p/5261797.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://mikeblog.cn/article/details/5236&#34;&gt;http://mikeblog.cn/article/details/5236&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4、Dictionary在多线程并发的情况下会出现什么问题，ConcurrentDictionary之间的区别&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>设置网络代理后需要注意</title>
+      <link>https://lesanouo.github.io/blog/posts/share/%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86%E5%90%8E%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/share/%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86%E5%90%8E%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F/</guid>
       <description>&lt;p&gt;如电脑设置了网络代理，会导致一些软件工具不能正常工作。查找了网上许多解决方案，总结如下。&lt;/p&gt;
 &lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
 &lt;ul&gt;
@@ -173,9 +473,9 @@
     </item>
     <item>
       <title>通过SQL导出数据库表结构</title>
-      <link>https://lesanouo.github.io/blog/posts/share/sql-export-excel/</link>
+      <link>https://lesanouo.github.io/blog/posts/share/%E9%80%9A%E8%BF%87sql%E5%AF%BC%E5%87%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%BB%93%E6%9E%84/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/share/sql-export-excel/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/share/%E9%80%9A%E8%BF%87sql%E5%AF%BC%E5%87%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%BB%93%E6%9E%84/</guid>
       <description>&lt;p&gt;在编写数据库文档时，我们常常需要写表结构文档，这时候就需要一些方法来节约我们写文档的时间。&lt;/p&gt;
 &lt;p&gt;我通过网络上的资料，总结了 &lt;code&gt;MySQL&lt;/code&gt; 及 &lt;code&gt;SQL Server&lt;/code&gt; 的通过SQL语句导出数据库表结构的方法。&lt;/p&gt;</description>
     </item>
@@ -193,12 +493,35 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;shape-outside&lt;/code&gt; 属性定义了一个可以是非矩形的形状，相邻的内联内容应围绕该形状进行包装。默认情况下，内联内容包围其边距框; &lt;code&gt;shape-outside&lt;/code&gt;提供了一种自定义此包装的方法，可以将文本包装在复杂对象周围而不是简单的框中。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>如何在.NET中开启静态文件访问</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/%E5%A6%82%E4%BD%95%E5%9C%A8.net%E4%B8%AD%E5%BC%80%E5%90%AF%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E8%AE%BF%E9%97%AE/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/%E5%A6%82%E4%BD%95%E5%9C%A8.net%E4%B8%AD%E5%BC%80%E5%90%AF%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E8%AE%BF%E9%97%AE/</guid>
+      <description>&lt;h2 id=&#34;基本使用&#34;&gt;基本使用&lt;/h2&gt;
+&lt;p&gt;静态文件（常见的有HTML，CSS，图片和JS等资源）可以通过 .NET Core 应用直接提供给客户端。还有一些比较常用的文件（PDF或者一些需要下载的文件）也是需要通过静态文件的方式提供下载的，如果没有搭建文件管理的服务器的话，通过静态文件的方式下载也是不错的选择。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux中修改Docker存储位置</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/linux%E4%B8%AD%E4%BF%AE%E6%94%B9docker%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E4%B8%AD%E4%BF%AE%E6%94%B9docker%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;在维护服务器时，发现docker所在盘容量已满，导致mongodb插入数据失败从而崩溃。由此记录修改Linux中Dockder位置时遇到的问题&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>在.NET中Task与Thread区别</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E5%9C%A8.net%E4%B8%ADtask%E4%B8%8Ethread%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Sun, 26 Jun 2022 11:17:47 +0800</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E5%9C%A8.net%E4%B8%ADtask%E4%B8%8Ethread%E5%8C%BA%E5%88%AB/</guid>
+      <description>&lt;h2 id=&#34;什么是-thread&#34;&gt;什么是 Thread&lt;/h2&gt;
+&lt;p&gt;当我们提及多线程的时候会想到 Thread 和 Threadpool，这都是异步操作，Threadpool 其实就是 Thread 的集合，具有很多优势，不过在任务多的时候全局队列会存在竞争而消耗资源。Thread 默认为前台线程，主程序必须等线程跑完才会关闭，而 Threadpool 相反。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>C#中async和await异步编程</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/csharp-async-await/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/c%23%E4%B8%ADasync%E5%92%8Cawait%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/csharp-async-await/</guid>
-      <description>&lt;p&gt;在代码中遇到了网络请求编程时，往往需要异步编程才能给用户带来良好的体验，不会导致程序完全阻塞。
-其中的关键在于：&lt;/p&gt;
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/c%23%E4%B8%ADasync%E5%92%8Cawait%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B/</guid>
+      <description>&lt;p&gt;在代码中遇到了网络请求编程时，往往需要异步编程才能给用户带来良好的体验，不会导致程序完全阻塞。&lt;/p&gt;
+&lt;p&gt;其中的关键在于：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;异步方法：再执行完成前就立刻返回调用方法，在调用方法执行过程中完成任务&lt;/li&gt;
 &lt;li&gt;async/await 结构主要分为三个部分：
@@ -211,6 +534,23 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;什么是异步&#34;&gt;什么是异步&lt;/h2&gt;
 &lt;p&gt;启动程序时，系统会在内存中创建一个新的进程。进程是构成运行程序资源的集合。在进程内部，有称为线程的内核对象，它代表的是真正的执行程序。系统会在 Main 方法的第一行语句就开始线程的执行。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vue中全局封装SignalR</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/vue%E4%B8%AD%E5%85%A8%E5%B1%80%E5%B0%81%E8%A3%85signalr/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/vue%E4%B8%AD%E5%85%A8%E5%B1%80%E5%B0%81%E8%A3%85signalr/</guid>
+      <description>&lt;h2 id=&#34;signalr-简介&#34;&gt;SignalR 简介&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;ASP.NET&lt;/code&gt; SignalR 是一个供 &lt;code&gt;ASP.NET&lt;/code&gt; 开发人员使用的库，它简化了向应用程序添加实时 Web 功能的过程。实时 Web 功能是让服务器代码在内容可用时立即将内容推送到连接的客户端的能力，而不是让服务器等待客户端请求新数据。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Docker清理和限制容器日志大小</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/docker%E6%B8%85%E7%90%86%E5%92%8C%E9%99%90%E5%88%B6%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E5%A4%A7%E5%B0%8F/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/docker%E6%B8%85%E7%90%86%E5%92%8C%E9%99%90%E5%88%B6%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E5%A4%A7%E5%B0%8F/</guid>
+      <description>&lt;p&gt;&lt;code&gt;docker logs&lt;/code&gt; 是我们经常用来查看容器运行日志的命令，但是在长时间容器运行后，会产生大量的日志，会发现越来越慢，所以我们需要清理日志。&lt;/p&gt;
+&lt;h2 id=&#34;docker-清理日志&#34;&gt;Docker 清理日志&lt;/h2&gt;
+&lt;p&gt;通过命令 &lt;code&gt;docker inspect --format=&#39;{{.LogPath}}&#39; &amp;lt;容器ID&amp;gt;&lt;/code&gt; 查看容器的日志路径&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mybatis 代码片段</title>
@@ -248,10 +588,358 @@
 &lt;p&gt;当然我们也可以用 CASE WHEN 得到同样的结果，就是写起来麻烦一点。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>正则表达式总结</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;使用正则表达式来处理搜索文本，能够提高灵活性。
+通过使用正则表达式，可以做到：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;测试字符串内的模式，例如，可以匹配字符串是否满足电话号码或信用卡号码的模式，进行数据验证&lt;/li&gt;
+&lt;li&gt;替换文本，使用正则表达式来识别文档中的特定文本，完全删除该文本或用其他文本替换它&lt;/li&gt;
+&lt;li&gt;基于模式匹配从字符串中提取子字符串，可以查找文档内或输入域内特定的文本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;基本语法&#34;&gt;基本语法&lt;/h2&gt;
+&lt;h3 id=&#34;修饰符&#34;&gt;修饰符&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;修饰符&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;含义&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;i&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ignore - 不区分大小写&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;将匹配设置为不区分大小写，搜索时不区分大小写:A和a没有区别&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;g&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;global - 全局匹配&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;查找所有的匹配项&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;m&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;multi line - 多行匹配&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;使边界字符 ^ 和 $ 匹配每一行的开头和结尾，记住是多行，而不是整个字符串的开头和结尾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;s&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;特殊字符圆点 . 中包含换行符 \n&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;默认情况下的圆点 . 是匹配除换行符 \n 之外的任何字符，加上 s 修饰符之后, . 中包含换行符 \n&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;元字符&#34;&gt;元字符&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;普通字符&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;字符&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;[ABC]&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配 [&amp;hellip;] 中的所有字符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;[^ABC]&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配除了 [&amp;hellip;] 中字符的所有字符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;[A-Z]&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;[A-Z] 表示一个区间，匹配所有大写字母，[a-z] 表示所有小写字母&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配除换行符（\n、\r）之外的任何单个字符，相等于 [^\n\r]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;[\s\S]&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配所有。\s 是匹配所有空白符，包括换行，\S 非空白符，不包括换行&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\w&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配字母、数字、下划线。等价于 [A-Za-z0-9_]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\W&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配非字母、数字、下划线。等价于 &amp;lsquo;[^A-Za-z0-9_]&amp;rsquo;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\d&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配一个数字字符。等价于 [0-9]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\D&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配一个非数字字符。等价于 [^0-9]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\xn&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配 n，其中 n 为十六进制转义值。十六进制转义值必须为确定的两个数字长。例如，&amp;rsquo;\x41&amp;rsquo; 匹配 &amp;ldquo;A&amp;rdquo;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\num&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配 num，其中 num 是一个正整数&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol&gt;
+&lt;li&gt;非打印字符&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;字符&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\cx&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配由x指明的控制字符。例如， \cM 匹配一个 Control-M 或回车符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\f&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配一个换页符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\n&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配一个换行符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\r&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配一个回车符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\s&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配任何空白字符，包括空格、制表符、换页符等等&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\S&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配任何非空白字符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\t&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配一个制表符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\v&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配一个垂直制表符&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;特殊字符&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;字符&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配输入字符串的结尾位置&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;()&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;标记一个子表达式的开始和结束位置。子表达式可以获取供以后使用&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;*&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配前面的子表达式零次或多次&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;+&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配前面的子表达式一次或多次&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配除换行符 \n 之外的任何单字符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;[&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;标记一个中括号表达式的开始&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;?&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配前面的子表达式零次或一次，或指明一个非贪婪限定符(尽可能少的匹配所搜索的字符串)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;将下一个字符标记为或特殊字符、或原义字符、或向后引用、或八进制转义符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;^&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配输入字符串的开始位置；不接受该方括号表达式中的字符集合&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;{&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;标记限定符表达式的开始&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;|&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;指明两项之间的一个选择&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;限定符&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;字符&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;*&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配前面的子表达式零次或多次&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;+&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配前面的子表达式一次或多次&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;?&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配前面的子表达式零次或一次&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;{n}&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;n 是一个非负整数。匹配确定的 n 次&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;{n,}&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;n 是一个非负整数。至少匹配n 次&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;{n,m}&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;m 和 n 均为非负整数，其中n &amp;lt;= m。最少匹配 n 次且最多匹配 m 次&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;定位符&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;字符&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;^&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配输入字符串开始的位置&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配输入字符串结尾的位置&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\b&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配一个单词边界，即字与空格间的位置&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\B&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;非单词边界匹配&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;?: ?= ?! ?&amp;lt;= ?&amp;gt;!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;字符&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;(?:pattern)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配 pattern 但不获取匹配结果&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;(?=pattern)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;正向肯定预查&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;(?!pattern)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;正向否定预查&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;(?&amp;lt;=pattern)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反向肯定预查&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;(?&amp;lt;!pattern)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反向否定预查&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;其他&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;字符&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\d&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匹配 pattern 但不获取匹配结果&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;\D&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;正向肯定预查&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;(?!pattern)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;正向否定预查&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;(?&amp;lt;=pattern)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反向肯定预查&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;(?&amp;lt;!pattern)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反向否定预查&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;运算符优先级&#34;&gt;运算符优先级&lt;/h3&gt;
+&lt;p&gt;相同优先级的从左到右进行运算，不同优先级的运算先高后低。下表从最高到最低说明了各种正则表达式运算符的优先级顺序：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Docker为已启动容器添加挂载目录或端口映射</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/docker%E4%B8%BA%E5%B7%B2%E5%90%AF%E5%8A%A8%E5%AE%B9%E5%99%A8%E6%B7%BB%E5%8A%A0%E6%8C%82%E8%BD%BD%E7%9B%AE%E5%BD%95%E6%88%96%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/</link>
+      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/docker%E4%B8%BA%E5%B7%B2%E5%90%AF%E5%8A%A8%E5%AE%B9%E5%99%A8%E6%B7%BB%E5%8A%A0%E6%8C%82%E8%BD%BD%E7%9B%AE%E5%BD%95%E6%88%96%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/</guid>
+      <description>&lt;p&gt;在使用docker时，常常需要对已启动的容器进行相应的配置修改，其中最常见的就是挂载目录或端口映射。其实配置也并不是非常复杂，可以通过修改docker中的json配置文件即可。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>数据库优化</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/database/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/database/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
 &lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
 &lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;
@@ -273,54 +961,98 @@
 &lt;p&gt;使用格式：&lt;code&gt;EXPLAIN SQL...&lt;/code&gt;;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Linux增加SSH端口</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/linux%E5%A2%9E%E5%8A%A0ssh%E7%AB%AF%E5%8F%A3/</link>
+      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E5%A2%9E%E5%8A%A0ssh%E7%AB%AF%E5%8F%A3/</guid>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;在大型企业中，服务器网络一般都会有各种各样的限制，常见的就会有堡垒机或者运维网关，以达到操作审计等目的。但对于开发者来讲，这些限制大大降低了效率，所以我们需要一个方便的方式来解决这个问题。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Redis笔记</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/redis%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/redis%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;h2 id=&#34;redis简介&#34;&gt;Redis简介&lt;/h2&gt;
+&lt;p&gt;Redis 是完全开源的，遵守 BSD 协议，是一个高性能的 key-value 数据库。&lt;/p&gt;
+&lt;p&gt;Redis 与其他 key - value 缓存产品有以下三个特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redis支持数据的持久化，可以将内存中的数据保存在磁盘中，重启的时候可以再次加载进行使用。&lt;/li&gt;
+&lt;li&gt;Redis不仅仅支持简单的key-value类型的数据，同时还提供list，set，zset，hash等数据结构的存储。&lt;/li&gt;
+&lt;li&gt;Redis支持数据的备份，即master-slave模式的数据备份。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;redis数据结构&#34;&gt;Redis数据结构&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;String（字符串）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;string 是 redis 最基本的类型，你可以理解成与 Memcached 一模一样的类型，一个 key 对应一个 value。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>生产者与消费者问题</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/producer-consumer-problem/</link>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98/</link>
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/producer-consumer-problem/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;p&gt;生产者消费者问题（Producer-consumer problem），也称有限缓冲问题（Bounded-buffer problem），是一个多线程同步问题的经典案例。生产者生成一定量的数据放到缓冲区中，然后重复此过程；与此同时，消费者也在缓冲区消耗这些数据。生产者和消费者之间必须保持同步，要保证生产者不会在缓冲区满时放入数据，消费者也不会在缓冲区空时消耗数据。不够完善的解决方法容易出现死锁的情况，此时进程都在等待唤醒。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>华为机试题：报数游戏</title>
-      <link>https://lesanouo.github.io/blog/posts/algorithm/huawei-counting-game/</link>
+      <title>Java中Stream学习</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADstream%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/algorithm/huawei-counting-game/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADstream%E5%AD%A6%E4%B9%A0/</guid>
+      <description>&lt;p&gt;本篇笔记主要记录我在学习Java的stream流中记录的笔记&lt;/p&gt;
+&lt;h2 id=&#34;stream是什么&#34;&gt;stream是什么&lt;/h2&gt;
+&lt;p&gt;流是从支持数据处理操作的源生成的元素序列，源可以是数组、文件、集合、函数。流不是集合元素，它不是数据结构并不保存数据，它的主要目的在于计算&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>华为机试题：报数游戏</title>
+      <link>https://lesanouo.github.io/blog/posts/algorithm/%E5%8D%8E%E4%B8%BA%E6%9C%BA%E8%AF%95%E9%A2%98%E6%8A%A5%E6%95%B0%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/algorithm/%E5%8D%8E%E4%B8%BA%E6%9C%BA%E8%AF%95%E9%A2%98%E6%8A%A5%E6%95%B0%E6%B8%B8%E6%88%8F/</guid>
       <description>&lt;p&gt;在进行华为机试时遇到了报数游戏的编程题（约瑟夫环），但是看了很多网上的解题都非常长，于是经过不断的学习参考，有了下面这个解题方法，也不知道是不是最好的😭&lt;/p&gt;</description>
     </item>
     <item>
       <title>分享可私有部署的接口管理系统Yapi</title>
-      <link>https://lesanouo.github.io/blog/posts/share/yapi/</link>
+      <link>https://lesanouo.github.io/blog/posts/share/%E5%88%86%E4%BA%AB%E5%8F%AF%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2%E7%9A%84%E6%8E%A5%E5%8F%A3%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fyapi/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/share/yapi/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/share/%E5%88%86%E4%BA%AB%E5%8F%AF%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2%E7%9A%84%E6%8E%A5%E5%8F%A3%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fyapi/</guid>
       <description>&lt;p&gt;在 web 软件开发中，API接口管理非常重要，也是前后端对接的关键，这里分享一个非常好用且可以私有化部署的接口管理系统Yapi，对那些内网开发的小伙伴们是一个不错的选择。&lt;/p&gt;</description>
     </item>
     <item>
       <title>记一次搭建GitLab&#43;Jenkins实现CI&amp;CD</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/ci-cd-gitlab-jenkins/</link>
+      <link>https://lesanouo.github.io/blog/posts/operation/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%90%AD%E5%BB%BAgitlab&#43;jenkins%E5%AE%9E%E7%8E%B0cicd/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/ci-cd-gitlab-jenkins/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/operation/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%90%AD%E5%BB%BAgitlab&#43;jenkins%E5%AE%9E%E7%8E%B0cicd/</guid>
       <description>&lt;p&gt;本篇文章记录本人搭建CI&amp;amp;CD实现持续集成和持续部署&lt;/p&gt;
 &lt;h2 id=&#34;1使用docker安装gitlab&#34;&gt;1.使用docker安装gitlab&lt;/h2&gt;
 &lt;h3 id=&#34;下载镜像-使用中文社区版&#34;&gt;下载镜像 （使用中文社区版）&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lesanouo.github.io/blog/posts/operation/ci-cd-gitlab-jenkins/images/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;docker pull twang2218/gitlab-ce-zh&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;创建所需目录为后续挂载文件&#34;&gt;创建所需目录为后续挂载文件&lt;/h3&gt;
 &lt;p&gt;进入所需目录后，打开PowerShell，通过以下命令进行目录创建&lt;/p&gt;</description>
     </item>
     <item>
       <title>构建一个带libgdiplus的.NET基础Docker镜像</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/docker-images-libgdiplus-dotnet/</link>
+      <link>https://lesanouo.github.io/blog/posts/operation/%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B8%A6libgdiplus%E7%9A%84.net%E5%9F%BA%E7%A1%80docker%E9%95%9C%E5%83%8F/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/docker-images-libgdiplus-dotnet/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/operation/%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B8%A6libgdiplus%E7%9A%84.net%E5%9F%BA%E7%A1%80docker%E9%95%9C%E5%83%8F/</guid>
       <description>&lt;p&gt;默认.NET的Docker镜像是不包含libgdiplus的，所以本文介绍如何通过在原有镜像基础上构建一个满足个人需求的Docker镜像。&lt;/p&gt;
 &lt;h2 id=&#34;docker-简介&#34;&gt;Docker 简介&lt;/h2&gt;
 &lt;p&gt;Docker 是一个开源的应用容器引擎，基于 &lt;strong&gt;Go 语言&lt;/strong&gt; 并遵从 Apache2.0 协议开源。Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>实现简单消息推送功能</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/message-push/</link>
+      <title>在.NET中实现消息推送的三种方式</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/%E5%9C%A8.net%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/message-push/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/operation/%E5%9C%A8.net%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F/</guid>
       <description>&lt;p&gt;消息推送是大部分系统都需要做到的功能，在.NET中我分别通过RabbitMQ、MQTT、SignalR实现消息推送功能，本篇文章将通过它们实现简单的推送功能，手把手带大家完成编程。本文环境为 &lt;code&gt;.NET Core 3.1&lt;/code&gt;下&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RabbitMQ笔记</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/rabbitmq%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/rabbitmq%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;h2 id=&#34;rabbitmq简述&#34;&gt;RabbitMQ简述&lt;/h2&gt;
+&lt;p&gt;MQ全称为Message Queue, 消息队列（MQ）是一种应用程序对应用程序的通信方法。RabbitMQ是一个在AMQP基础上完整的，可复用的企业消息系统。他遵循Mozilla Public License开源协议。AMQP(高级消息队列协议) 是一个异步消息传递所使用的应用层协议规范，作为线路层协议，而不是API（例如JMS），AMQP 客户端能够无视消息的来源任意发送和接受信息。AMQP的原始用途只是为金融界提供一个可以彼此协作的消息协议，而现在的目标则是为通用消息队列架构提供通用构建工具。因此，面向消息的中间件 （MOM）系统，例如发布/订阅队列，没有作为基本元素实现。AMQP当中有四个概念非常重要（一个虚拟主机持有一组交换机、队列和绑定）：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux 代码片段</title>
@@ -740,10 +1472,23 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
+      <title>Nginx笔记</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/nginx%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/nginx%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;本文为个人学习和实践 Nginx 的笔记&lt;/p&gt;
+&lt;h2 id=&#34;nginx-常用功能&#34;&gt;Nginx 常用功能&lt;/h2&gt;
+&lt;p&gt;Nginx 有以下几个常用功能&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;反向代理&lt;/p&gt;
+&lt;p&gt;这是它的主要功能之一，客户端向服务器发送请求时，会先通过 Nginx 服务器，由服务器将请求分发到相应的Web服务器。正向代理是代理客户端，而反向代理则是代理服务器，Nginx 在提供反向代理服务方面，通过使用正则表达式进行相关配置，采取不同的转发策略，配置相当灵活，而且在配置后端转发请求时，完全不用关心网络环境如何，可以指定任意的IP地址和端口号，或其他类型的连接、请求等。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>算法学习-链表</title>
-      <link>https://lesanouo.github.io/blog/posts/algorithm/link-list/</link>
+      <link>https://lesanouo.github.io/blog/posts/algorithm/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0-%E9%93%BE%E8%A1%A8/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/algorithm/link-list/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/algorithm/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0-%E9%93%BE%E8%A1%A8/</guid>
       <description>&lt;p&gt;本篇文章是学习leetcode中链表相关算法总结的链表技巧。&lt;/p&gt;
 &lt;h2 id=&#34;虚拟头节点&#34;&gt;虚拟头节点&lt;/h2&gt;
 &lt;h3 id=&#34;力扣第-21-题合并两个有序链表&#34;&gt;力扣第 21 题「合并两个有序链表」&lt;/h3&gt;
@@ -770,13 +1515,35 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这个算法的逻辑类似于「拉拉链」，&lt;code&gt;l1, l2&lt;/code&gt; 类似于拉链两侧的锯齿，指针 &lt;code&gt;p&lt;/code&gt; 就好像拉链的拉索，将两个有序链表合并&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Hugo个人静态网页生成</title>
+      <link>https://lesanouo.github.io/blog/posts/share/hugo%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E7%94%9F%E6%88%90/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/share/hugo%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E7%94%9F%E6%88%90/</guid>
+      <description>&lt;h3 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h3&gt;
+&lt;p&gt;到 &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo Releases&lt;/a&gt; 下载对应的操作系统版本的Hugo二进制文件（hugo或者hugo.exe）&lt;/p&gt;
+&lt;p&gt;Mac下直接使用 &lt;code&gt;Homebrew&lt;/code&gt; 安装：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;生成站点&#34;&gt;生成站点&lt;/h3&gt;
+&lt;p&gt;使用Hugo快速生成站点，比如希望生成到 &lt;code&gt;/path/to/site&lt;/code&gt; 路径：&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>搭建个人网站:GitHub&#43;Vercel</title>
-      <link>https://lesanouo.github.io/blog/posts/share/static-site-github-vercel/</link>
+      <link>https://lesanouo.github.io/blog/posts/share/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99github&#43;vercel/</link>
       <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/share/static-site-github-vercel/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/share/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99github&#43;vercel/</guid>
       <description>&lt;p&gt;本文主要介绍如何通过GitHub+Vercel免费搭建一个自己的静态网页。&lt;/p&gt;
 &lt;h3 id=&#34;github-pages&#34;&gt;GitHub Pages&lt;/h3&gt;
 &lt;p&gt;GitHub Pages是GitHub提供给大家的快速部署静态网页的功能，但是由于国内访问比较慢，这里提供一个相对较快的解决办法，就是用GitHub+Vercel。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown语法</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/markdown%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/markdown%E8%AF%AD%E6%B3%95/</guid>
+      <description>&lt;h2 id=&#34;一写前准备&#34;&gt;一、写前准备&lt;/h2&gt;
+&lt;p&gt;在atom文本编译器中自带着markdown的编写与浏览功能。
+浏览使用快捷键ctl+shift+m就可以打开markdown预览。
+简书中在设置-&amp;gt;默认编辑器-&amp;gt;markdown编译，就可以设置markdown。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

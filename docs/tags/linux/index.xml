@@ -6,8 +6,79 @@
     <description>Recent content in Linux on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux系统使用systemd配置.NET项目开机自启动</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8systemd%E9%85%8D%E7%BD%AE.net%E9%A1%B9%E7%9B%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8systemd%E9%85%8D%E7%BD%AE.net%E9%A1%B9%E7%9B%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</guid>
+      <description>&lt;p&gt;本片文章记录在Linux（CentOS7）中如何使用&lt;code&gt;systemctl&lt;/code&gt;命令进行系统和服务管理&lt;/p&gt;
+&lt;h2 id=&#34;systemctl命令&#34;&gt;&lt;code&gt;systemctl&lt;/code&gt;命令&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 设置开机自启动，可在任意目录下执行&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt; xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 启动nginx服务&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl start xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 停止开机自启动&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl disable xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 查看服务当前状态&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl status xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 重新启动服务&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl restart xxx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 查看所有已启动的服务&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl list-units --type&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;创建xxxservice&#34;&gt;创建xxx.service&lt;/h2&gt;
+&lt;p&gt;在&lt;code&gt;/etc/systemd/system/&lt;/code&gt;路径下，新增一个&lt;code&gt;myTest.service&lt;/code&gt;文件，文件内容如下&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CentOS7系统安装</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/centos7%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/centos7%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</guid>
+      <description>&lt;p&gt;本片文章记录个人安装CentOS7在台式主机上作为小型服务器&lt;/p&gt;
+&lt;h2 id=&#34;制作u盘启动盘&#34;&gt;制作U盘启动盘&lt;/h2&gt;
+&lt;h3 id=&#34;1-iso镜像下载&#34;&gt;1. iso镜像下载&lt;/h3&gt;
+&lt;p&gt;可以通过&lt;a href=&#34;https://mirrors.aliyun.com/centos/7/isos/x86_64/&#34;&gt;阿里云镜像站&lt;/a&gt;下载iso文件，本人下载的是&lt;code&gt;CentOS-7-x86_64-DVD-2009.iso&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-下载启动盘制作软件&#34;&gt;2. 下载启动盘制作软件&lt;/h3&gt;
+&lt;p&gt;可以通过软件&lt;a href=&#34;https://cn.ultraiso.net/xiazai.html&#34;&gt;UltraISO&lt;/a&gt;进行启动盘制作&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打开软件 -&amp;gt; 点击左上角&lt;code&gt;文件&lt;/code&gt; -&amp;gt; 选择&lt;code&gt;打开&lt;/code&gt; -&amp;gt; 打开对应iso&lt;/li&gt;
+&lt;li&gt;点击菜单栏&lt;code&gt;启动&lt;/code&gt; -&amp;gt; 选择&lt;code&gt;写入硬盘镜像&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;选择对应U盘 -&amp;gt; 其余参数可默认&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装centos7&#34;&gt;安装CentOS7&lt;/h2&gt;
+&lt;h3 id=&#34;1-插入u盘到主机&#34;&gt;1. 插入U盘到主机&lt;/h3&gt;
+&lt;h3 id=&#34;2-配置-bios-制作u盘启动&#34;&gt;2. 配置 Bios 制作U盘启动&lt;/h3&gt;
+&lt;h3 id=&#34;3-选择对应u盘后即可开始安装&#34;&gt;3. 选择对应U盘后即可开始安装&lt;/h3&gt;
+&lt;h3 id=&#34;注意事项&#34;&gt;注意事项&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;通过UltraISO刻入后安装会报错，无法正常安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;选择&lt;code&gt;Install CentOS 7&lt;/code&gt;时按下TAB键，屏幕下方会出现一串文字
+&lt;code&gt;vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x86_64 rd.live.check quiet&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux中修改Docker存储位置</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/linux%E4%B8%AD%E4%BF%AE%E6%94%B9docker%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E4%B8%AD%E4%BF%AE%E6%94%B9docker%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;在维护服务器时，发现docker所在盘容量已满，导致mongodb插入数据失败从而崩溃。由此记录修改Linux中Dockder位置时遇到的问题&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux增加SSH端口</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/linux%E5%A2%9E%E5%8A%A0ssh%E7%AB%AF%E5%8F%A3/</link>
+      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E5%A2%9E%E5%8A%A0ssh%E7%AB%AF%E5%8F%A3/</guid>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;在大型企业中，服务器网络一般都会有各种各样的限制，常见的就会有堡垒机或者运维网关，以达到操作审计等目的。但对于开发者来讲，这些限制大大降低了效率，所以我们需要一个方便的方式来解决这个问题。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Linux 代码片段</title>
       <link>https://lesanouo.github.io/blog/posts/snippet/linux/</link>

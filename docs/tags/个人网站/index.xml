@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>搭建个人网站:GitHub&#43;Vercel</title>
-      <link>https://lesanouo.github.io/blog/posts/share/static-site-github-vercel/</link>
+      <link>https://lesanouo.github.io/blog/posts/share/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99github&#43;vercel/</link>
       <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/share/static-site-github-vercel/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/share/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99github&#43;vercel/</guid>
       <description>&lt;p&gt;本文主要介绍如何通过GitHub+Vercel免费搭建一个自己的静态网页。&lt;/p&gt;
 &lt;h3 id=&#34;github-pages&#34;&gt;GitHub Pages&lt;/h3&gt;
 &lt;p&gt;GitHub Pages是GitHub提供给大家的快速部署静态网页的功能，但是由于国内访问比较慢，这里提供一个相对较快的解决办法，就是用GitHub+Vercel。&lt;/p&gt;</description>

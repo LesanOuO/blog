@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on Lesan&#39;s Blog</title>
+    <link>https://lesanouo.github.io/blog/tags/markdown/</link>
+    <description>Recent content in Markdown on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesanouo.github.io/blog/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown语法</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/markdown%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/markdown%E8%AF%AD%E6%B3%95/</guid>
+      <description>&lt;h2 id=&#34;一写前准备&#34;&gt;一、写前准备&lt;/h2&gt;
+&lt;p&gt;在atom文本编译器中自带着markdown的编写与浏览功能。
+浏览使用快捷键ctl+shift+m就可以打开markdown预览。
+简书中在设置-&amp;gt;默认编辑器-&amp;gt;markdown编译，就可以设置markdown。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

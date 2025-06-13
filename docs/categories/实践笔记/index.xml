@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>实践笔记 on Lesan&#39;s Blog</title>
+    <link>http://localhost:1313/blog/categories/%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 实践笔记 on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 17 Jul 2022 09:16:42 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/categories/%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在.NET中开启静态文件访问</title>
+      <link>http://localhost:1313/blog/posts/operation/%E5%A6%82%E4%BD%95%E5%9C%A8.net%E4%B8%AD%E5%BC%80%E5%90%AF%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E8%AE%BF%E9%97%AE/</link>
+      <pubDate>Sun, 17 Jul 2022 09:16:42 +0800</pubDate>
+      <guid>http://localhost:1313/blog/posts/operation/%E5%A6%82%E4%BD%95%E5%9C%A8.net%E4%B8%AD%E5%BC%80%E5%90%AF%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E8%AE%BF%E9%97%AE/</guid>
+      <description>&lt;h2 id=&#34;基本使用&#34;&gt;基本使用&lt;/h2&gt;
+&lt;p&gt;静态文件（常见的有HTML，CSS，图片和JS等资源）可以通过 .NET Core 应用直接提供给客户端。还有一些比较常用的文件（PDF或者一些需要下载的文件）也是需要通过静态文件的方式提供下载的，如果没有搭建文件管理的服务器的话，通过静态文件的方式下载也是不错的选择。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
