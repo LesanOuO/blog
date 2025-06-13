@@ -3,7 +3,6 @@ title: "Linux 代码片段"
 date: "2022-02-16"
 tags: ["Linux"]
 categories: ["代码片段"]
-weight:
 ---
 
 ## Linux关机,重启

@@ -3,7 +3,6 @@ title: "SQL 代码片段"
 date: "2022-06-16"
 tags: ["SQL"]
 categories: ["代码片段"]
-weight:
 ---
 
 ## 行转列

@@ -3,7 +3,6 @@ title: "Vue3 代码片段"
 date: "2024-05-16"
 tags: ["Vue3"]
 categories: ["代码片段"]
-weight:
 ---
 
 ## Vue官方构建工具 `npm init vue@latest`

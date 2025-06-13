@@ -3,7 +3,6 @@ title: "Maven 阿里云镜像"
 date: "2022-02-16"
 tags: ["Maven"]
 categories: ["代码片段"]
-weight:
 ---
 
 ```xml

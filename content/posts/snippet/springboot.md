@@ -3,7 +3,6 @@ title: "SpringBoot 代码片段"
 date: "2023-06-16"
 tags: ["SpringBoot"]
 categories: ["代码片段"]
-weight:
 ---
 
 ## Maven添加profiles

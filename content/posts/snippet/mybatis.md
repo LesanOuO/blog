@@ -3,7 +3,6 @@ title: "Mybatis 代码片段"
 date: "2022-06-16"
 tags: ["Mybatis"]
 categories: ["代码片段"]
-weight:
 ---
 
 ## foreach

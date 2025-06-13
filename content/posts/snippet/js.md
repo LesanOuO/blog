@@ -3,7 +3,6 @@ title: "JavaScript 代码片段"
 date: "2023-06-26"
 tags: ["JavaScript"]
 categories: ["代码片段"]
-weight:
 ---
 
 ## 从数组中删除重复项
