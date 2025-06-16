@@ -93,6 +93,8 @@ params:
     Content: >
       - 😀 欢迎来到我的个人博客 ~
 
+      - 正在慢慢尝试编写各种全栈技术文章 👨‍💻
+
   socialIcons:
     - name: github
       title: Github

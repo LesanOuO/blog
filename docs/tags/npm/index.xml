@@ -6,8 +6,38 @@
     <description>Recent content in NPM on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>npm中windows-build-tools下载问题</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/npm%E4%B8%ADwindows-build-tools%E4%B8%8B%E8%BD%BD%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/npm%E4%B8%ADwindows-build-tools%E4%B8%8B%E8%BD%BD%E9%97%AE%E9%A2%98/</guid>
+      <description>&lt;p&gt;在学习一些老旧的项目时下载各种的依赖但是下载的时候一直提示失败，显示python的依赖一直下载不下来。&lt;/p&gt;
+&lt;p&gt;通过以下命令就能成功下载&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm --python_mirror=https://registry.npmmirror.com/-/binary/python/ install --global windows-build-tools&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Downloading python-2.7.15.amd64.msi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Error: getaddrinfo EAI_AGAIN www.python.org:443
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Downloading Python failed. Error: &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt; Error: getaddrinfo EAI_AGAIN www.python.org:443
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    at Object._errnoException &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;util.js:992:11&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    at errnoException &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;dns.js:55:15&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    at GetAddrInfoReqWrap.onlookup &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;as oncomplete&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;dns.js:92:26&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  code: &lt;span class=&#34;s1&#34;&gt;&amp;#39;EAI_AGAIN&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  errno: &lt;span class=&#34;s1&#34;&gt;&amp;#39;EAI_AGAIN&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  syscall: &lt;span class=&#34;s1&#34;&gt;&amp;#39;getaddrinfo&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  hostname: &lt;span class=&#34;s1&#34;&gt;&amp;#39;www.python.org&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  host: &lt;span class=&#34;s1&#34;&gt;&amp;#39;www.python.org&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  port: &lt;span class=&#34;m&#34;&gt;443&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;windows-build-tools will now exit.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm ERR! code ELIFECYCLE
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm ERR! errno &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm ERR! windows-build-tools@5.1.0 postinstall: &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;node ./dist/index.js&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm ERR! Exit status &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm ERR!
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm ERR! Failed at the windows-build-tools@5.1.0 postinstall script.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>NPM 代码片段</title>
       <link>https://lesanouo.github.io/blog/posts/snippet/npm/</link>
