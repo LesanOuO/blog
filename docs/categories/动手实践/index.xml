@@ -6,8 +6,15 @@
     <description>Recent content in 动手实践 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/categories/%E5%8A%A8%E6%89%8B%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL数据库定时全量与增量备份</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9A%E6%97%B6%E5%85%A8%E9%87%8F%E4%B8%8E%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9A%E6%97%B6%E5%85%A8%E9%87%8F%E4%B8%8E%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD/</guid>
+      <description>&lt;p&gt;数据是无价的，对于数据库来说，由于人为或自然等等各种各样的突发事件，很容易导致数据错误或数据丢失等情况，甚至是数据库崩溃，所以为了保障数据的安全，我们需要对数据库进行有效的定时全量和增量备份来保护数据库。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>npm中windows-build-tools下载问题</title>
       <link>https://lesanouo.github.io/blog/posts/operation/npm%E4%B8%ADwindows-build-tools%E4%B8%8B%E8%BD%BD%E9%97%AE%E9%A2%98/</link>

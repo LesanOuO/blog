@@ -6,8 +6,15 @@
     <description>Recent content in 🏷️ 标签 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL</title>
+      <link>https://lesanouo.github.io/blog/tags/mysql/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/tags/mysql/</guid>
+      <description></description>
+    </item>
     <item>
       <title>NPM</title>
       <link>https://lesanouo.github.io/blog/tags/npm/</link>
