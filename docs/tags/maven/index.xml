@@ -6,8 +6,16 @@
     <description>Recent content in Maven on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/tags/maven/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maven解决Resource下office文件编译后损坏</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/maven%E8%A7%A3%E5%86%B3resource%E4%B8%8Boffice%E6%96%87%E4%BB%B6%E7%BC%96%E8%AF%91%E5%90%8E%E6%8D%9F%E5%9D%8F/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/maven%E8%A7%A3%E5%86%B3resource%E4%B8%8Boffice%E6%96%87%E4%BB%B6%E7%BC%96%E8%AF%91%E5%90%8E%E6%8D%9F%E5%9D%8F/</guid>
+      <description>&lt;p&gt;当我们再Resource目录下存放了office文件（如word、ppt、excel等），一经编译后会导致文件损坏无法打开。&lt;/p&gt;
+&lt;p&gt;原因：编译后会对文件进行转码&lt;/p&gt;</description>
+    </item>
     <item>
       <title>MAVEN私有仓库搭建与配置</title>
       <link>https://lesanouo.github.io/blog/posts/operation/maven%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E6%90%AD%E5%BB%BA%E4%B8%8E%E9%85%8D%E7%BD%AE/</link>

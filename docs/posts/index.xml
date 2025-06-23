@@ -6,8 +6,78 @@
     <description>Recent content in 📚 博客 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker安装ONLYOFFICE</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/docker%E5%AE%89%E8%A3%85onlyoffice/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/docker%E5%AE%89%E8%A3%85onlyoffice/</guid>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;ONLYOFFICE&lt;/code&gt;是一个值得推荐的软件，它能够帮助各种规模和类型的团队安全地在线协作处理文档。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;文档编辑功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;支持多种格式：可以编辑Word、Excel、PowerPoint、PDF等多种常见格式的文件。&lt;/li&gt;
+&lt;li&gt;兼容性强：与Microsoft Office和OpenOffice格式兼容，保证文件的互通性。&lt;/li&gt;
+&lt;li&gt;多种编辑工具：提供丰富的文本编辑、表格功能、图形和图像插入等多种编辑工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;云办公支持&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;文档在线协作：支持多人同时编辑同一个文档，可以实时看到其他人的编辑内容。&lt;/li&gt;
+&lt;li&gt;文件共享与管理：通过ONLYOFFICE平台，可以方便地管理和共享文件。&lt;/li&gt;
+&lt;li&gt;文件版本控制：自动保存文档版本，支持版本回溯，确保文件的完整性和可追溯性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;高度集成的工作平台&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;邮件、日历和任务管理：集成了邮件、日历、任务等管理功能，帮助团队协作和工作流优化。&lt;/li&gt;
+&lt;li&gt;云存储：支持将文件存储在ONLYOFFICE云端，也支持第三方云存储（如Google Drive、Dropbox等）的集成。&lt;/li&gt;
+&lt;li&gt;API接口：提供丰富的API，允许开发者定制或集成ONLYOFFICE到其他业务系统中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;安全性&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;文件加密：支持文件加密功能，保护文件隐私。&lt;/li&gt;
+&lt;li&gt;权限控制：可以设置不同用户的访问权限，确保敏感信息的安全。&lt;/li&gt;
+&lt;li&gt;双重身份验证：增强安全性，防止未经授权的访问。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;跨平台支持&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;桌面端与移动端支持：提供Windows、macOS和Linux版本的桌面应用，还支持iOS和Android移动端应用。&lt;/li&gt;
+&lt;li&gt;Web版：支持通过浏览器直接访问，避免设备限制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;开放源码与自托管&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;开源版本：ONLYOFFICE提供免费开源版本，用户可以根据需要自定义和修改代码。&lt;/li&gt;
+&lt;li&gt;自托管：允许企业将ONLYOFFICE部署在自己的服务器上，确保数据的安全和控制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;集成与兼容性&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;与其他工具集成：可以与Microsoft Office、Google Workspace、Nextcloud等工具进行集成。&lt;/li&gt;
+&lt;li&gt;插件支持：支持第三方插件，增强功能的灵活性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;更多&lt;code&gt;ONLYOFFICE&lt;/code&gt;相关信息可访问其&lt;a href=&#34;https://www.onlyoffice.com/zh/&#34;&gt;官网&lt;/a&gt;、&lt;a href=&#34;https://github.com/ONLYOFFICE/DocumentServer&#34;&gt;GitHub&lt;/a&gt;、&lt;a href=&#34;https://api.onlyoffice.com/&#34;&gt;开发文档&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maven解决Resource下office文件编译后损坏</title>
+      <link>https://lesanouo.github.io/blog/posts/knowledge/maven%E8%A7%A3%E5%86%B3resource%E4%B8%8Boffice%E6%96%87%E4%BB%B6%E7%BC%96%E8%AF%91%E5%90%8E%E6%8D%9F%E5%9D%8F/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/knowledge/maven%E8%A7%A3%E5%86%B3resource%E4%B8%8Boffice%E6%96%87%E4%BB%B6%E7%BC%96%E8%AF%91%E5%90%8E%E6%8D%9F%E5%9D%8F/</guid>
+      <description>&lt;p&gt;当我们再Resource目录下存放了office文件（如word、ppt、excel等），一经编译后会导致文件损坏无法打开。&lt;/p&gt;
+&lt;p&gt;原因：编译后会对文件进行转码&lt;/p&gt;</description>
+    </item>
     <item>
       <title>MySQL数据库定时全量与增量备份</title>
       <link>https://lesanouo.github.io/blog/posts/operation/mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9A%E6%97%B6%E5%85%A8%E9%87%8F%E4%B8%8E%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD/</link>
