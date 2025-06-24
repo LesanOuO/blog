@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo个人静态网页生成</title>
-      <link>https://lesanouo.github.io/blog/posts/160269120001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/160269120001/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/160269120001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/160269120001/</guid>
       <description>&lt;h3 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h3&gt;
 &lt;p&gt;到 &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo Releases&lt;/a&gt; 下载对应的操作系统版本的Hugo二进制文件（hugo或者hugo.exe）&lt;/p&gt;
 &lt;p&gt;Mac下直接使用 &lt;code&gt;Homebrew&lt;/code&gt; 安装：&lt;/p&gt;

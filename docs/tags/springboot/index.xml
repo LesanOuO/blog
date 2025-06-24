@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SpringBoot实现大文件上传</title>
-      <link>https://lesanouo.github.io/blog/posts/168831360001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168831360001/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168831360001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168831360001/</guid>
       <description>&lt;p&gt;大文件上传是提高用户体验感的重要功能，像百度网盘、阿里网盘等等都支持断点续传和文件秒传功能，减少了网络波动和网络带宽对文件的限制。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;「文件分块」：将大文件拆分成小文件，将小文件上传\下载，最后再将小文件组装成大文件；&lt;/li&gt;
@@ -23,17 +23,17 @@
     </item>
     <item>
       <title>SpringBoot&#43;Redisson实现延迟队列</title>
-      <link>https://lesanouo.github.io/blog/posts/168814080001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168814080001/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168814080001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168814080001/</guid>
       <description>&lt;p&gt;在电商、支付等系统中，一般都是先创建订单（支付单），再给用户一定的时间进行支付，如果没有按时支付的话，就需要把之前的订单（支付单）取消掉。&lt;/p&gt;
 &lt;p&gt;这种类似的场景有很多，还有比如到期自动收货、超时自动退款、下单后自动发送短信等等都是类似的业务问题。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SpringBoot自建starter库</title>
-      <link>https://lesanouo.github.io/blog/posts/168805440002/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168805440002/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168805440002/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168805440002/</guid>
       <description>&lt;p&gt;本文用最短的时间给大家分享手写 starter 的完整流程。&lt;/p&gt;
 &lt;h2 id=&#34;创建项目&#34;&gt;创建项目&lt;/h2&gt;
 &lt;p&gt;首先我们用 IDEA 开发工具来初始化一个 Spring Boot 项目，注意 Java 版本不要选太高、Spring Boot 版本不要选 3.x&lt;/p&gt;
@@ -100,25 +100,25 @@
     </item>
     <item>
       <title>SpringBoot&#43;Redis实现接口限流</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200011/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200011/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200011/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200011/</guid>
       <description>&lt;p&gt;Redis 作为21世纪最流行的缓存中间件，它也能够实现接口限流的作用，本片文章主要记录个人实现过程。&lt;/p&gt;
 &lt;p&gt;在分布式高并发系统中，常常需要用到 &lt;code&gt;缓存&lt;/code&gt; 、&lt;code&gt;降级&lt;/code&gt; 、 &lt;code&gt;限流&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SpringBoot常用注解总结</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200010/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200010/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200010/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200010/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;基于 SpringBoot 平台开发的项目数不胜数，与常规的基于Spring开发的项目最大的不同之处，SpringBoot 里面提供了大量的注解用于快速开发，而且非常简单，基本可以做到开箱即用！&lt;/p&gt;</description>
     </item>
     <item>
       <title>SpringBoot优化Controller层代码</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200009/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200009/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200009/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200009/</guid>
       <description>&lt;p&gt;本篇主要介绍的就是 &lt;code&gt;controller&lt;/code&gt; 层的一些优雅技巧，一个完整的后端请求由4部分组成：1. &lt;code&gt;接口地址&lt;/code&gt;(也就是URL地址)、2. &lt;code&gt;请求方式&lt;/code&gt;(一般就是get、set，当然还有put、delete)、3. &lt;code&gt;请求数据&lt;/code&gt;(request，有head跟body)、4. &lt;code&gt;响应数据&lt;/code&gt;(response)&lt;/p&gt;</description>
     </item>
   </channel>

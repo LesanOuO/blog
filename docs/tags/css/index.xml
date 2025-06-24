@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS实现防止按钮重复点击</title>
-      <link>https://lesanouo.github.io/blog/posts/168805440004/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168805440004/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168805440004/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168805440004/</guid>
       <description>&lt;p&gt;函数节流（throttle）是 JS 中一个非常常见的优化手段，可以有效的避免函数过于频繁的执行。&lt;/p&gt;
 &lt;p&gt;举个例子：一个保存按钮，为了避免重复提交或者服务器考虑，往往需要对点击行为做一定的限制，比如只允许每300ms提交一次，这时候我想大部分同学都会到网上直接拷贝一段throttle函数，或者直接引用lodash工具库&lt;/p&gt;</description>
     </item>

@@ -110,4 +110,4 @@ Security --> Users --> Create
 
 上述配置全部完成后就可以在项目中使用mven clean deploy将项目的jar包上传到自己的私服上了
 
-> 本篇文章引用自：https://blog.csdn.net/z562743237/article/details/108852509
+> 本篇文章引用自：https://blog.csdn.net/z562743237/article/details/108852509、https://blog.csdn.net/qq_62851576/article/details/144337703

@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/categories/%E5%AE%9E%E7%94%A8%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dynamic-datasource文档</title>
-      <link>https://lesanouo.github.io/blog/posts/174974400001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/174974400001/</link>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/174974400001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/174974400001/</guid>
       <description>&lt;p&gt;本文为 &lt;code&gt;dynamic-datasource-spring-boot-starter&lt;/code&gt; （基于SpringBoot的快速集成多数据源框架）的使用文档。&lt;/p&gt;
 &lt;h1 id=&#34;特性&#34;&gt;特性&lt;/h1&gt;
 &lt;ol&gt;
@@ -48,9 +48,9 @@
     </item>
     <item>
       <title>关于.NET的面试笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200003/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200003/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200003/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200003/</guid>
       <description>&lt;h2 id=&#34;net-基础&#34;&gt;.net 基础&lt;/h2&gt;
 &lt;p&gt;1、Task和Thread有什么区别&lt;/p&gt;
 &lt;p&gt;2、当执行遇到await的时候会执行什么动作&lt;/p&gt;
@@ -61,9 +61,9 @@
     </item>
     <item>
       <title>设置网络代理后需要注意</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200002/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200002/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200002/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200002/</guid>
       <description>&lt;p&gt;如电脑设置了网络代理，会导致一些软件工具不能正常工作。查找了网上许多解决方案，总结如下。&lt;/p&gt;
 &lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
 &lt;ul&gt;
@@ -87,24 +87,24 @@
     </item>
     <item>
       <title>通过SQL导出数据库表结构</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200001/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200001/</guid>
       <description>&lt;p&gt;在编写数据库文档时，我们常常需要写表结构文档，这时候就需要一些方法来节约我们写文档的时间。&lt;/p&gt;
 &lt;p&gt;我通过网络上的资料，总结了 &lt;code&gt;MySQL&lt;/code&gt; 及 &lt;code&gt;SQL Server&lt;/code&gt; 的通过SQL语句导出数据库表结构的方法。&lt;/p&gt;</description>
     </item>
     <item>
       <title>分享可私有部署的接口管理系统Yapi</title>
-      <link>https://lesanouo.github.io/blog/posts/164891520001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164891520001/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164891520001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164891520001/</guid>
       <description>&lt;p&gt;在 web 软件开发中，API接口管理非常重要，也是前后端对接的关键，这里分享一个非常好用且可以私有化部署的接口管理系统Yapi，对那些内网开发的小伙伴们是一个不错的选择。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo个人静态网页生成</title>
-      <link>https://lesanouo.github.io/blog/posts/160269120001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/160269120001/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/160269120001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/160269120001/</guid>
       <description>&lt;h3 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h3&gt;
 &lt;p&gt;到 &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo Releases&lt;/a&gt; 下载对应的操作系统版本的Hugo二进制文件（hugo或者hugo.exe）&lt;/p&gt;
 &lt;p&gt;Mac下直接使用 &lt;code&gt;Homebrew&lt;/code&gt; 安装：&lt;/p&gt;
@@ -114,9 +114,9 @@
     </item>
     <item>
       <title>搭建个人网站:GitHub&#43;Vercel</title>
-      <link>https://lesanouo.github.io/blog/posts/160260480001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/160260480001/</link>
       <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/160260480001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/160260480001/</guid>
       <description>&lt;p&gt;本文主要介绍如何通过GitHub+Vercel免费搭建一个自己的静态网页。&lt;/p&gt;
 &lt;h3 id=&#34;github-pages&#34;&gt;GitHub Pages&lt;/h3&gt;
 &lt;p&gt;GitHub Pages是GitHub提供给大家的快速部署静态网页的功能，但是由于国内访问比较慢，这里提供一个相对较快的解决办法，就是用GitHub+Vercel。&lt;/p&gt;</description>

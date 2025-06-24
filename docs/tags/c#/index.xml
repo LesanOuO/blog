@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C#中async和await异步编程</title>
-      <link>https://lesanouo.github.io/blog/posts/165617280001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165617280001/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165617280001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165617280001/</guid>
       <description>&lt;p&gt;在代码中遇到了网络请求编程时，往往需要异步编程才能给用户带来良好的体验，不会导致程序完全阻塞。&lt;/p&gt;
 &lt;p&gt;其中的关键在于：&lt;/p&gt;
 &lt;ul&gt;

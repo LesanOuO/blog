@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RabbitMQ笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/164502720001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164502720001/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164502720001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164502720001/</guid>
       <description>&lt;h2 id=&#34;rabbitmq简述&#34;&gt;RabbitMQ简述&lt;/h2&gt;
 &lt;p&gt;MQ全称为Message Queue, 消息队列（MQ）是一种应用程序对应用程序的通信方法。RabbitMQ是一个在AMQP基础上完整的，可复用的企业消息系统。他遵循Mozilla Public License开源协议。AMQP(高级消息队列协议) 是一个异步消息传递所使用的应用层协议规范，作为线路层协议，而不是API（例如JMS），AMQP 客户端能够无视消息的来源任意发送和接受信息。AMQP的原始用途只是为金融界提供一个可以彼此协作的消息协议，而现在的目标则是为通用消息队列架构提供通用构建工具。因此，面向消息的中间件 （MOM）系统，例如发布/订阅队列，没有作为基本元素实现。AMQP当中有四个概念非常重要（一个虚拟主机持有一组交换机、队列和绑定）：&lt;/p&gt;</description>
     </item>

@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/redis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redis常见用途</title>
-      <link>https://lesanouo.github.io/blog/posts/168805440003/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168805440003/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168805440003/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168805440003/</guid>
       <description>&lt;p&gt;本篇文章主要简要总结Redis的常见用途&lt;/p&gt;
 &lt;h2 id=&#34;1缓存&#34;&gt;1、缓存&lt;/h2&gt;
 &lt;p&gt;String类型&lt;/p&gt;
@@ -20,17 +20,17 @@
     </item>
     <item>
       <title>SpringBoot&#43;Redis实现接口限流</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200011/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200011/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200011/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200011/</guid>
       <description>&lt;p&gt;Redis 作为21世纪最流行的缓存中间件，它也能够实现接口限流的作用，本片文章主要记录个人实现过程。&lt;/p&gt;
 &lt;p&gt;在分布式高并发系统中，常常需要用到 &lt;code&gt;缓存&lt;/code&gt; 、&lt;code&gt;降级&lt;/code&gt; 、 &lt;code&gt;限流&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Redis笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/165297600001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165297600001/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165297600001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165297600001/</guid>
       <description>&lt;h2 id=&#34;redis简介&#34;&gt;Redis简介&lt;/h2&gt;
 &lt;p&gt;Redis 是完全开源的，遵守 BSD 协议，是一个高性能的 key-value 数据库。&lt;/p&gt;
 &lt;p&gt;Redis 与其他 key - value 缓存产品有以下三个特点：&lt;/p&gt;

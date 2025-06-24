@@ -6,8 +6,38 @@
     <description>Recent content in 代码片段 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/categories/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>软件安装教程</title>
+      <link>https://lesanouo.github.io/blog/posts/snippet/program_install/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/snippet/program_install/</guid>
+      <description>&lt;p&gt;本文涵盖一些软件安装教程的文章，用于备忘~&lt;/p&gt;
+&lt;h2 id=&#34;zookeeper&#34;&gt;zookeeper&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/baomw/article/details/103835540&#34;&gt;https://blog.csdn.net/baomw/article/details/103835540&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;kafka&#34;&gt;kafka&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_42109071/article/details/107564094&#34;&gt;https://blog.csdn.net/weixin_42109071/article/details/107564094&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;redis&#34;&gt;redis&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/m0_52985087/article/details/134466218&#34;&gt;https://blog.csdn.net/m0_52985087/article/details/134466218&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.tencent.com/developer/article/2184759&#34;&gt;https://cloud.tencent.com/developer/article/2184759&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;mysql&#34;&gt;mysql&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/m0_52985087/article/details/134444801&#34;&gt;https://blog.csdn.net/m0_52985087/article/details/134444801&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;docker&#34;&gt;docker&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/chexlong/article/details/127932711&#34;&gt;https://blog.csdn.net/chexlong/article/details/127932711&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;elasticsearch&#34;&gt;elasticsearch&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Acloasia/article/details/130683934&#34;&gt;https://blog.csdn.net/Acloasia/article/details/130683934&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;prometheus&#34;&gt;prometheus&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_31725371/article/details/114697770&#34;&gt;https://blog.csdn.net/qq_31725371/article/details/114697770&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>Vue3 代码片段</title>
       <link>https://lesanouo.github.io/blog/posts/snippet/vue3/</link>

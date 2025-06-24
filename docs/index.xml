@@ -9,17 +9,47 @@
     <lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>使用Nginx反向代理ONLYOFFICE</title>
-      <link>https://lesanouo.github.io/blog/posts/175069440001/</link>
+      <title>软件安装教程</title>
+      <link>https://lesanouo.github.io/blog/posts/snippet/program_install/</link>
       <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/175069440001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/snippet/program_install/</guid>
+      <description>&lt;p&gt;本文涵盖一些软件安装教程的文章，用于备忘~&lt;/p&gt;
+&lt;h2 id=&#34;zookeeper&#34;&gt;zookeeper&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/baomw/article/details/103835540&#34;&gt;https://blog.csdn.net/baomw/article/details/103835540&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;kafka&#34;&gt;kafka&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_42109071/article/details/107564094&#34;&gt;https://blog.csdn.net/weixin_42109071/article/details/107564094&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;redis&#34;&gt;redis&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/m0_52985087/article/details/134466218&#34;&gt;https://blog.csdn.net/m0_52985087/article/details/134466218&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.tencent.com/developer/article/2184759&#34;&gt;https://cloud.tencent.com/developer/article/2184759&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;mysql&#34;&gt;mysql&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/m0_52985087/article/details/134444801&#34;&gt;https://blog.csdn.net/m0_52985087/article/details/134444801&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;docker&#34;&gt;docker&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/chexlong/article/details/127932711&#34;&gt;https://blog.csdn.net/chexlong/article/details/127932711&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;elasticsearch&#34;&gt;elasticsearch&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Acloasia/article/details/130683934&#34;&gt;https://blog.csdn.net/Acloasia/article/details/130683934&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;prometheus&#34;&gt;prometheus&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_31725371/article/details/114697770&#34;&gt;https://blog.csdn.net/qq_31725371/article/details/114697770&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>使用Nginx反向代理ONLYOFFICE</title>
+      <link>https://lesanouo.github.io/blog/posts/code/175069440001/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/code/175069440001/</guid>
       <description>&lt;p&gt;本文通过使用Nginx反向代理ONLYOFFICE来解决在Vue代码中写死网络路径，让修改ONLYOFFICE路径变得更加方便，不用再烦恼每次更新都需要修改代码。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker安装ONLYOFFICE</title>
-      <link>https://lesanouo.github.io/blog/posts/175060800002/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/175060800002/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/175060800002/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/175060800002/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;ONLYOFFICE&lt;/code&gt;是一个值得推荐的软件，它能够帮助各种规模和类型的团队安全地在线协作处理文档。&lt;/p&gt;
 &lt;ol&gt;
@@ -79,24 +109,24 @@
     </item>
     <item>
       <title>Maven解决Resource下office文件编译后损坏</title>
-      <link>https://lesanouo.github.io/blog/posts/175060800001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/175060800001/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/175060800001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/175060800001/</guid>
       <description>&lt;p&gt;当我们再Resource目录下存放了office文件（如word、ppt、excel等），一经编译后会导致文件损坏无法打开。&lt;/p&gt;
 &lt;p&gt;原因：编译后会对文件进行转码&lt;/p&gt;</description>
     </item>
     <item>
       <title>MySQL数据库定时全量与增量备份</title>
-      <link>https://lesanouo.github.io/blog/posts/175017600001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/175017600001/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/175017600001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/175017600001/</guid>
       <description>&lt;p&gt;数据是无价的，对于数据库来说，由于人为或自然等等各种各样的突发事件，很容易导致数据错误或数据丢失等情况，甚至是数据库崩溃，所以为了保障数据的安全，我们需要对数据库进行有效的定时全量和增量备份来保护数据库。&lt;/p&gt;</description>
     </item>
     <item>
       <title>npm中windows-build-tools下载问题</title>
-      <link>https://lesanouo.github.io/blog/posts/175000320001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/175000320001/</link>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/175000320001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/175000320001/</guid>
       <description>&lt;p&gt;在学习一些老旧的项目时下载各种的依赖但是下载的时候一直提示失败，显示python的依赖一直下载不下来。&lt;/p&gt;
 &lt;p&gt;通过以下命令就能成功下载&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;npm --python_mirror=https://registry.npmmirror.com/-/binary/python/ install --global windows-build-tools&lt;/code&gt;&lt;/p&gt;
@@ -124,9 +154,9 @@
     </item>
     <item>
       <title>dynamic-datasource文档</title>
-      <link>https://lesanouo.github.io/blog/posts/174974400001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/174974400001/</link>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/174974400001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/174974400001/</guid>
       <description>&lt;p&gt;本文为 &lt;code&gt;dynamic-datasource-spring-boot-starter&lt;/code&gt; （基于SpringBoot的快速集成多数据源框架）的使用文档。&lt;/p&gt;
 &lt;h1 id=&#34;特性&#34;&gt;特性&lt;/h1&gt;
 &lt;ol&gt;
@@ -162,9 +192,9 @@
     </item>
     <item>
       <title>MySQL创建用户与授权</title>
-      <link>https://lesanouo.github.io/blog/posts/174931200001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/174931200001/</link>
       <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/174931200001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/174931200001/</guid>
       <description>&lt;h2 id=&#34;创建用户&#34;&gt;创建用户&lt;/h2&gt;
 &lt;h3 id=&#34;命令&#34;&gt;命令&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;CREATE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;USER&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;username&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;IDENTIFIED&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;BY&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -215,9 +245,9 @@
     </item>
     <item>
       <title>Linux系统使用systemd配置.NET项目开机自启动</title>
-      <link>https://lesanouo.github.io/blog/posts/171423360001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/171423360001/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/171423360001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/171423360001/</guid>
       <description>&lt;p&gt;本片文章记录在Linux（CentOS7）中如何使用&lt;code&gt;systemctl&lt;/code&gt;命令进行系统和服务管理&lt;/p&gt;
 &lt;h2 id=&#34;systemctl命令&#34;&gt;&lt;code&gt;systemctl&lt;/code&gt;命令&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 设置开机自启动，可在任意目录下执行&lt;/span&gt;
@@ -242,25 +272,25 @@
     </item>
     <item>
       <title>Git中提高效率的5条命令</title>
-      <link>https://lesanouo.github.io/blog/posts/170196480001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/170196480001/</link>
       <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/170196480001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/170196480001/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;使用 Git 作为代码版本管理，早已是现在开发工程师必备的技能。可大多数工程师还是只会最基本的保存、拉取、推送，遇到一些commit管理的问题就束手无策，或者用一些不优雅的方式解决。&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何更优雅地实现策略模式</title>
-      <link>https://lesanouo.github.io/blog/posts/170187840001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/170187840001/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/170187840001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/170187840001/</guid>
       <description>&lt;h2 id=&#34;什么是策略模式&#34;&gt;什么是策略模式&lt;/h2&gt;
 &lt;p&gt;策略模式，应该是工作中比较常用的设计模式，调用方自己选择用哪一种策略完成对数据的操作，也就是“一个类的行为或其算法可以在运行时更改”，将一些除了过程不同其他都一样的函数封装成策略，然后调用方自己去选择想让数据执行什么过程策略。常见的例子为根据用户分类推荐不同的排行榜（用户关注点不一样，推荐榜单就不一样）&lt;/p&gt;</description>
     </item>
     <item>
       <title>一个技术架构的反例</title>
-      <link>https://lesanouo.github.io/blog/posts/169954560001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/169954560001/</link>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/169954560001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/169954560001/</guid>
       <description>&lt;h2 id=&#34;1-系统主链路尽可能单点&#34;&gt;1. 系统主链路尽可能单点&lt;/h2&gt;
 &lt;p&gt;单点系统，就像苏伊士运河一样，一旦航道出故障，整个运输系统都瘫痪，非常酸爽。&lt;/p&gt;
 &lt;h2 id=&#34;2-程序中多用循环&#34;&gt;2. 程序中多用循环&lt;/h2&gt;
@@ -279,18 +309,18 @@
     </item>
     <item>
       <title>MAVEN私有仓库搭建与配置</title>
-      <link>https://lesanouo.github.io/blog/posts/169531200001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/169531200001/</link>
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/169531200001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/169531200001/</guid>
       <description>&lt;p&gt;在工作中，公司内部往往需要一个私有的MAVEN仓库进行统一管理，本篇文章就带大家如何通过nexus搭建一个自己的MAVEN私有仓库&lt;/p&gt;
 &lt;h2 id=&#34;下载-nexus-安装包&#34;&gt;下载 nexus 安装包&lt;/h2&gt;
 &lt;p&gt;nexus官网地址：https://www.sonatype.com/products/sonatype-nexus-oss-download&lt;/p&gt;</description>
     </item>
     <item>
       <title>go程序注册为windows服务</title>
-      <link>https://lesanouo.github.io/blog/posts/168960960001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168960960001/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168960960001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168960960001/</guid>
       <description>&lt;p&gt;编写完go程序后编译成exe后，双击可正常执行，但是通过&lt;code&gt;sc&lt;/code&gt;注册为服务后启动报错&lt;code&gt;错误1053：服务没有及时响应启动或控制请求&lt;/code&gt;，百思不得其解，只能看看能不能有别的方式注册成服务。&lt;/p&gt;</description>
     </item>
     <item>
@@ -306,9 +336,9 @@
     </item>
     <item>
       <title>SpringBoot实现大文件上传</title>
-      <link>https://lesanouo.github.io/blog/posts/168831360001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168831360001/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168831360001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168831360001/</guid>
       <description>&lt;p&gt;大文件上传是提高用户体验感的重要功能，像百度网盘、阿里网盘等等都支持断点续传和文件秒传功能，减少了网络波动和网络带宽对文件的限制。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;「文件分块」：将大文件拆分成小文件，将小文件上传\下载，最后再将小文件组装成大文件；&lt;/li&gt;
@@ -319,25 +349,25 @@
     </item>
     <item>
       <title>SpringBoot&#43;Redisson实现延迟队列</title>
-      <link>https://lesanouo.github.io/blog/posts/168814080001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168814080001/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168814080001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168814080001/</guid>
       <description>&lt;p&gt;在电商、支付等系统中，一般都是先创建订单（支付单），再给用户一定的时间进行支付，如果没有按时支付的话，就需要把之前的订单（支付单）取消掉。&lt;/p&gt;
 &lt;p&gt;这种类似的场景有很多，还有比如到期自动收货、超时自动退款、下单后自动发送短信等等都是类似的业务问题。&lt;/p&gt;</description>
     </item>
     <item>
       <title>CSS实现防止按钮重复点击</title>
-      <link>https://lesanouo.github.io/blog/posts/168805440004/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168805440004/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168805440004/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168805440004/</guid>
       <description>&lt;p&gt;函数节流（throttle）是 JS 中一个非常常见的优化手段，可以有效的避免函数过于频繁的执行。&lt;/p&gt;
 &lt;p&gt;举个例子：一个保存按钮，为了避免重复提交或者服务器考虑，往往需要对点击行为做一定的限制，比如只允许每300ms提交一次，这时候我想大部分同学都会到网上直接拷贝一段throttle函数，或者直接引用lodash工具库&lt;/p&gt;</description>
     </item>
     <item>
       <title>Redis常见用途</title>
-      <link>https://lesanouo.github.io/blog/posts/168805440003/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168805440003/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168805440003/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168805440003/</guid>
       <description>&lt;p&gt;本篇文章主要简要总结Redis的常见用途&lt;/p&gt;
 &lt;h2 id=&#34;1缓存&#34;&gt;1、缓存&lt;/h2&gt;
 &lt;p&gt;String类型&lt;/p&gt;
@@ -345,9 +375,9 @@
     </item>
     <item>
       <title>SpringBoot自建starter库</title>
-      <link>https://lesanouo.github.io/blog/posts/168805440002/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168805440002/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168805440002/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168805440002/</guid>
       <description>&lt;p&gt;本文用最短的时间给大家分享手写 starter 的完整流程。&lt;/p&gt;
 &lt;h2 id=&#34;创建项目&#34;&gt;创建项目&lt;/h2&gt;
 &lt;p&gt;首先我们用 IDEA 开发工具来初始化一个 Spring Boot 项目，注意 Java 版本不要选太高、Spring Boot 版本不要选 3.x&lt;/p&gt;
@@ -356,9 +386,9 @@
     </item>
     <item>
       <title>一些简单好用的SQL语法</title>
-      <link>https://lesanouo.github.io/blog/posts/168805440001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/168805440001/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/168805440001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/168805440001/</guid>
       <description>&lt;p&gt;本篇文章分享网上看到的一些非常有用的 SQL 语句，并不复杂，希望大家要用到的时候能想起来有这么一些东西。&lt;/p&gt;
 &lt;p&gt;下面以最经典的数据库之一 MySQL 的语法为例，其实很多语法和函数其他的数据库也是支持的。&lt;/p&gt;</description>
     </item>
@@ -448,17 +478,17 @@
     </item>
     <item>
       <title>Java中Lambda表达式学习</title>
-      <link>https://lesanouo.github.io/blog/posts/166999680001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166999680001/</link>
       <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166999680001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166999680001/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;在日常开发中，经常需要用到 &lt;code&gt;Java 8&lt;/code&gt; 的&lt;code&gt;Lambda&lt;/code&gt;表达式，它允许把函数作为一个方法的参数，让我们的代码更优雅、更简洁。本文主要总结收集一些常用的&lt;code&gt;Lambda&lt;/code&gt;表达式的使用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java中Function接口学习</title>
-      <link>https://lesanouo.github.io/blog/posts/166991040001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166991040001/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166991040001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166991040001/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -475,9 +505,9 @@
     </item>
     <item>
       <title>CentOS7系统安装</title>
-      <link>https://lesanouo.github.io/blog/posts/166982400001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166982400001/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166982400001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166982400001/</guid>
       <description>&lt;p&gt;本片文章记录个人安装CentOS7在台式主机上作为小型服务器&lt;/p&gt;
 &lt;h2 id=&#34;制作u盘启动盘&#34;&gt;制作U盘启动盘&lt;/h2&gt;
 &lt;h3 id=&#34;1-iso镜像下载&#34;&gt;1. iso镜像下载&lt;/h3&gt;
@@ -504,9 +534,9 @@
     </item>
     <item>
       <title>Java中链式编程学习</title>
-      <link>https://lesanouo.github.io/blog/posts/166973760001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166973760001/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166973760001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166973760001/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;链式编程可以使得代码可读性高，链式编程的原理就是通过&lt;code&gt;return this&lt;/code&gt;返回一个this对象，就是返回本身，达到链式效果。&lt;/p&gt;
 &lt;h2 id=&#34;实现链式编程&#34;&gt;实现链式编程&lt;/h2&gt;
@@ -550,39 +580,39 @@
     </item>
     <item>
       <title>Nginx配置Http和Https正向代理</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200012/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200012/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200012/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200012/</guid>
       <description>&lt;p&gt;&lt;code&gt;Nginx&lt;/code&gt;配置&lt;code&gt;http&lt;/code&gt;代理非常简单，网上教程也很多，但是无法很方便的配置&lt;code&gt;https&lt;/code&gt;代理，本片文章将记录搭建可以同时代理&lt;code&gt;http&lt;/code&gt;和&lt;code&gt;https&lt;/code&gt;的服务器。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SpringBoot&#43;Redis实现接口限流</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200011/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200011/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200011/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200011/</guid>
       <description>&lt;p&gt;Redis 作为21世纪最流行的缓存中间件，它也能够实现接口限流的作用，本片文章主要记录个人实现过程。&lt;/p&gt;
 &lt;p&gt;在分布式高并发系统中，常常需要用到 &lt;code&gt;缓存&lt;/code&gt; 、&lt;code&gt;降级&lt;/code&gt; 、 &lt;code&gt;限流&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SpringBoot常用注解总结</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200010/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200010/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200010/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200010/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;基于 SpringBoot 平台开发的项目数不胜数，与常规的基于Spring开发的项目最大的不同之处，SpringBoot 里面提供了大量的注解用于快速开发，而且非常简单，基本可以做到开箱即用！&lt;/p&gt;</description>
     </item>
     <item>
       <title>SpringBoot优化Controller层代码</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200009/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200009/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200009/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200009/</guid>
       <description>&lt;p&gt;本篇主要介绍的就是 &lt;code&gt;controller&lt;/code&gt; 层的一些优雅技巧，一个完整的后端请求由4部分组成：1. &lt;code&gt;接口地址&lt;/code&gt;(也就是URL地址)、2. &lt;code&gt;请求方式&lt;/code&gt;(一般就是get、set，当然还有put、delete)、3. &lt;code&gt;请求数据&lt;/code&gt;(request，有head跟body)、4. &lt;code&gt;响应数据&lt;/code&gt;(response)&lt;/p&gt;</description>
     </item>
     <item>
       <title>SQLServer一些小技巧</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200008/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200008/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200008/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200008/</guid>
       <description>&lt;h2 id=&#34;多行转成一列并用分割&#34;&gt;多行转成一列（并用&amp;quot;,&amp;ldquo;分割）&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;STUFF&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;VALUE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHERE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FOR&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;XML&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;VALUE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -594,33 +624,33 @@
     </item>
     <item>
       <title>SQL优化小技巧</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200007/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200007/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200007/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200007/</guid>
       <description>&lt;p&gt;本篇文章主要是一些SQL优化的小技巧，为了提升SQL编写规范及性能&lt;/p&gt;
 &lt;h2 id=&#34;避免使用select-&#34;&gt;避免使用select *&lt;/h2&gt;
 &lt;p&gt;在实际业务场景中，我们不一定需要查出整张表中的所有数据。如果查出了许多不必要的数据，这样会白白浪费了数据库的资源，如：内存或CPU。此外，多查出来的数据，通过网络IO传输的过程中，也会增加数据传输的时间。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SSE实现服务器推送</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200006/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200006/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200006/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200006/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;服务端向客户端推送消息，其实除了可以用&lt;code&gt;WebSocket&lt;/code&gt;这种耳熟能详的机制外，还有一种服务器发送事件(&lt;code&gt;Server-sent events&lt;/code&gt;)，简称&lt;code&gt;SSE&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>STEP、IGES、STL等3D模型转换为GLB</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200005/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200005/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200005/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200005/</guid>
       <description>&lt;p&gt;在用threejs渲染3D模型时，往往需要选择一个最适合的模型格式，通常都是使用GLB作为Web渲染模型。然而许多工业的模型往往都是以STEP或者IGES作为导出格式，这种格式对于目前主流的3D渲染库支持并不好，所以需要转换模型格式。本篇文章为个人通过查找总结的转换方法，虽然并不是最优解🙃。&lt;/p&gt;</description>
     </item>
     <item>
       <title>多线程下的琐事</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200004/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200004/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200004/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200004/</guid>
       <description>&lt;p&gt;单线程与多线程可以看作是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;单线程为在一个单向行驶的道路上，每辆汽车都遵守交通规则&lt;/li&gt;
@@ -630,9 +660,9 @@
     </item>
     <item>
       <title>关于.NET的面试笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200003/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200003/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200003/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200003/</guid>
       <description>&lt;h2 id=&#34;net-基础&#34;&gt;.net 基础&lt;/h2&gt;
 &lt;p&gt;1、Task和Thread有什么区别&lt;/p&gt;
 &lt;p&gt;2、当执行遇到await的时候会执行什么动作&lt;/p&gt;
@@ -643,9 +673,9 @@
     </item>
     <item>
       <title>设置网络代理后需要注意</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200002/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200002/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200002/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200002/</guid>
       <description>&lt;p&gt;如电脑设置了网络代理，会导致一些软件工具不能正常工作。查找了网上许多解决方案，总结如下。&lt;/p&gt;
 &lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
 &lt;ul&gt;
@@ -669,9 +699,9 @@
     </item>
     <item>
       <title>通过SQL导出数据库表结构</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200001/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200001/</guid>
       <description>&lt;p&gt;在编写数据库文档时，我们常常需要写表结构文档，这时候就需要一些方法来节约我们写文档的时间。&lt;/p&gt;
 &lt;p&gt;我通过网络上的资料，总结了 &lt;code&gt;MySQL&lt;/code&gt; 及 &lt;code&gt;SQL Server&lt;/code&gt; 的通过SQL语句导出数据库表结构的方法。&lt;/p&gt;</description>
     </item>
@@ -690,24 +720,24 @@
     </item>
     <item>
       <title>如何在.NET中开启静态文件访问</title>
-      <link>https://lesanouo.github.io/blog/posts/165798720001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165798720001/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165798720001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165798720001/</guid>
       <description>&lt;h2 id=&#34;基本使用&#34;&gt;基本使用&lt;/h2&gt;
 &lt;p&gt;静态文件（常见的有HTML，CSS，图片和JS等资源）可以通过 .NET Core 应用直接提供给客户端。还有一些比较常用的文件（PDF或者一些需要下载的文件）也是需要通过静态文件的方式提供下载的，如果没有搭建文件管理的服务器的话，通过静态文件的方式下载也是不错的选择。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux中修改Docker存储位置</title>
-      <link>https://lesanouo.github.io/blog/posts/165669120001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165669120001/</link>
       <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165669120001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165669120001/</guid>
       <description>&lt;p&gt;在维护服务器时，发现docker所在盘容量已满，导致mongodb插入数据失败从而崩溃。由此记录修改Linux中Dockder位置时遇到的问题&lt;/p&gt;</description>
     </item>
     <item>
       <title>C#中async和await异步编程</title>
-      <link>https://lesanouo.github.io/blog/posts/165617280001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165617280001/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165617280001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165617280001/</guid>
       <description>&lt;p&gt;在代码中遇到了网络请求编程时，往往需要异步编程才能给用户带来良好的体验，不会导致程序完全阻塞。&lt;/p&gt;
 &lt;p&gt;其中的关键在于：&lt;/p&gt;
 &lt;ul&gt;
@@ -725,25 +755,25 @@
     </item>
     <item>
       <title>在.NET中Task与Thread区别</title>
-      <link>https://lesanouo.github.io/blog/posts/165617280002/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165617280002/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165617280002/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165617280002/</guid>
       <description>&lt;h2 id=&#34;什么是-thread&#34;&gt;什么是 Thread&lt;/h2&gt;
 &lt;p&gt;当我们提及多线程的时候会想到 Thread 和 Threadpool，这都是异步操作，Threadpool 其实就是 Thread 的集合，具有很多优势，不过在任务多的时候全局队列会存在竞争而消耗资源。Thread 默认为前台线程，主程序必须等线程跑完才会关闭，而 Threadpool 相反。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vue中全局封装SignalR</title>
-      <link>https://lesanouo.github.io/blog/posts/165591360001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165591360001/</link>
       <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165591360001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165591360001/</guid>
       <description>&lt;h2 id=&#34;signalr-简介&#34;&gt;SignalR 简介&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;ASP.NET&lt;/code&gt; SignalR 是一个供 &lt;code&gt;ASP.NET&lt;/code&gt; 开发人员使用的库，它简化了向应用程序添加实时 Web 功能的过程。实时 Web 功能是让服务器代码在内容可用时立即将内容推送到连接的客户端的能力，而不是让服务器等待客户端请求新数据。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker清理和限制容器日志大小</title>
-      <link>https://lesanouo.github.io/blog/posts/165548160001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165548160001/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165548160001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165548160001/</guid>
       <description>&lt;p&gt;&lt;code&gt;docker logs&lt;/code&gt; 是我们经常用来查看容器运行日志的命令，但是在长时间容器运行后，会产生大量的日志，会发现越来越慢，所以我们需要清理日志。&lt;/p&gt;
 &lt;h2 id=&#34;docker-清理日志&#34;&gt;Docker 清理日志&lt;/h2&gt;
 &lt;p&gt;通过命令 &lt;code&gt;docker inspect --format=&#39;{{.LogPath}}&#39; &amp;lt;容器ID&amp;gt;&lt;/code&gt; 查看容器的日志路径&lt;/p&gt;</description>
@@ -785,9 +815,9 @@
     </item>
     <item>
       <title>正则表达式总结</title>
-      <link>https://lesanouo.github.io/blog/posts/165530880001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165530880001/</link>
       <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165530880001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165530880001/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;使用正则表达式来处理搜索文本，能够提高灵活性。
 通过使用正则表达式，可以做到：&lt;/p&gt;
@@ -1126,16 +1156,16 @@
     </item>
     <item>
       <title>Docker为已启动容器添加挂载目录或端口映射</title>
-      <link>https://lesanouo.github.io/blog/posts/165513600001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165513600001/</link>
       <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165513600001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165513600001/</guid>
       <description>&lt;p&gt;在使用docker时，常常需要对已启动的容器进行相应的配置修改，其中最常见的就是挂载目录或端口映射。其实配置也并不是非常复杂，可以通过修改docker中的json配置文件即可。&lt;/p&gt;</description>
     </item>
     <item>
       <title>数据库优化Tips</title>
-      <link>https://lesanouo.github.io/blog/posts/165504960001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165504960001/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165504960001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165504960001/</guid>
       <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
 &lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
 &lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;
@@ -1158,17 +1188,17 @@
     </item>
     <item>
       <title>Linux增加SSH端口</title>
-      <link>https://lesanouo.github.io/blog/posts/165306240001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165306240001/</link>
       <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165306240001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165306240001/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;在大型企业中，服务器网络一般都会有各种各样的限制，常见的就会有堡垒机或者运维网关，以达到操作审计等目的。但对于开发者来讲，这些限制大大降低了效率，所以我们需要一个方便的方式来解决这个问题。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Redis笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/165297600001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165297600001/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165297600001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165297600001/</guid>
       <description>&lt;h2 id=&#34;redis简介&#34;&gt;Redis简介&lt;/h2&gt;
 &lt;p&gt;Redis 是完全开源的，遵守 BSD 协议，是一个高性能的 key-value 数据库。&lt;/p&gt;
 &lt;p&gt;Redis 与其他 key - value 缓存产品有以下三个特点：&lt;/p&gt;
@@ -1185,68 +1215,68 @@
     </item>
     <item>
       <title>生产者与消费者问题</title>
-      <link>https://lesanouo.github.io/blog/posts/165193920001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165193920001/</link>
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165193920001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165193920001/</guid>
       <description>&lt;p&gt;生产者消费者问题（Producer-consumer problem），也称有限缓冲问题（Bounded-buffer problem），是一个多线程同步问题的经典案例。生产者生成一定量的数据放到缓冲区中，然后重复此过程；与此同时，消费者也在缓冲区消耗这些数据。生产者和消费者之间必须保持同步，要保证生产者不会在缓冲区满时放入数据，消费者也不会在缓冲区空时消耗数据。不够完善的解决方法容易出现死锁的情况，此时进程都在等待唤醒。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java中Stream学习</title>
-      <link>https://lesanouo.github.io/blog/posts/165012480002/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165012480002/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165012480002/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165012480002/</guid>
       <description>&lt;p&gt;本篇笔记主要记录我在学习Java的stream流中记录的笔记&lt;/p&gt;
 &lt;h2 id=&#34;stream是什么&#34;&gt;stream是什么&lt;/h2&gt;
 &lt;p&gt;流是从支持数据处理操作的源生成的元素序列，源可以是数组、文件、集合、函数。流不是集合元素，它不是数据结构并不保存数据，它的主要目的在于计算&lt;/p&gt;</description>
     </item>
     <item>
       <title>华为机试题：报数游戏</title>
-      <link>https://lesanouo.github.io/blog/posts/165012480001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165012480001/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165012480001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165012480001/</guid>
       <description>&lt;p&gt;在进行华为机试时遇到了报数游戏的编程题（约瑟夫环），但是看了很多网上的解题都非常长，于是经过不断的学习参考，有了下面这个解题方法，也不知道是不是最好的😭&lt;/p&gt;</description>
     </item>
     <item>
       <title>分享可私有部署的接口管理系统Yapi</title>
-      <link>https://lesanouo.github.io/blog/posts/164891520001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164891520001/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164891520001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164891520001/</guid>
       <description>&lt;p&gt;在 web 软件开发中，API接口管理非常重要，也是前后端对接的关键，这里分享一个非常好用且可以私有化部署的接口管理系统Yapi，对那些内网开发的小伙伴们是一个不错的选择。&lt;/p&gt;</description>
     </item>
     <item>
       <title>记一次搭建GitLab&#43;Jenkins实现CI&amp;CD</title>
-      <link>https://lesanouo.github.io/blog/posts/164874240001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164874240001/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164874240001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164874240001/</guid>
       <description>&lt;p&gt;本篇文章记录本人搭建CI&amp;amp;CD实现持续集成和持续部署&lt;/p&gt;
 &lt;h2 id=&#34;1使用docker安装gitlab&#34;&gt;1.使用docker安装gitlab&lt;/h2&gt;
 &lt;h3 id=&#34;下载镜像-使用中文社区版&#34;&gt;下载镜像 （使用中文社区版）&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lesanouo.github.io/blog/posts/164874240001/images/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lesanouo.github.io/blog/posts/code/164874240001/images/1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;docker pull twang2218/gitlab-ce-zh&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;创建所需目录为后续挂载文件&#34;&gt;创建所需目录为后续挂载文件&lt;/h3&gt;
 &lt;p&gt;进入所需目录后，打开PowerShell，通过以下命令进行目录创建&lt;/p&gt;</description>
     </item>
     <item>
       <title>构建一个带libgdiplus的.NET基础Docker镜像</title>
-      <link>https://lesanouo.github.io/blog/posts/164831040001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164831040001/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164831040001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164831040001/</guid>
       <description>&lt;p&gt;默认.NET的Docker镜像是不包含libgdiplus的，所以本文介绍如何通过在原有镜像基础上构建一个满足个人需求的Docker镜像。&lt;/p&gt;
 &lt;h2 id=&#34;docker-简介&#34;&gt;Docker 简介&lt;/h2&gt;
 &lt;p&gt;Docker 是一个开源的应用容器引擎，基于 &lt;strong&gt;Go 语言&lt;/strong&gt; 并遵从 Apache2.0 协议开源。Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在.NET中实现消息推送的三种方式</title>
-      <link>https://lesanouo.github.io/blog/posts/164761920001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164761920001/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164761920001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164761920001/</guid>
       <description>&lt;p&gt;消息推送是大部分系统都需要做到的功能，在.NET中我分别通过RabbitMQ、MQTT、SignalR实现消息推送功能，本篇文章将通过它们实现简单的推送功能，手把手带大家完成编程。本文环境为 &lt;code&gt;.NET Core 3.1&lt;/code&gt;下&lt;/p&gt;</description>
     </item>
     <item>
       <title>RabbitMQ笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/164502720001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164502720001/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164502720001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164502720001/</guid>
       <description>&lt;h2 id=&#34;rabbitmq简述&#34;&gt;RabbitMQ简述&lt;/h2&gt;
 &lt;p&gt;MQ全称为Message Queue, 消息队列（MQ）是一种应用程序对应用程序的通信方法。RabbitMQ是一个在AMQP基础上完整的，可复用的企业消息系统。他遵循Mozilla Public License开源协议。AMQP(高级消息队列协议) 是一个异步消息传递所使用的应用层协议规范，作为线路层协议，而不是API（例如JMS），AMQP 客户端能够无视消息的来源任意发送和接受信息。AMQP的原始用途只是为金融界提供一个可以彼此协作的消息协议，而现在的目标则是为通用消息队列架构提供通用构建工具。因此，面向消息的中间件 （MOM）系统，例如发布/订阅队列，没有作为基本元素实现。AMQP当中有四个概念非常重要（一个虚拟主机持有一组交换机、队列和绑定）：&lt;/p&gt;</description>
     </item>
@@ -1669,9 +1699,9 @@
     </item>
     <item>
       <title>Nginx笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/164494080001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164494080001/</link>
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164494080001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164494080001/</guid>
       <description>&lt;p&gt;本文为个人学习和实践 Nginx 的笔记&lt;/p&gt;
 &lt;h2 id=&#34;nginx-常用功能&#34;&gt;Nginx 常用功能&lt;/h2&gt;
 &lt;p&gt;Nginx 有以下几个常用功能&lt;/p&gt;
@@ -1682,9 +1712,9 @@
     </item>
     <item>
       <title>算法学习-链表</title>
-      <link>https://lesanouo.github.io/blog/posts/164312640001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164312640001/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164312640001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164312640001/</guid>
       <description>&lt;p&gt;本篇文章是学习leetcode中链表相关算法总结的链表技巧。&lt;/p&gt;
 &lt;h2 id=&#34;虚拟头节点&#34;&gt;虚拟头节点&lt;/h2&gt;
 &lt;h3 id=&#34;力扣第-21-题合并两个有序链表&#34;&gt;力扣第 21 题「合并两个有序链表」&lt;/h3&gt;
@@ -1712,9 +1742,9 @@
     </item>
     <item>
       <title>Hugo个人静态网页生成</title>
-      <link>https://lesanouo.github.io/blog/posts/160269120001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/160269120001/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/160269120001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/160269120001/</guid>
       <description>&lt;h3 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h3&gt;
 &lt;p&gt;到 &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo Releases&lt;/a&gt; 下载对应的操作系统版本的Hugo二进制文件（hugo或者hugo.exe）&lt;/p&gt;
 &lt;p&gt;Mac下直接使用 &lt;code&gt;Homebrew&lt;/code&gt; 安装：&lt;/p&gt;
@@ -1724,18 +1754,18 @@
     </item>
     <item>
       <title>搭建个人网站:GitHub&#43;Vercel</title>
-      <link>https://lesanouo.github.io/blog/posts/160260480001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/160260480001/</link>
       <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/160260480001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/160260480001/</guid>
       <description>&lt;p&gt;本文主要介绍如何通过GitHub+Vercel免费搭建一个自己的静态网页。&lt;/p&gt;
 &lt;h3 id=&#34;github-pages&#34;&gt;GitHub Pages&lt;/h3&gt;
 &lt;p&gt;GitHub Pages是GitHub提供给大家的快速部署静态网页的功能，但是由于国内访问比较慢，这里提供一个相对较快的解决办法，就是用GitHub+Vercel。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown语法</title>
-      <link>https://lesanouo.github.io/blog/posts/160243200001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/160243200001/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/160243200001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/160243200001/</guid>
       <description>&lt;h2 id=&#34;一写前准备&#34;&gt;一、写前准备&lt;/h2&gt;
 &lt;p&gt;在atom文本编译器中自带着markdown的编写与浏览功能。
 浏览使用快捷键ctl+shift+m就可以打开markdown预览。

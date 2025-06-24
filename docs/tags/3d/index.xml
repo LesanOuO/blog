@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/3d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>STEP、IGES、STL等3D模型转换为GLB</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200005/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200005/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200005/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200005/</guid>
       <description>&lt;p&gt;在用threejs渲染3D模型时，往往需要选择一个最适合的模型格式，通常都是使用GLB作为Web渲染模型。然而许多工业的模型往往都是以STEP或者IGES作为导出格式，这种格式对于目前主流的3D渲染库支持并不好，所以需要转换模型格式。本篇文章为个人通过查找总结的转换方法，虽然并不是最优解🙃。&lt;/p&gt;</description>
     </item>
   </channel>

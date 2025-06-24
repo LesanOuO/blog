@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dynamic-datasource文档</title>
-      <link>https://lesanouo.github.io/blog/posts/174974400001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/174974400001/</link>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/174974400001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/174974400001/</guid>
       <description>&lt;p&gt;本文为 &lt;code&gt;dynamic-datasource-spring-boot-starter&lt;/code&gt; （基于SpringBoot的快速集成多数据源框架）的使用文档。&lt;/p&gt;
 &lt;h1 id=&#34;特性&#34;&gt;特性&lt;/h1&gt;
 &lt;ol&gt;

@@ -10,23 +10,23 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用Nginx反向代理ONLYOFFICE</title>
-      <link>https://lesanouo.github.io/blog/posts/175069440001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/175069440001/</link>
       <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/175069440001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/175069440001/</guid>
       <description>&lt;p&gt;本文通过使用Nginx反向代理ONLYOFFICE来解决在Vue代码中写死网络路径，让修改ONLYOFFICE路径变得更加方便，不用再烦恼每次更新都需要修改代码。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nginx配置Http和Https正向代理</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200012/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200012/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200012/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200012/</guid>
       <description>&lt;p&gt;&lt;code&gt;Nginx&lt;/code&gt;配置&lt;code&gt;http&lt;/code&gt;代理非常简单，网上教程也很多，但是无法很方便的配置&lt;code&gt;https&lt;/code&gt;代理，本片文章将记录搭建可以同时代理&lt;code&gt;http&lt;/code&gt;和&lt;code&gt;https&lt;/code&gt;的服务器。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nginx笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/164494080001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164494080001/</link>
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164494080001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164494080001/</guid>
       <description>&lt;p&gt;本文为个人学习和实践 Nginx 的笔记&lt;/p&gt;
 &lt;h2 id=&#34;nginx-常用功能&#34;&gt;Nginx 常用功能&lt;/h2&gt;
 &lt;p&gt;Nginx 有以下几个常用功能&lt;/p&gt;

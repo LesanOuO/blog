@@ -10,16 +10,16 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nginx配置Http和Https正向代理</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200012/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200012/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200012/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200012/</guid>
       <description>&lt;p&gt;&lt;code&gt;Nginx&lt;/code&gt;配置&lt;code&gt;http&lt;/code&gt;代理非常简单，网上教程也很多，但是无法很方便的配置&lt;code&gt;https&lt;/code&gt;代理，本片文章将记录搭建可以同时代理&lt;code&gt;http&lt;/code&gt;和&lt;code&gt;https&lt;/code&gt;的服务器。&lt;/p&gt;</description>
     </item>
     <item>
       <title>设置网络代理后需要注意</title>
-      <link>https://lesanouo.github.io/blog/posts/166939200002/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/166939200002/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/166939200002/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/166939200002/</guid>
       <description>&lt;p&gt;如电脑设置了网络代理，会导致一些软件工具不能正常工作。查找了网上许多解决方案，总结如下。&lt;/p&gt;
 &lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
 &lt;ul&gt;

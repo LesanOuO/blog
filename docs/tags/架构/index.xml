@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一个技术架构的反例</title>
-      <link>https://lesanouo.github.io/blog/posts/169954560001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/169954560001/</link>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/169954560001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/169954560001/</guid>
       <description>&lt;h2 id=&#34;1-系统主链路尽可能单点&#34;&gt;1. 系统主链路尽可能单点&lt;/h2&gt;
 &lt;p&gt;单点系统，就像苏伊士运河一样，一旦航道出故障，整个运输系统都瘫痪，非常酸爽。&lt;/p&gt;
 &lt;h2 id=&#34;2-程序中多用循环&#34;&gt;2. 程序中多用循环&lt;/h2&gt;

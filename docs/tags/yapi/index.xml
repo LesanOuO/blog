@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/yapi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>分享可私有部署的接口管理系统Yapi</title>
-      <link>https://lesanouo.github.io/blog/posts/164891520001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/164891520001/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/164891520001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/164891520001/</guid>
       <description>&lt;p&gt;在 web 软件开发中，API接口管理非常重要，也是前后端对接的关键，这里分享一个非常好用且可以私有化部署的接口管理系统Yapi，对那些内网开发的小伙伴们是一个不错的选择。&lt;/p&gt;</description>
     </item>
   </channel>

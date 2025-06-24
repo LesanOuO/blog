@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>正则表达式总结</title>
-      <link>https://lesanouo.github.io/blog/posts/165530880001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/165530880001/</link>
       <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/165530880001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/165530880001/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;使用正则表达式来处理搜索文本，能够提高灵活性。
 通过使用正则表达式，可以做到：&lt;/p&gt;

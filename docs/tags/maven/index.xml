@@ -10,17 +10,17 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/maven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maven解决Resource下office文件编译后损坏</title>
-      <link>https://lesanouo.github.io/blog/posts/175060800001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/175060800001/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/175060800001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/175060800001/</guid>
       <description>&lt;p&gt;当我们再Resource目录下存放了office文件（如word、ppt、excel等），一经编译后会导致文件损坏无法打开。&lt;/p&gt;
 &lt;p&gt;原因：编译后会对文件进行转码&lt;/p&gt;</description>
     </item>
     <item>
       <title>MAVEN私有仓库搭建与配置</title>
-      <link>https://lesanouo.github.io/blog/posts/169531200001/</link>
+      <link>https://lesanouo.github.io/blog/posts/code/169531200001/</link>
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/169531200001/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/code/169531200001/</guid>
       <description>&lt;p&gt;在工作中，公司内部往往需要一个私有的MAVEN仓库进行统一管理，本篇文章就带大家如何通过nexus搭建一个自己的MAVEN私有仓库&lt;/p&gt;
 &lt;h2 id=&#34;下载-nexus-安装包&#34;&gt;下载 nexus 安装包&lt;/h2&gt;
 &lt;p&gt;nexus官网地址：https://www.sonatype.com/products/sonatype-nexus-oss-download&lt;/p&gt;</description>
