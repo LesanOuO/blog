@@ -72,7 +72,7 @@ docker run -itd -p 8881:80 --restart=always \
 变量说明：
 
 - `-e JWT_SECRET=gie_jwt_secret` JWT验证密钥，JWT_ENABLED默认为true
-- `-e ALLOW_META_IP_ADDRESS=true``-e ALLOW_PRIVATE_IP_ADDRESS=true` 允许内网访问
+- `-e ALLOW_META_IP_ADDRESS=true` `-e ALLOW_PRIVATE_IP_ADDRESS=true` 允许内网访问
 
 ### 结果
 

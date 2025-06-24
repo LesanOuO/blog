@@ -6,8 +6,15 @@
     <description>Recent content in 📚 博客 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Nginx反向代理ONLYOFFICE</title>
+      <link>https://lesanouo.github.io/blog/posts/operation/%E4%BD%BF%E7%94%A8nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86onlyoffice/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/operation/%E4%BD%BF%E7%94%A8nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86onlyoffice/</guid>
+      <description>&lt;p&gt;本文通过使用Nginx反向代理ONLYOFFICE来解决在Vue代码中写死网络路径，让修改ONLYOFFICE路径变得更加方便，不用再烦恼每次更新都需要修改代码。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Docker安装ONLYOFFICE</title>
       <link>https://lesanouo.github.io/blog/posts/operation/docker%E5%AE%89%E8%A3%85onlyoffice/</link>
