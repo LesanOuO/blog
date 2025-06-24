@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker安装ONLYOFFICE</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/docker%E5%AE%89%E8%A3%85onlyoffice/</link>
+      <link>https://lesanouo.github.io/blog/posts/175060800002/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/docker%E5%AE%89%E8%A3%85onlyoffice/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/175060800002/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;ONLYOFFICE&lt;/code&gt;是一个值得推荐的软件，它能够帮助各种规模和类型的团队安全地在线协作处理文档。&lt;/p&gt;
 &lt;ol&gt;
@@ -72,32 +72,32 @@
     </item>
     <item>
       <title>Linux中修改Docker存储位置</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/linux%E4%B8%AD%E4%BF%AE%E6%94%B9docker%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE/</link>
+      <link>https://lesanouo.github.io/blog/posts/165669120001/</link>
       <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E4%B8%AD%E4%BF%AE%E6%94%B9docker%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165669120001/</guid>
       <description>&lt;p&gt;在维护服务器时，发现docker所在盘容量已满，导致mongodb插入数据失败从而崩溃。由此记录修改Linux中Dockder位置时遇到的问题&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker清理和限制容器日志大小</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/docker%E6%B8%85%E7%90%86%E5%92%8C%E9%99%90%E5%88%B6%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E5%A4%A7%E5%B0%8F/</link>
+      <link>https://lesanouo.github.io/blog/posts/165548160001/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/docker%E6%B8%85%E7%90%86%E5%92%8C%E9%99%90%E5%88%B6%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E5%A4%A7%E5%B0%8F/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165548160001/</guid>
       <description>&lt;p&gt;&lt;code&gt;docker logs&lt;/code&gt; 是我们经常用来查看容器运行日志的命令，但是在长时间容器运行后，会产生大量的日志，会发现越来越慢，所以我们需要清理日志。&lt;/p&gt;
 &lt;h2 id=&#34;docker-清理日志&#34;&gt;Docker 清理日志&lt;/h2&gt;
 &lt;p&gt;通过命令 &lt;code&gt;docker inspect --format=&#39;{{.LogPath}}&#39; &amp;lt;容器ID&amp;gt;&lt;/code&gt; 查看容器的日志路径&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker为已启动容器添加挂载目录或端口映射</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/docker%E4%B8%BA%E5%B7%B2%E5%90%AF%E5%8A%A8%E5%AE%B9%E5%99%A8%E6%B7%BB%E5%8A%A0%E6%8C%82%E8%BD%BD%E7%9B%AE%E5%BD%95%E6%88%96%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/</link>
+      <link>https://lesanouo.github.io/blog/posts/165513600001/</link>
       <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/docker%E4%B8%BA%E5%B7%B2%E5%90%AF%E5%8A%A8%E5%AE%B9%E5%99%A8%E6%B7%BB%E5%8A%A0%E6%8C%82%E8%BD%BD%E7%9B%AE%E5%BD%95%E6%88%96%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165513600001/</guid>
       <description>&lt;p&gt;在使用docker时，常常需要对已启动的容器进行相应的配置修改，其中最常见的就是挂载目录或端口映射。其实配置也并不是非常复杂，可以通过修改docker中的json配置文件即可。&lt;/p&gt;</description>
     </item>
     <item>
       <title>构建一个带libgdiplus的.NET基础Docker镜像</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B8%A6libgdiplus%E7%9A%84.net%E5%9F%BA%E7%A1%80docker%E9%95%9C%E5%83%8F/</link>
+      <link>https://lesanouo.github.io/blog/posts/164831040001/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B8%A6libgdiplus%E7%9A%84.net%E5%9F%BA%E7%A1%80docker%E9%95%9C%E5%83%8F/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/164831040001/</guid>
       <description>&lt;p&gt;默认.NET的Docker镜像是不包含libgdiplus的，所以本文介绍如何通过在原有镜像基础上构建一个满足个人需求的Docker镜像。&lt;/p&gt;
 &lt;h2 id=&#34;docker-简介&#34;&gt;Docker 简介&lt;/h2&gt;
 &lt;p&gt;Docker 是一个开源的应用容器引擎，基于 &lt;strong&gt;Go 语言&lt;/strong&gt; 并遵从 Apache2.0 协议开源。Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。&lt;/p&gt;</description>

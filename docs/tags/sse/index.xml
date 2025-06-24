@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/sse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSE实现服务器推送</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/sse%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8E%A8%E9%80%81/</link>
+      <link>https://lesanouo.github.io/blog/posts/166939200006/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/sse%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8E%A8%E9%80%81/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166939200006/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;服务端向客户端推送消息，其实除了可以用&lt;code&gt;WebSocket&lt;/code&gt;这种耳熟能详的机制外，还有一种服务器发送事件(&lt;code&gt;Server-sent events&lt;/code&gt;)，简称&lt;code&gt;SSE&lt;/code&gt;。&lt;/p&gt;</description>
     </item>

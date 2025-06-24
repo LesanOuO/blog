@@ -10,17 +10,17 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java中Lambda表达式学习</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADlambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://lesanouo.github.io/blog/posts/166999680001/</link>
       <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADlambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166999680001/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;在日常开发中，经常需要用到 &lt;code&gt;Java 8&lt;/code&gt; 的&lt;code&gt;Lambda&lt;/code&gt;表达式，它允许把函数作为一个方法的参数，让我们的代码更优雅、更简洁。本文主要总结收集一些常用的&lt;code&gt;Lambda&lt;/code&gt;表达式的使用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java中Function接口学习</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADfunction%E6%8E%A5%E5%8F%A3%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://lesanouo.github.io/blog/posts/166991040001/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADfunction%E6%8E%A5%E5%8F%A3%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166991040001/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -37,9 +37,9 @@
     </item>
     <item>
       <title>Java中链式编程学习</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%AD%E9%93%BE%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://lesanouo.github.io/blog/posts/166973760001/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%AD%E9%93%BE%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166973760001/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;链式编程可以使得代码可读性高，链式编程的原理就是通过&lt;code&gt;return this&lt;/code&gt;返回一个this对象，就是返回本身，达到链式效果。&lt;/p&gt;
 &lt;h2 id=&#34;实现链式编程&#34;&gt;实现链式编程&lt;/h2&gt;
@@ -83,9 +83,9 @@
     </item>
     <item>
       <title>Java中Stream学习</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADstream%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://lesanouo.github.io/blog/posts/165012480002/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADstream%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165012480002/</guid>
       <description>&lt;p&gt;本篇笔记主要记录我在学习Java的stream流中记录的笔记&lt;/p&gt;
 &lt;h2 id=&#34;stream是什么&#34;&gt;stream是什么&lt;/h2&gt;
 &lt;p&gt;流是从支持数据处理操作的源生成的元素序列，源可以是数组、文件、集合、函数。流不是集合元素，它不是数据结构并不保存数据，它的主要目的在于计算&lt;/p&gt;</description>

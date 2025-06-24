@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/redisson/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SpringBoot&#43;Redisson实现延迟队列</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/springboot&#43;redisson%E5%AE%9E%E7%8E%B0%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97/</link>
+      <link>https://lesanouo.github.io/blog/posts/168814080001/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/springboot&#43;redisson%E5%AE%9E%E7%8E%B0%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/168814080001/</guid>
       <description>&lt;p&gt;在电商、支付等系统中，一般都是先创建订单（支付单），再给用户一定的时间进行支付，如果没有按时支付的话，就需要把之前的订单（支付单）取消掉。&lt;/p&gt;
 &lt;p&gt;这种类似的场景有很多，还有比如到期自动收货、超时自动退款、下单后自动发送短信等等都是类似的业务问题。&lt;/p&gt;</description>
     </item>

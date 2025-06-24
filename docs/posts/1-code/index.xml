@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>💸 程序猿 on Lesan&#39;s Blog</title>
-    <link>https://lesanouo.github.io/blog/posts/1-code/</link>
+    <link>http://localhost:1313/blog/posts/1-code/</link>
     <description>Recent content in 💸 程序猿 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <atom:link href="https://lesanouo.github.io/blog/posts/1-code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/posts/1-code/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

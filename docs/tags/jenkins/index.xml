@@ -10,13 +10,13 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>记一次搭建GitLab&#43;Jenkins实现CI&amp;CD</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%90%AD%E5%BB%BAgitlab&#43;jenkins%E5%AE%9E%E7%8E%B0cicd/</link>
+      <link>https://lesanouo.github.io/blog/posts/164874240001/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%90%AD%E5%BB%BAgitlab&#43;jenkins%E5%AE%9E%E7%8E%B0cicd/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/164874240001/</guid>
       <description>&lt;p&gt;本篇文章记录本人搭建CI&amp;amp;CD实现持续集成和持续部署&lt;/p&gt;
 &lt;h2 id=&#34;1使用docker安装gitlab&#34;&gt;1.使用docker安装gitlab&lt;/h2&gt;
 &lt;h3 id=&#34;下载镜像-使用中文社区版&#34;&gt;下载镜像 （使用中文社区版）&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lesanouo.github.io/blog/posts/164874240001/images/1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;docker pull twang2218/gitlab-ce-zh&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;创建所需目录为后续挂载文件&#34;&gt;创建所需目录为后续挂载文件&lt;/h3&gt;
 &lt;p&gt;进入所需目录后，打开PowerShell，通过以下命令进行目录创建&lt;/p&gt;</description>

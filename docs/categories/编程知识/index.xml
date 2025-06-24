@@ -10,17 +10,17 @@
     <atom:link href="https://lesanouo.github.io/blog/categories/%E7%BC%96%E7%A8%8B%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maven解决Resource下office文件编译后损坏</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/maven%E8%A7%A3%E5%86%B3resource%E4%B8%8Boffice%E6%96%87%E4%BB%B6%E7%BC%96%E8%AF%91%E5%90%8E%E6%8D%9F%E5%9D%8F/</link>
+      <link>https://lesanouo.github.io/blog/posts/175060800001/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/maven%E8%A7%A3%E5%86%B3resource%E4%B8%8Boffice%E6%96%87%E4%BB%B6%E7%BC%96%E8%AF%91%E5%90%8E%E6%8D%9F%E5%9D%8F/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/175060800001/</guid>
       <description>&lt;p&gt;当我们再Resource目录下存放了office文件（如word、ppt、excel等），一经编译后会导致文件损坏无法打开。&lt;/p&gt;
 &lt;p&gt;原因：编译后会对文件进行转码&lt;/p&gt;</description>
     </item>
     <item>
       <title>MySQL创建用户与授权</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/mysql%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7%E4%B8%8E%E6%8E%88%E6%9D%83/</link>
+      <link>https://lesanouo.github.io/blog/posts/174931200001/</link>
       <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/mysql%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7%E4%B8%8E%E6%8E%88%E6%9D%83/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/174931200001/</guid>
       <description>&lt;h2 id=&#34;创建用户&#34;&gt;创建用户&lt;/h2&gt;
 &lt;h3 id=&#34;命令&#34;&gt;命令&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;CREATE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;USER&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;username&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;IDENTIFIED&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;BY&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -52,25 +52,25 @@
     </item>
     <item>
       <title>Git中提高效率的5条命令</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/git%E4%B8%AD%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%845%E6%9D%A1%E5%91%BD%E4%BB%A4/</link>
+      <link>https://lesanouo.github.io/blog/posts/170196480001/</link>
       <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/git%E4%B8%AD%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%845%E6%9D%A1%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/170196480001/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;使用 Git 作为代码版本管理，早已是现在开发工程师必备的技能。可大多数工程师还是只会最基本的保存、拉取、推送，遇到一些commit管理的问题就束手无策，或者用一些不优雅的方式解决。&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何更优雅地实现策略模式</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/%E5%A6%82%E4%BD%95%E6%9B%B4%E4%BC%98%E9%9B%85%E5%9C%B0%E5%AE%9E%E7%8E%B0%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/</link>
+      <link>https://lesanouo.github.io/blog/posts/170187840001/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E5%A6%82%E4%BD%95%E6%9B%B4%E4%BC%98%E9%9B%85%E5%9C%B0%E5%AE%9E%E7%8E%B0%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/170187840001/</guid>
       <description>&lt;h2 id=&#34;什么是策略模式&#34;&gt;什么是策略模式&lt;/h2&gt;
 &lt;p&gt;策略模式，应该是工作中比较常用的设计模式，调用方自己选择用哪一种策略完成对数据的操作，也就是“一个类的行为或其算法可以在运行时更改”，将一些除了过程不同其他都一样的函数封装成策略，然后调用方自己去选择想让数据执行什么过程策略。常见的例子为根据用户分类推荐不同的排行榜（用户关注点不一样，推荐榜单就不一样）&lt;/p&gt;</description>
     </item>
     <item>
       <title>一个技术架构的反例</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%B8%AA%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E7%9A%84%E5%8F%8D%E4%BE%8B/</link>
+      <link>https://lesanouo.github.io/blog/posts/169954560001/</link>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%B8%AA%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E7%9A%84%E5%8F%8D%E4%BE%8B/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/169954560001/</guid>
       <description>&lt;h2 id=&#34;1-系统主链路尽可能单点&#34;&gt;1. 系统主链路尽可能单点&lt;/h2&gt;
 &lt;p&gt;单点系统，就像苏伊士运河一样，一旦航道出故障，整个运输系统都瘫痪，非常酸爽。&lt;/p&gt;
 &lt;h2 id=&#34;2-程序中多用循环&#34;&gt;2. 程序中多用循环&lt;/h2&gt;
@@ -78,17 +78,17 @@
     </item>
     <item>
       <title>CSS实现防止按钮重复点击</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/css%E5%AE%9E%E7%8E%B0%E9%98%B2%E6%AD%A2%E6%8C%89%E9%92%AE%E9%87%8D%E5%A4%8D%E7%82%B9%E5%87%BB/</link>
+      <link>https://lesanouo.github.io/blog/posts/168805440004/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/css%E5%AE%9E%E7%8E%B0%E9%98%B2%E6%AD%A2%E6%8C%89%E9%92%AE%E9%87%8D%E5%A4%8D%E7%82%B9%E5%87%BB/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/168805440004/</guid>
       <description>&lt;p&gt;函数节流（throttle）是 JS 中一个非常常见的优化手段，可以有效的避免函数过于频繁的执行。&lt;/p&gt;
 &lt;p&gt;举个例子：一个保存按钮，为了避免重复提交或者服务器考虑，往往需要对点击行为做一定的限制，比如只允许每300ms提交一次，这时候我想大部分同学都会到网上直接拷贝一段throttle函数，或者直接引用lodash工具库&lt;/p&gt;</description>
     </item>
     <item>
       <title>Redis常见用途</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/redis%E5%B8%B8%E8%A7%81%E7%94%A8%E9%80%94/</link>
+      <link>https://lesanouo.github.io/blog/posts/168805440003/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/redis%E5%B8%B8%E8%A7%81%E7%94%A8%E9%80%94/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/168805440003/</guid>
       <description>&lt;p&gt;本篇文章主要简要总结Redis的常见用途&lt;/p&gt;
 &lt;h2 id=&#34;1缓存&#34;&gt;1、缓存&lt;/h2&gt;
 &lt;p&gt;String类型&lt;/p&gt;
@@ -96,25 +96,25 @@
     </item>
     <item>
       <title>一些简单好用的SQL语法</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E5%A5%BD%E7%94%A8%E7%9A%84sql%E8%AF%AD%E6%B3%95/</link>
+      <link>https://lesanouo.github.io/blog/posts/168805440001/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E5%A5%BD%E7%94%A8%E7%9A%84sql%E8%AF%AD%E6%B3%95/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/168805440001/</guid>
       <description>&lt;p&gt;本篇文章分享网上看到的一些非常有用的 SQL 语句，并不复杂，希望大家要用到的时候能想起来有这么一些东西。&lt;/p&gt;
 &lt;p&gt;下面以最经典的数据库之一 MySQL 的语法为例，其实很多语法和函数其他的数据库也是支持的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java中Lambda表达式学习</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADlambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://lesanouo.github.io/blog/posts/166999680001/</link>
       <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADlambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166999680001/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;在日常开发中，经常需要用到 &lt;code&gt;Java 8&lt;/code&gt; 的&lt;code&gt;Lambda&lt;/code&gt;表达式，它允许把函数作为一个方法的参数，让我们的代码更优雅、更简洁。本文主要总结收集一些常用的&lt;code&gt;Lambda&lt;/code&gt;表达式的使用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java中Function接口学习</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADfunction%E6%8E%A5%E5%8F%A3%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://lesanouo.github.io/blog/posts/166991040001/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADfunction%E6%8E%A5%E5%8F%A3%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166991040001/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -131,9 +131,9 @@
     </item>
     <item>
       <title>Java中链式编程学习</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%AD%E9%93%BE%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://lesanouo.github.io/blog/posts/166973760001/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%AD%E9%93%BE%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166973760001/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;链式编程可以使得代码可读性高，链式编程的原理就是通过&lt;code&gt;return this&lt;/code&gt;返回一个this对象，就是返回本身，达到链式效果。&lt;/p&gt;
 &lt;h2 id=&#34;实现链式编程&#34;&gt;实现链式编程&lt;/h2&gt;
@@ -177,17 +177,17 @@
     </item>
     <item>
       <title>SpringBoot常用注解总结</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/springboot%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E6%80%BB%E7%BB%93/</link>
+      <link>https://lesanouo.github.io/blog/posts/166939200010/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/springboot%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166939200010/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;基于 SpringBoot 平台开发的项目数不胜数，与常规的基于Spring开发的项目最大的不同之处，SpringBoot 里面提供了大量的注解用于快速开发，而且非常简单，基本可以做到开箱即用！&lt;/p&gt;</description>
     </item>
     <item>
       <title>SQLServer一些小技巧</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/sqlserver%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/</link>
+      <link>https://lesanouo.github.io/blog/posts/166939200008/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/sqlserver%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166939200008/</guid>
       <description>&lt;h2 id=&#34;多行转成一列并用分割&#34;&gt;多行转成一列（并用&amp;quot;,&amp;ldquo;分割）&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;STUFF&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;VALUE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHERE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FOR&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;XML&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;VALUE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -199,18 +199,18 @@
     </item>
     <item>
       <title>SQL优化小技巧</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/sql%E4%BC%98%E5%8C%96%E5%B0%8F%E6%8A%80%E5%B7%A7/</link>
+      <link>https://lesanouo.github.io/blog/posts/166939200007/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/sql%E4%BC%98%E5%8C%96%E5%B0%8F%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166939200007/</guid>
       <description>&lt;p&gt;本篇文章主要是一些SQL优化的小技巧，为了提升SQL编写规范及性能&lt;/p&gt;
 &lt;h2 id=&#34;避免使用select-&#34;&gt;避免使用select *&lt;/h2&gt;
 &lt;p&gt;在实际业务场景中，我们不一定需要查出整张表中的所有数据。如果查出了许多不必要的数据，这样会白白浪费了数据库的资源，如：内存或CPU。此外，多查出来的数据，通过网络IO传输的过程中，也会增加数据传输的时间。&lt;/p&gt;</description>
     </item>
     <item>
       <title>多线程下的琐事</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E7%90%90%E4%BA%8B/</link>
+      <link>https://lesanouo.github.io/blog/posts/166939200004/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E7%90%90%E4%BA%8B/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166939200004/</guid>
       <description>&lt;p&gt;单线程与多线程可以看作是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;单线程为在一个单向行驶的道路上，每辆汽车都遵守交通规则&lt;/li&gt;
@@ -219,18 +219,10 @@
 &lt;p&gt;然而扩充了车道后问题就没那么简单了，车道一旦多起来&lt;strong&gt;加塞&lt;/strong&gt;的场景就会越来越多，出现碰撞后也会影响整条马路的通行效率，这样多车道就不一定比单车道更快了&lt;/p&gt;</description>
     </item>
     <item>
-      <title>在.NET中Task与Thread区别</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/%E5%9C%A8.net%E4%B8%ADtask%E4%B8%8Ethread%E5%8C%BA%E5%88%AB/</link>
-      <pubDate>Sun, 26 Jun 2022 11:17:47 +0800</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E5%9C%A8.net%E4%B8%ADtask%E4%B8%8Ethread%E5%8C%BA%E5%88%AB/</guid>
-      <description>&lt;h2 id=&#34;什么是-thread&#34;&gt;什么是 Thread&lt;/h2&gt;
-&lt;p&gt;当我们提及多线程的时候会想到 Thread 和 Threadpool，这都是异步操作，Threadpool 其实就是 Thread 的集合，具有很多优势，不过在任务多的时候全局队列会存在竞争而消耗资源。Thread 默认为前台线程，主程序必须等线程跑完才会关闭，而 Threadpool 相反。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>C#中async和await异步编程</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/c%23%E4%B8%ADasync%E5%92%8Cawait%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B/</link>
+      <link>https://lesanouo.github.io/blog/posts/165617280001/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/c%23%E4%B8%ADasync%E5%92%8Cawait%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165617280001/</guid>
       <description>&lt;p&gt;在代码中遇到了网络请求编程时，往往需要异步编程才能给用户带来良好的体验，不会导致程序完全阻塞。&lt;/p&gt;
 &lt;p&gt;其中的关键在于：&lt;/p&gt;
 &lt;ul&gt;
@@ -247,10 +239,18 @@
 &lt;p&gt;启动程序时，系统会在内存中创建一个新的进程。进程是构成运行程序资源的集合。在进程内部，有称为线程的内核对象，它代表的是真正的执行程序。系统会在 Main 方法的第一行语句就开始线程的执行。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>在.NET中Task与Thread区别</title>
+      <link>https://lesanouo.github.io/blog/posts/165617280002/</link>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/165617280002/</guid>
+      <description>&lt;h2 id=&#34;什么是-thread&#34;&gt;什么是 Thread&lt;/h2&gt;
+&lt;p&gt;当我们提及多线程的时候会想到 Thread 和 Threadpool，这都是异步操作，Threadpool 其实就是 Thread 的集合，具有很多优势，不过在任务多的时候全局队列会存在竞争而消耗资源。Thread 默认为前台线程，主程序必须等线程跑完才会关闭，而 Threadpool 相反。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>正则表达式总结</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
+      <link>https://lesanouo.github.io/blog/posts/165530880001/</link>
       <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165530880001/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;使用正则表达式来处理搜索文本，能够提高灵活性。
 通过使用正则表达式，可以做到：&lt;/p&gt;
@@ -588,35 +588,10 @@
 &lt;p&gt;相同优先级的从左到右进行运算，不同优先级的运算先高后低。下表从最高到最低说明了各种正则表达式运算符的优先级顺序：&lt;/p&gt;</description>
     </item>
     <item>
-      <title>数据库优化</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96/</link>
-      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96/</guid>
-      <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
-&lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
-&lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;
-&lt;h3 id=&#34;逻辑分类&#34;&gt;逻辑分类&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;主键索引：一张表只能有一个主键索引，不允许重复、不允许为 NULL&lt;/li&gt;
-&lt;li&gt;唯一索引：数据列不允许重复，允许为 NULL 值，一张表可有多个唯一索引，索引列的值必须唯一，但允许有空值。如果是组合索引，则列值的组合必须唯一&lt;/li&gt;
-&lt;li&gt;普通索引：一张表可以创建多个普通索引，一个普通索引可以包含多个字段，允许数据重复，允许 NULL 值插入&lt;/li&gt;
-&lt;li&gt;全文索引：它查找的是文本中的关键词，主要用于全文检索&lt;/li&gt;
-&lt;li&gt;单例索引：一个索引只包含一个列，一个表可以有多个单例索引&lt;/li&gt;
-&lt;li&gt;组合索引：一个组合索引包含两个或两个以上的列。查询的时候遵循 mysql 组合索引的 “最左前缀”原则，即使用 where 时条件要按照建立索引的时候字段的排列方式放置索引才会生效&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;物理分类&#34;&gt;物理分类&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;聚簇索引：不是单独的一种索引类型，而是一种数据存储方式。这种存储方式是依靠B+树来实现的，根据表的主键构造一棵B+树且B+树叶子节点存放的都是表的行记录数据时，方可称该主键索引为聚簇索引。聚簇索引也可理解为将数据存储与索引放到了一块，找到索引也就找到了数据。&lt;/li&gt;
-&lt;li&gt;非聚簇索引：数据和索引是分开的，B+树叶子节点存放的不是数据表的行记录&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;explain&#34;&gt;EXPLAIN&lt;/h3&gt;
-&lt;p&gt;使用格式：&lt;code&gt;EXPLAIN SQL...&lt;/code&gt;;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>数据库优化Tips</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96tips/</link>
+      <link>https://lesanouo.github.io/blog/posts/165504960001/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96tips/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165504960001/</guid>
       <description>&lt;h1 id=&#34;索引&#34;&gt;索引&lt;/h1&gt;
 &lt;h2 id=&#34;mysql-索引&#34;&gt;MySQL 索引&lt;/h2&gt;
 &lt;p&gt;MySQL 的索引有两种分类方式：逻辑分类和物理分类&lt;/p&gt;
@@ -639,9 +614,9 @@
     </item>
     <item>
       <title>Redis笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/redis%E7%AC%94%E8%AE%B0/</link>
+      <link>https://lesanouo.github.io/blog/posts/165297600001/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/redis%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165297600001/</guid>
       <description>&lt;h2 id=&#34;redis简介&#34;&gt;Redis简介&lt;/h2&gt;
 &lt;p&gt;Redis 是完全开源的，遵守 BSD 协议，是一个高性能的 key-value 数据库。&lt;/p&gt;
 &lt;p&gt;Redis 与其他 key - value 缓存产品有以下三个特点：&lt;/p&gt;
@@ -658,33 +633,33 @@
     </item>
     <item>
       <title>生产者与消费者问题</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98/</link>
+      <link>https://lesanouo.github.io/blog/posts/165193920001/</link>
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165193920001/</guid>
       <description>&lt;p&gt;生产者消费者问题（Producer-consumer problem），也称有限缓冲问题（Bounded-buffer problem），是一个多线程同步问题的经典案例。生产者生成一定量的数据放到缓冲区中，然后重复此过程；与此同时，消费者也在缓冲区消耗这些数据。生产者和消费者之间必须保持同步，要保证生产者不会在缓冲区满时放入数据，消费者也不会在缓冲区空时消耗数据。不够完善的解决方法容易出现死锁的情况，此时进程都在等待唤醒。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java中Stream学习</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADstream%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://lesanouo.github.io/blog/posts/165012480002/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/java%E4%B8%ADstream%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165012480002/</guid>
       <description>&lt;p&gt;本篇笔记主要记录我在学习Java的stream流中记录的笔记&lt;/p&gt;
 &lt;h2 id=&#34;stream是什么&#34;&gt;stream是什么&lt;/h2&gt;
 &lt;p&gt;流是从支持数据处理操作的源生成的元素序列，源可以是数组、文件、集合、函数。流不是集合元素，它不是数据结构并不保存数据，它的主要目的在于计算&lt;/p&gt;</description>
     </item>
     <item>
       <title>RabbitMQ笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/rabbitmq%E7%AC%94%E8%AE%B0/</link>
+      <link>https://lesanouo.github.io/blog/posts/164502720001/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/rabbitmq%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/164502720001/</guid>
       <description>&lt;h2 id=&#34;rabbitmq简述&#34;&gt;RabbitMQ简述&lt;/h2&gt;
 &lt;p&gt;MQ全称为Message Queue, 消息队列（MQ）是一种应用程序对应用程序的通信方法。RabbitMQ是一个在AMQP基础上完整的，可复用的企业消息系统。他遵循Mozilla Public License开源协议。AMQP(高级消息队列协议) 是一个异步消息传递所使用的应用层协议规范，作为线路层协议，而不是API（例如JMS），AMQP 客户端能够无视消息的来源任意发送和接受信息。AMQP的原始用途只是为金融界提供一个可以彼此协作的消息协议，而现在的目标则是为通用消息队列架构提供通用构建工具。因此，面向消息的中间件 （MOM）系统，例如发布/订阅队列，没有作为基本元素实现。AMQP当中有四个概念非常重要（一个虚拟主机持有一组交换机、队列和绑定）：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nginx笔记</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/nginx%E7%AC%94%E8%AE%B0/</link>
+      <link>https://lesanouo.github.io/blog/posts/164494080001/</link>
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/nginx%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/164494080001/</guid>
       <description>&lt;p&gt;本文为个人学习和实践 Nginx 的笔记&lt;/p&gt;
 &lt;h2 id=&#34;nginx-常用功能&#34;&gt;Nginx 常用功能&lt;/h2&gt;
 &lt;p&gt;Nginx 有以下几个常用功能&lt;/p&gt;
@@ -695,9 +670,9 @@
     </item>
     <item>
       <title>Markdown语法</title>
-      <link>https://lesanouo.github.io/blog/posts/knowledge/markdown%E8%AF%AD%E6%B3%95/</link>
+      <link>https://lesanouo.github.io/blog/posts/160243200001/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/knowledge/markdown%E8%AF%AD%E6%B3%95/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/160243200001/</guid>
       <description>&lt;h2 id=&#34;一写前准备&#34;&gt;一、写前准备&lt;/h2&gt;
 &lt;p&gt;在atom文本编译器中自带着markdown的编写与浏览功能。
 浏览使用快捷键ctl+shift+m就可以打开markdown预览。

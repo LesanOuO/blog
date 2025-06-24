@@ -10,9 +10,9 @@
     <atom:link href="https://lesanouo.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux系统使用systemd配置.NET项目开机自启动</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8systemd%E9%85%8D%E7%BD%AE.net%E9%A1%B9%E7%9B%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</link>
+      <link>https://lesanouo.github.io/blog/posts/171423360001/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8systemd%E9%85%8D%E7%BD%AE.net%E9%A1%B9%E7%9B%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/171423360001/</guid>
       <description>&lt;p&gt;本片文章记录在Linux（CentOS7）中如何使用&lt;code&gt;systemctl&lt;/code&gt;命令进行系统和服务管理&lt;/p&gt;
 &lt;h2 id=&#34;systemctl命令&#34;&gt;&lt;code&gt;systemctl&lt;/code&gt;命令&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 设置开机自启动，可在任意目录下执行&lt;/span&gt;
@@ -37,9 +37,9 @@
     </item>
     <item>
       <title>CentOS7系统安装</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/centos7%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</link>
+      <link>https://lesanouo.github.io/blog/posts/166982400001/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/centos7%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/166982400001/</guid>
       <description>&lt;p&gt;本片文章记录个人安装CentOS7在台式主机上作为小型服务器&lt;/p&gt;
 &lt;h2 id=&#34;制作u盘启动盘&#34;&gt;制作U盘启动盘&lt;/h2&gt;
 &lt;h3 id=&#34;1-iso镜像下载&#34;&gt;1. iso镜像下载&lt;/h3&gt;
@@ -66,16 +66,16 @@
     </item>
     <item>
       <title>Linux中修改Docker存储位置</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/linux%E4%B8%AD%E4%BF%AE%E6%94%B9docker%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE/</link>
+      <link>https://lesanouo.github.io/blog/posts/165669120001/</link>
       <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E4%B8%AD%E4%BF%AE%E6%94%B9docker%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165669120001/</guid>
       <description>&lt;p&gt;在维护服务器时，发现docker所在盘容量已满，导致mongodb插入数据失败从而崩溃。由此记录修改Linux中Dockder位置时遇到的问题&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux增加SSH端口</title>
-      <link>https://lesanouo.github.io/blog/posts/operation/linux%E5%A2%9E%E5%8A%A0ssh%E7%AB%AF%E5%8F%A3/</link>
+      <link>https://lesanouo.github.io/blog/posts/165306240001/</link>
       <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lesanouo.github.io/blog/posts/operation/linux%E5%A2%9E%E5%8A%A0ssh%E7%AB%AF%E5%8F%A3/</guid>
+      <guid>https://lesanouo.github.io/blog/posts/165306240001/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;在大型企业中，服务器网络一般都会有各种各样的限制，常见的就会有堡垒机或者运维网关，以达到操作审计等目的。但对于开发者来讲，这些限制大大降低了效率，所以我们需要一个方便的方式来解决这个问题。&lt;/p&gt;</description>
     </item>
