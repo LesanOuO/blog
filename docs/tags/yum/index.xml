@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Yum on Lesan&#39;s Blog</title>
+    <link>https://lesanouo.github.io/blog/tags/yum/</link>
+    <description>Recent content in Yum on Lesan&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lesanouo.github.io/blog/tags/yum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>yum 下载全量依赖 rpm 包及离线安装</title>
+      <link>https://lesanouo.github.io/blog/posts/code/175078080002/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/code/175078080002/</guid>
+      <description>&lt;p&gt;通常生产环境由于安全原因都无法访问互联网。此时就需要进行离线安装，主要有两种方式：源码编译、rpm包安装。源码编译耗费时间长且缺乏编译环境，所以一般都选择使用离线 rpm 包安装。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

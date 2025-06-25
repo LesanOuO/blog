@@ -6,8 +6,22 @@
     <description>Recent content in 动手实践 on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/categories/%E5%8A%A8%E6%89%8B%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【vite插件】iconify字体图标离线加载</title>
+      <link>https://lesanouo.github.io/blog/posts/code/175078080001/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/code/175078080001/</guid>
+      <description>&lt;p&gt;本文介绍了如何在Vue项目中使用&lt;code&gt;vite-plugin-purge-icons&lt;/code&gt;插件，实现离线加载&lt;code&gt;@iconify/json&lt;/code&gt;中的字体图标，同时提供了一种预加载本地图标数据的方法以优化打包体积。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>yum 下载全量依赖 rpm 包及离线安装</title>
+      <link>https://lesanouo.github.io/blog/posts/code/175078080002/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/code/175078080002/</guid>
+      <description>&lt;p&gt;通常生产环境由于安全原因都无法访问互联网。此时就需要进行离线安装，主要有两种方式：源码编译、rpm包安装。源码编译耗费时间长且缺乏编译环境，所以一般都选择使用离线 rpm 包安装。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>使用Nginx反向代理ONLYOFFICE</title>
       <link>https://lesanouo.github.io/blog/posts/code/175069440001/</link>

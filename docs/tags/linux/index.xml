@@ -6,8 +6,15 @@
     <description>Recent content in Linux on Lesan&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lesanouo.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>yum 下载全量依赖 rpm 包及离线安装</title>
+      <link>https://lesanouo.github.io/blog/posts/code/175078080002/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lesanouo.github.io/blog/posts/code/175078080002/</guid>
+      <description>&lt;p&gt;通常生产环境由于安全原因都无法访问互联网。此时就需要进行离线安装，主要有两种方式：源码编译、rpm包安装。源码编译耗费时间长且缺乏编译环境，所以一般都选择使用离线 rpm 包安装。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Linux系统使用systemd配置.NET项目开机自启动</title>
       <link>https://lesanouo.github.io/blog/posts/code/171423360001/</link>
